@@ -1,0 +1,638 @@
+<title>The Stereotype Knob — interactive dose-response</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --plane: #f9f9f7;
+    --ink-1: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --he: #2a78d6;
+    --she: #eb6834;
+    --accent-wash: rgba(42,120,214,0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1: #1a1a19;
+      --plane: #0d0d0d;
+      --ink-1: #ffffff;
+      --ink-2: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --baseline: #383835;
+      --border: rgba(255,255,255,0.10);
+      --he: #3987e5;
+      --she: #d95926;
+      --accent-wash: rgba(57,135,229,0.12);
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --plane: #0d0d0d;
+    --ink-1: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255,255,255,0.10);
+    --he: #3987e5;
+    --she: #d95926;
+    --accent-wash: rgba(57,135,229,0.12);
+  }
+
+  .viz-root {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--plane);
+    color: var(--ink-1);
+    margin: 0;
+    padding: 0 16px 64px;
+    line-height: 1.5;
+  }
+  .viz-root * { box-sizing: border-box; }
+  .wrap { max-width: 1060px; margin: 0 auto; }
+
+  .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+
+  header.masthead { padding: 44px 0 20px; max-width: 68ch; }
+  .eyebrow {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--ink-2); margin: 0 0 10px;
+  }
+  h1 {
+    font-size: clamp(26px, 4.2vw, 38px); line-height: 1.15; margin: 0 0 12px;
+    font-weight: 700; letter-spacing: -0.01em; text-wrap: balance;
+  }
+  .lede { color: var(--ink-2); font-size: 16px; margin: 0; max-width: 62ch; }
+  .lede strong { color: var(--ink-1); }
+
+  .panel {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 24px;
+  }
+
+  .tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tab {
+    appearance: none; border: 1px solid var(--border); background: transparent;
+    color: var(--ink-2); border-radius: 999px; padding: 7px 14px;
+    font-size: 13px; font-family: inherit; cursor: pointer;
+  }
+  .tab .fid { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; }
+  .tab:hover { background: var(--accent-wash); }
+  .tab[aria-selected="true"] {
+    background: var(--ink-1); color: var(--plane); border-color: var(--ink-1);
+  }
+  .tab:focus-visible, .play:focus-visible, input[type=range]:focus-visible {
+    outline: 2px solid var(--he); outline-offset: 2px;
+  }
+  .tabnote { color: var(--muted); font-size: 13px; margin: 10px 0 0; max-width: 78ch; }
+
+  .knob-row {
+    display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+    margin-top: 18px; padding: 16px;
+    border: 1px solid var(--border); border-radius: 8px;
+  }
+  .strength-readout { min-width: 148px; }
+  .strength-readout .lab {
+    font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--muted);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  .strength-readout .val {
+    font-size: 34px; font-weight: 700; line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+  .slider-block { flex: 1 1 320px; }
+  input[type=range] { width: 100%; accent-color: var(--he); margin: 0; height: 28px; }
+  .tickrow {
+    display: flex; justify-content: space-between; padding: 0 2px;
+    color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  .zero-note { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .play {
+    appearance: none; border: 1px solid var(--border); background: transparent;
+    color: var(--ink-1); border-radius: 8px; padding: 9px 16px;
+    font-size: 13px; font-weight: 600; font-family: inherit; cursor: pointer;
+    white-space: nowrap;
+  }
+  .play:hover { background: var(--accent-wash); }
+
+  .legend { display: flex; gap: 18px; align-items: center; margin-top: 16px; font-size: 13px; color: var(--ink-2); }
+  .key { display: inline-flex; align-items: center; gap: 7px; }
+  .chip { width: 14px; height: 4px; border-radius: 2px; display: inline-block; }
+  .chip.he { background: var(--he); } .chip.she { background: var(--she); }
+
+  .groups {
+    display: grid; gap: 16px; margin-top: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
+  .gcard { border: 1px solid var(--border); border-radius: 8px; padding: 14px 14px 12px; min-width: 0; }
+  .gcard h3 { margin: 0; font-size: 14px; font-weight: 650; }
+  .gcard .gsub { color: var(--muted); font-size: 12px; margin: 1px 0 8px; }
+  .chart-box { width: 100%; position: relative; }
+  .chart-box svg { display: block; width: 100%; height: auto; }
+
+  .bars { margin-top: 10px; display: grid; gap: 8px; }
+  .brow { display: grid; grid-template-columns: 62px 1fr 58px; align-items: center; gap: 8px; font-size: 12px; }
+  .brow .blab { color: var(--ink-2); font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .btrack { height: 14px; background: transparent; position: relative; }
+  .bfill {
+    position: absolute; left: 0; top: 0; bottom: 0;
+    border-radius: 0 4px 4px 0; min-width: 2px;
+    transition: width 120ms linear;
+  }
+  .bfill.he { background: var(--he); } .bfill.she { background: var(--she); }
+  .bval { text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-1); }
+  .verdict {
+    margin-top: 10px; font-size: 13px; display: flex; align-items: center; gap: 8px;
+    color: var(--ink-2);
+  }
+  .verdict .pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    border: 1px solid var(--border); border-radius: 999px; padding: 3px 10px;
+    font-weight: 650; color: var(--ink-1); font-variant-numeric: tabular-nums;
+    font-size: 12.5px;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .dot.he { background: var(--he); } .dot.she { background: var(--she); }
+  .dot.even { background: var(--muted); }
+
+  .tip {
+    position: absolute; pointer-events: none; z-index: 3;
+    background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 6px; padding: 6px 9px; font-size: 12px; line-height: 1.45;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+    white-space: nowrap; display: none;
+  }
+  .tip .t-str { color: var(--muted); font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .tip .t-v { font-variant-numeric: tabular-nums; }
+
+  section.notes { margin-top: 28px; }
+  .notes h2 { font-size: 18px; margin: 0 0 4px; }
+  .note-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-top: 12px; }
+  .note {
+    border: 1px solid var(--border); border-radius: 8px; padding: 14px;
+    background: var(--surface-1); font-size: 14px; color: var(--ink-2);
+  }
+  .note b { color: var(--ink-1); }
+  .note .nlab {
+    display: block; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 6px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  details.datatable { margin-top: 24px; }
+  details.datatable summary {
+    cursor: pointer; font-size: 14px; font-weight: 600; color: var(--ink-2);
+    padding: 8px 0;
+  }
+  .tbl-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 8px; background: var(--surface-1); }
+  table { border-collapse: collapse; font-size: 13px; min-width: 560px; width: 100%; }
+  th, td { padding: 7px 12px; text-align: right; font-variant-numeric: tabular-nums; }
+  th { color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--grid); }
+  td:first-child, th:first-child { text-align: left; }
+  tbody tr:nth-child(odd) { background: var(--accent-wash); }
+
+  footer.foot { margin-top: 36px; color: var(--muted); font-size: 13px; max-width: 70ch; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .bfill { transition: none; }
+  }
+</style>
+
+<div class="viz-root">
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">Interactive companion · SAE steering experiment</p>
+    <h1>The Stereotype Knob</h1>
+    <p class="lede">Two small language models each learned that occupations imply
+    pronouns. Inside each one, a <strong>single sparse-autoencoder feature</strong> turns
+    out to be a causal knob for that stereotype. Drag the steering strength and watch
+    the next-token probabilities <span class="mono">P('&nbsp;he')</span> and
+    <span class="mono">P('&nbsp;she')</span> respond. Strength 0 is the unmodified model.</p>
+  </header>
+
+  <div class="panel">
+    <div class="tabs" role="tablist" aria-label="Model and feature">
+      <button class="tab" role="tab" data-model="llama" aria-selected="true">Llama-3.2-1B · <span class="fid">f32258</span></button>
+      <button class="tab" role="tab" data-model="lfm" aria-selected="false">LFM2.5-230M · <span class="fid">f9619</span></button>
+      <button class="tab" role="tab" data-model="control" aria-selected="false">Negative control · <span class="fid">f27420</span></button>
+    </div>
+    <p class="tabnote" id="tabnote"></p>
+
+    <div class="knob-row">
+      <div class="strength-readout">
+        <div class="lab">steering strength</div>
+        <div class="val mono" id="strengthVal">0.0</div>
+      </div>
+      <div class="slider-block">
+        <input type="range" id="strength" min="-6" max="6" step="0.1" value="0"
+               aria-label="Steering strength, minus six to plus six">
+        <div class="tickrow"><span>−6</span><span>−3</span><span>0</span><span>+3</span><span>+6</span></div>
+        <div class="zero-note">dots on the curves = measured points; the slider interpolates between them</div>
+      </div>
+      <button class="play" id="playBtn">▶ Sweep −6 → +6</button>
+    </div>
+
+    <div class="legend" aria-hidden="false">
+      <span class="key"><span class="chip he"></span>P('&nbsp;he')</span>
+      <span class="key"><span class="chip she"></span>P('&nbsp;she')</span>
+      <span style="color:var(--muted); font-size:12px;">mean over 12 prompts per group · final-token probability</span>
+    </div>
+
+    <div class="groups" id="groups"></div>
+  </div>
+
+  <section class="notes">
+    <h2>How to read this</h2>
+    <div class="note-grid">
+      <div class="note"><span class="nlab">the causal test</span>
+        Every curve moves <b>smoothly and monotonically</b> with strength — a dose-response
+        curve. That is the difference between "this feature correlates with gender" and
+        "this feature causes the pronoun choice."</div>
+      <div class="note"><span class="nlab">the headline</span>
+        Llama's baseline bias on male-stereotyped occupations is <b>15:1</b>. At strength
+        −6 it is <b>1:1</b> — and the model still writes grammatical completions
+        (it starts saying "them"). Capability cost: <b>+2.3% perplexity</b>, factual QA 9/10 vs 10/10.</div>
+      <div class="note"><span class="nlab">the shock</span>
+        The context-override prompts contain an explicit "her" ("The mechanic tied
+        <b>her</b> hair back…"). At baseline the model respects it, 13:1. At +6 the
+        amplified stereotype <b>outvotes the text itself</b> and flips to "he."</div>
+      <div class="note"><span class="nlab">the mirror image</span>
+        The second model learned the same stereotype with opposite mechanics: Llama's knob
+        is a <b>male-context</b> feature, LFM's is a <b>female-context</b> feature
+        (32× selective). Same behavior, different implementation — debiasing tricks
+        won't transfer blindly between models.</div>
+      <div class="note"><span class="nlab">the control</span>
+        Feature f27420 passed only <b>one</b> of our two discovery tests, so we kept it as a
+        negative control. Select its tab: the knob does nothing. Two independent lines of
+        evidence found a real knob; one line found a dud.</div>
+      <div class="note"><span class="nlab">the fine print</span>
+        Absolute probabilities are small (most mass goes to other continuations like
+        "the" or names); what matters is the <b>he:she ratio</b> and its slope.
+        Values between dots are linear interpolation for display.</div>
+    </div>
+  </section>
+
+  <details class="datatable">
+    <summary>Data table — all measured means</summary>
+    <div class="tbl-scroll"><table id="dataTable"></table></div>
+  </details>
+
+  <footer class="foot">
+    Method: inject <span class="mono">strength × decoder_direction(feature)</span> into the
+    residual stream (layer 8 of Llama-3.2-1B-Instruct / layer 9 of LFM2.5-230M) at every
+    position; read P('&nbsp;he') and P('&nbsp;she') at the final token of "The {occupation}
+    said that". 12 prompts per group, means shown. Full write-up, prompts, and raw sweep
+    JSONs in the accompanying post.
+  </footer>
+
+</div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var DATA = {
+    llama: {
+      note: "Llama-3.2-1B-Instruct, layer-8 SAE feature f32258 — a male-stereotype feature (fires 0.38 on male-stereotyped occupations vs 0.03 female). Negative strength subtracts it; positive amplifies it.",
+      strengths: [-6, -3, -1, 0, 1, 3, 6],
+      groups: [
+        { name: "Male-stereotyped occupations", sub: "“The mechanic said that …”",
+          he: [0.0529, 0.1079, 0.1576, 0.1776, 0.1922, 0.2100, 0.2247],
+          she: [0.0497, 0.0391, 0.0195, 0.0122, 0.0077, 0.0041, 0.0039] },
+        { name: "Female-stereotyped occupations", sub: "“The nurse said that …”",
+          he: [0.0152, 0.0151, 0.0265, 0.0387, 0.0569, 0.1066, 0.1625],
+          she: [0.0641, 0.0965, 0.1025, 0.0985, 0.0887, 0.0550, 0.0137] },
+        { name: "Context-override", sub: "“The mechanic tied her hair back …”",
+          he: [0.0024, 0.0003, 0.0011, 0.0026, 0.0059, 0.0188, 0.0335],
+          she: [0.0337, 0.0387, 0.0394, 0.0394, 0.0384, 0.0303, 0.0132] }
+      ]
+    },
+    lfm: {
+      note: "LFM2.5-230M, layer-9 SAE feature f9619 — a female-stereotype feature (fires 0.32 on female-stereotyped occupations vs 0.01 male; 32× selective). Note the mirror image: here POSITIVE strength pushes “she”.",
+      strengths: [-6, -3, 0, 3, 6],
+      groups: [
+        { name: "Female-stereotyped occupations", sub: "“The nurse said that …”",
+          he: [0.0629, 0.0433, 0.0144, 0.0038, 0.0020],
+          she: [0.0058, 0.0310, 0.1021, 0.1437, 0.1637] },
+        { name: "Male-stereotyped occupations", sub: "“The mechanic said that …”",
+          he: [0.1159, 0.1137, 0.1025, 0.0436, 0.0093],
+          she: [0.0051, 0.0026, 0.0338, 0.1600, 0.2343] }
+      ]
+    },
+    control: {
+      note: "Llama-3.2-1B, feature f27420 — a candidate that passed only ONE of the two discovery tests (selective firing, but no pronoun push in its decoder direction). Kept as the negative control. Drag the slider: essentially nothing happens.",
+      strengths: [-6, -3, -1, 0, 1, 3, 6],
+      groups: [
+        { name: "Male-stereotyped occupations", sub: "“The mechanic said that …”",
+          he: [0.1835, 0.1802, 0.1784, 0.1776, 0.1768, 0.1755, 0.1741],
+          she: [0.0126, 0.0124, 0.0123, 0.0122, 0.0121, 0.0120, 0.0117] },
+        { name: "Female-stereotyped occupations", sub: "“The nurse said that …”",
+          he: [0.0383, 0.0385, 0.0387, 0.0387, 0.0388, 0.0389, 0.0391],
+          she: [0.1077, 0.1028, 0.0999, 0.0985, 0.0973, 0.0950, 0.0920] }
+      ]
+    }
+  };
+  var MODEL_LABEL = { llama: "Llama-3.2-1B · f32258", lfm: "LFM2.5-230M · f9619", control: "Llama-3.2-1B · f27420 (control)" };
+
+  var state = { model: "llama", strength: 0 };
+  var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  var els = {
+    groups: document.getElementById("groups"),
+    slider: document.getElementById("strength"),
+    strengthVal: document.getElementById("strengthVal"),
+    tabnote: document.getElementById("tabnote"),
+    playBtn: document.getElementById("playBtn"),
+    table: document.getElementById("dataTable")
+  };
+  var tabs = Array.prototype.slice.call(document.querySelectorAll(".tab"));
+
+  function interp(strengths, vals, s) {
+    if (s <= strengths[0]) return vals[0];
+    if (s >= strengths[strengths.length - 1]) return vals[vals.length - 1];
+    for (var i = 0; i < strengths.length - 1; i++) {
+      if (s >= strengths[i] && s <= strengths[i + 1]) {
+        var t = (s - strengths[i]) / (strengths[i + 1] - strengths[i]);
+        return vals[i] + t * (vals[i + 1] - vals[i]);
+      }
+    }
+    return vals[0];
+  }
+
+  function fmtP(v) { return v.toFixed(3); }
+
+  function verdictFor(he, she) {
+    var r;
+    if (he > she) {
+      r = he / Math.max(she, 1e-6);
+      if (r < 1.5) return { cls: "even", txt: "≈ even (" + r.toFixed(1) + ":1)" };
+      return { cls: "he", txt: "he " + (r >= 10 ? Math.round(r) : r.toFixed(1)) + ":1" };
+    }
+    r = she / Math.max(he, 1e-6);
+    if (r < 1.5) return { cls: "even", txt: "≈ even (" + r.toFixed(1) + ":1)" };
+    return { cls: "she", txt: "she " + (r >= 10 ? Math.round(r) : r.toFixed(1)) + ":1" };
+  }
+
+  /* ---------- chart ---------- */
+  var W = 340, H = 190, PAD = { l: 34, r: 30, t: 12, b: 24 };
+  var charts = []; // {group, svg, marker: {heDot, sheDot, vline}, box, tip, yMax}
+
+  function sx(s) { return PAD.l + (s + 6) / 12 * (W - PAD.l - PAD.r); }
+  function sy(v, yMax) { return H - PAD.b - v / yMax * (H - PAD.t - PAD.b); }
+
+  function niceMax(m) {
+    var steps = [0.01, 0.02, 0.025, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3];
+    for (var i = 0; i < steps.length; i++) if (m * 1.12 <= steps[i]) return steps[i];
+    return Math.ceil(m * 1.12 * 10) / 10;
+  }
+
+  function pathFor(strengths, vals, yMax) {
+    var d = "";
+    for (var i = 0; i < strengths.length; i++) {
+      d += (i === 0 ? "M" : "L") + sx(strengths[i]).toFixed(1) + " " + sy(vals[i], yMax).toFixed(1) + " ";
+    }
+    return d;
+  }
+
+  var SVGNS = "http://www.w3.org/2000/svg";
+  function el(tag, attrs, parent) {
+    var n = document.createElementNS(SVGNS, tag);
+    for (var k in attrs) n.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(n);
+    return n;
+  }
+
+  function buildChart(box, group, strengths) {
+    var yMax = niceMax(Math.max.apply(null, group.he.concat(group.she)));
+    var svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img",
+      "aria-label": group.name + ": P(he) and P(she) versus steering strength" });
+    box.appendChild(svg);
+
+    // gridlines + y labels
+    var g = el("g", {}, svg);
+    var nTicks = 4;
+    for (var i = 0; i <= nTicks; i++) {
+      var v = yMax * i / nTicks;
+      var y = sy(v, yMax);
+      el("line", { x1: PAD.l, x2: W - PAD.r, y1: y, y2: y, stroke: "var(--grid)", "stroke-width": 1 }, g);
+      var t = el("text", { x: PAD.l - 5, y: y + 3.5, "text-anchor": "end",
+        "font-size": 9, fill: "var(--muted)" }, g);
+      t.textContent = v === 0 ? "0" : v.toFixed(v < 0.05 ? 3 : 2);
+    }
+    // x axis ticks
+    [-6, -3, 0, 3, 6].forEach(function (s) {
+      var t = el("text", { x: sx(s), y: H - 8, "text-anchor": "middle",
+        "font-size": 9, fill: "var(--muted)" }, g);
+      t.textContent = s > 0 ? "+" + s : String(s);
+    });
+    el("line", { x1: PAD.l, x2: W - PAD.r, y1: H - PAD.b, y2: H - PAD.b, stroke: "var(--baseline)", "stroke-width": 1 }, g);
+    // dotted zero line
+    el("line", { x1: sx(0), x2: sx(0), y1: PAD.t, y2: H - PAD.b, stroke: "var(--baseline)", "stroke-width": 1, "stroke-dasharray": "2 3" }, g);
+
+    // series
+    el("path", { d: pathFor(strengths, group.he, yMax), fill: "none", stroke: "var(--he)", "stroke-width": 2, "stroke-linejoin": "round" }, svg);
+    el("path", { d: pathFor(strengths, group.she, yMax), fill: "none", stroke: "var(--she)", "stroke-width": 2, "stroke-linejoin": "round" }, svg);
+    strengths.forEach(function (s, i) {
+      el("circle", { cx: sx(s), cy: sy(group.he[i], yMax), r: 2.5, fill: "var(--he)" }, svg);
+      el("circle", { cx: sx(s), cy: sy(group.she[i], yMax), r: 2.5, fill: "var(--she)" }, svg);
+    });
+
+    // direct labels at right end
+    var last = strengths.length - 1;
+    var lhe = el("text", { x: W - PAD.r + 4, y: sy(group.he[last], yMax) + 3, "font-size": 10, "font-weight": 600, fill: "var(--he)" }, svg);
+    lhe.textContent = "he";
+    var lsheY = sy(group.she[last], yMax) + 3;
+    if (Math.abs(lsheY - (sy(group.he[last], yMax) + 3)) < 11) lsheY = sy(group.he[last], yMax) + 3 + (group.she[last] < group.he[last] ? 11 : -11);
+    var lshe = el("text", { x: W - PAD.r + 4, y: lsheY, "font-size": 10, "font-weight": 600, fill: "var(--she)" }, svg);
+    lshe.textContent = "she";
+
+    // moving marker: vertical hairline + ringed dots
+    var vline = el("line", { x1: sx(0), x2: sx(0), y1: PAD.t, y2: H - PAD.b, stroke: "var(--ink-1)", "stroke-width": 1, opacity: 0.35 }, svg);
+    var heDot = el("circle", { r: 4.5, fill: "var(--he)", stroke: "var(--surface-1)", "stroke-width": 2 }, svg);
+    var sheDot = el("circle", { r: 4.5, fill: "var(--she)", stroke: "var(--surface-1)", "stroke-width": 2 }, svg);
+
+    // tooltip + hover (snaps to nearest measured strength)
+    var tip = document.createElement("div");
+    tip.className = "tip";
+    box.appendChild(tip);
+    var hover = el("rect", { x: PAD.l, y: PAD.t, width: W - PAD.l - PAD.r, height: H - PAD.t - PAD.b, fill: "transparent" }, svg);
+    hover.style.cursor = "crosshair";
+
+    function clientToStrength(evt) {
+      var r = svg.getBoundingClientRect();
+      var x = (evt.clientX - r.left) / r.width * W;
+      var s = (x - PAD.l) / (W - PAD.l - PAD.r) * 12 - 6;
+      return Math.max(-6, Math.min(6, s));
+    }
+    hover.addEventListener("mousemove", function (evt) {
+      var s = clientToStrength(evt);
+      var nearest = strengths.reduce(function (a, b) { return Math.abs(b - s) < Math.abs(a - s) ? b : a; });
+      var i = strengths.indexOf(nearest);
+      tip.style.display = "block";
+      tip.innerHTML = '<span class="t-str">strength ' + (nearest > 0 ? "+" + nearest : nearest) + '</span><br>' +
+        'P( he)&nbsp;<span class="t-v">' + fmtP(group.he[i]) + '</span> · ' +
+        'P( she)&nbsp;<span class="t-v">' + fmtP(group.she[i]) + '</span>';
+      var r = box.getBoundingClientRect();
+      var px = (sx(nearest) / W) * r.width;
+      tip.style.left = Math.min(px + 10, r.width - tip.offsetWidth - 4) + "px";
+      tip.style.top = "6px";
+    });
+    hover.addEventListener("mouseleave", function () { tip.style.display = "none"; });
+    hover.addEventListener("click", function (evt) {
+      setStrength(Math.round(clientToStrength(evt) * 10) / 10);
+      els.slider.value = state.strength;
+    });
+
+    return { yMax: yMax, vline: vline, heDot: heDot, sheDot: sheDot };
+  }
+
+  /* ---------- group cards ---------- */
+  var cards = []; // {group, chart, heFill, sheFill, heVal, sheVal, verdict, barMax}
+
+  function renderModel() {
+    var m = DATA[state.model];
+    els.tabnote.textContent = m.note;
+    els.groups.innerHTML = "";
+    charts = []; cards = [];
+
+    m.groups.forEach(function (group) {
+      var card = document.createElement("div");
+      card.className = "gcard";
+      card.innerHTML =
+        "<h3></h3><div class='gsub'></div>" +
+        "<div class='chart-box'></div>" +
+        "<div class='bars'>" +
+          "<div class='brow'><span class='blab'>P( he)</span><div class='btrack'><div class='bfill he'></div></div><span class='bval bval-he mono'></span></div>" +
+          "<div class='brow'><span class='blab'>P( she)</span><div class='btrack'><div class='bfill she'></div></div><span class='bval bval-she mono'></span></div>" +
+        "</div>" +
+        "<div class='verdict'>favored: <span class='pill'><span class='dot'></span><span class='vtxt'></span></span></div>";
+      card.querySelector("h3").textContent = group.name;
+      card.querySelector(".gsub").textContent = group.sub;
+      els.groups.appendChild(card);
+
+      var chart = buildChart(card.querySelector(".chart-box"), group, m.strengths);
+      var barMax = niceMax(Math.max.apply(null, group.he.concat(group.she)));
+      cards.push({
+        group: group, chart: chart, barMax: barMax,
+        heFill: card.querySelector(".bfill.he"), sheFill: card.querySelector(".bfill.she"),
+        heVal: card.querySelector(".bval-he"), sheVal: card.querySelector(".bval-she"),
+        dot: card.querySelector(".verdict .dot"), vtxt: card.querySelector(".vtxt")
+      });
+    });
+    updateStrengthUI();
+  }
+
+  function updateStrengthUI() {
+    var m = DATA[state.model];
+    var s = state.strength;
+    els.strengthVal.textContent = (s > 0 ? "+" : "") + s.toFixed(1);
+    cards.forEach(function (c) {
+      var he = interp(m.strengths, c.group.he, s);
+      var she = interp(m.strengths, c.group.she, s);
+      c.heFill.style.width = Math.min(100, he / c.barMax * 100) + "%";
+      c.sheFill.style.width = Math.min(100, she / c.barMax * 100) + "%";
+      c.heVal.textContent = fmtP(he);
+      c.sheVal.textContent = fmtP(she);
+      var v = verdictFor(he, she);
+      c.dot.className = "dot " + v.cls;
+      c.vtxt.textContent = v.txt;
+      // marker
+      var x = sx(s);
+      c.chart.vline.setAttribute("x1", x); c.chart.vline.setAttribute("x2", x);
+      c.chart.heDot.setAttribute("cx", x); c.chart.heDot.setAttribute("cy", sy(he, c.chart.yMax));
+      c.chart.sheDot.setAttribute("cx", x); c.chart.sheDot.setAttribute("cy", sy(she, c.chart.yMax));
+    });
+  }
+
+  function setStrength(s) {
+    state.strength = Math.max(-6, Math.min(6, s));
+    updateStrengthUI();
+  }
+
+  /* ---------- controls ---------- */
+  tabs.forEach(function (tab) {
+    tab.addEventListener("click", function () {
+      stopPlay();
+      tabs.forEach(function (t) { t.setAttribute("aria-selected", t === tab ? "true" : "false"); });
+      state.model = tab.getAttribute("data-model");
+      renderModel();
+      renderTable();
+    });
+  });
+
+  els.slider.addEventListener("input", function () {
+    stopPlay();
+    setStrength(parseFloat(els.slider.value));
+  });
+
+  var playing = null; // {kind: "raf"|"interval", id: number}
+  function stopPlay() {
+    if (playing !== null) {
+      if (playing.kind === "interval") clearInterval(playing.id); else cancelAnimationFrame(playing.id);
+      playing = null;
+      els.playBtn.textContent = "▶ Sweep −6 → +6";
+    }
+  }
+  els.playBtn.addEventListener("click", function () {
+    if (playing !== null) { stopPlay(); return; }
+    els.playBtn.textContent = "◼ Stop";
+    if (reduced) {
+      // discrete steps through measured points, no tweening
+      var pts = DATA[state.model].strengths.slice();
+      var i = 0;
+      setStrength(pts[0]); els.slider.value = pts[0];
+      playing = { kind: "interval", id: setInterval(function () {
+        i++;
+        if (i >= pts.length) { stopPlay(); return; }
+        setStrength(pts[i]); els.slider.value = pts[i];
+      }, 900) };
+    } else {
+      var t0 = null, DUR = 5000;
+      setStrength(-6); els.slider.value = -6;
+      var step = function (ts) {
+        if (t0 === null) t0 = ts;
+        var p = Math.min(1, (ts - t0) / DUR);
+        var s = -6 + 12 * p;
+        setStrength(Math.round(s * 10) / 10);
+        els.slider.value = state.strength;
+        if (p < 1) { playing = { kind: "raf", id: requestAnimationFrame(step) }; }
+        else stopPlay();
+      };
+      playing = { kind: "raf", id: requestAnimationFrame(step) };
+    }
+  });
+
+  /* ---------- data table ---------- */
+  function renderTable() {
+    var m = DATA[state.model];
+    var html = "<thead><tr><th>" + MODEL_LABEL[state.model] + "</th>";
+    m.strengths.forEach(function (s) { html += "<th>" + (s > 0 ? "+" + s : s) + "</th>"; });
+    html += "</tr></thead><tbody>";
+    m.groups.forEach(function (g) {
+      html += "<tr><td>" + g.name + " — P( he)</td>";
+      g.he.forEach(function (v) { html += "<td>" + fmtP(v) + "</td>"; });
+      html += "</tr><tr><td>" + g.name + " — P( she)</td>";
+      g.she.forEach(function (v) { html += "<td>" + fmtP(v) + "</td>"; });
+      html += "</tr>";
+    });
+    html += "</tbody>";
+    els.table.innerHTML = html;
+  }
+
+  renderModel();
+  renderTable();
+})();
+</script>

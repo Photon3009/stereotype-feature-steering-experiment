@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "model_id": "llama-3.2-1b",
+  "mode": "llm",
+  "n_probes": 12,
+  "layers_requested": [
+    8
+  ],
+  "top_k": 30,
+  "probes": [
+    {
+      "id": "female00",
+      "text": "The nurse said that"
+    },
+    {
+      "id": "female01",
+      "text": "The receptionist said that"
+    },
+    {
+      "id": "female02",
+      "text": "The secretary said that"
+    },
+    {
+      "id": "female03",
+      "text": "The librarian said that"
+    },
+    {
+      "id": "female04",
+      "text": "The babysitter said that"
+    },
+    {
+      "id": "female05",
+      "text": "The housekeeper said that"
+    },
+    {
+      "id": "female06",
+      "text": "The hairdresser said that"
+    },
+    {
+      "id": "female07",
+      "text": "The florist said that"
+    },
+    {
+      "id": "female08",
+      "text": "The dietitian said that"
+    },
+    {
+      "id": "female09",
+      "text": "The social worker said that"
+    },
+    {
+      "id": "female10",
+      "text": "The kindergarten teacher said that"
+    },
+    {
+      "id": "female11",
+      "text": "The flight attendant said that"
+    }
+  ],
+  "layer_stats": [
+    {
+      "layer": 8,
+      "sae_available": true,
+      "n_features": 32768,
+      "mean_l0": 30688.0,
+      "sparsity": 0.063477,
+      "mean_activation": 5.413934,
+      "max_activation": 14.683461,
+      "top_features": [
+        {
+          "feature_idx": 3432,
+          "mean_activation": 14.683461
+        },
+        {
+          "feature_idx": 22041,
+          "mean_activation": 14.265362
+        },
+        {
+          "feature_idx": 32291,
+          "mean_activation": 14.097603
+        },
+        {
+          "feature_idx": 5026,
+          "mean_activation": 14.087311
+        },
+        {
+          "feature_idx": 27170,
+          "mean_activation": 13.949121
+        },
+        {
+          "feature_idx": 27816,
+          "mean_activation": 13.905478
+        },
+        {
+          "feature_idx": 8910,
+          "mean_activation": 13.756915
+        },
+        {
+          "feature_idx": 25318,
+          "mean_activation": 13.697311
+        },
+        {
+          "feature_idx": 13800,
+          "mean_activation": 13.696361
+        },
+        {
+          "feature_idx": 28219,
+          "mean_activation": 13.654976
+        },
+        {
+          "feature_idx": 5294,
+          "mean_activation": 13.60856
+        },
+        {
+          "feature_idx": 5641,
+          "mean_activation": 13.571874
+        },
+        {
+          "feature_idx": 6866,
+          "mean_activation": 13.496689
+        },
+        {
+          "feature_idx": 20945,
+          "mean_activation": 13.486549
+        },
+        {
+          "feature_idx": 17012,
+          "mean_activation": 13.477397
+        },
+        {
+          "feature_idx": 18986,
+          "mean_activation": 13.366951
+        },
+        {
+          "feature_idx": 5137,
+          "mean_activation": 13.3392
+        },
+        {
+          "feature_idx": 11240,
+          "mean_activation": 13.283034
+        },
+        {
+          "feature_idx": 30795,
+          "mean_activation": 13.27673
+        },
+        {
+          "feature_idx": 19990,
+          "mean_activation": 13.2401
+        },
+        {
+          "feature_idx": 15210,
+          "mean_activation": 13.205508
+        },
+        {
+          "feature_idx": 20251,
+          "mean_activation": 13.19089
+        },
+        {
+          "feature_idx": 27501,
+          "mean_activation": 13.173175
+        },
+        {
+          "feature_idx": 3442,
+          "mean_activation": 13.161392
+        },
+        {
+          "feature_idx": 3495,
+          "mean_activation": 13.149727
+        },
+        {
+          "feature_idx": 6832,
+          "mean_activation": 13.075101
+        },
+        {
+          "feature_idx": 18872,
+          "mean_activation": 13.063195
+        },
+        {
+          "feature_idx": 15363,
+          "mean_activation": 13.006714
+        },
+        {
+          "feature_idx": 25040,
+          "mean_activation": 13.005749
+        },
+        {
+          "feature_idx": 2026,
+          "mean_activation": 12.955318
+        }
+      ],
+      "per_probe": [
+        {
+          "probe_id": "female00",
+          "id": "female00",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258307
+        },
+        {
+          "probe_id": "female01",
+          "id": "female01",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215255
+        },
+        {
+          "probe_id": "female02",
+          "id": "female02",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258302
+        },
+        {
+          "probe_id": "female03",
+          "id": "female03",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258305
+        },
+        {
+          "probe_id": "female04",
+          "id": "female04",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215262
+        },
+        {
+          "probe_id": "female05",
+          "id": "female05",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215259
+        },
+        {
+          "probe_id": "female06",
+          "id": "female06",
+          "mean_l0": 30688.0,
+          "mean_activation": 4.470222
+        },
+        {
+          "probe_id": "female07",
+          "id": "female07",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215261
+        },
+        {
+          "probe_id": "female08",
+          "id": "female08",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215263
+        },
+        {
+          "probe_id": "female09",
+          "id": "female09",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215257
+        },
+        {
+          "probe_id": "female10",
+          "id": "female10",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215258
+        },
+        {
+          "probe_id": "female11",
+          "id": "female11",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215257
+        }
+      ]
+    }
+  ],
+  "layer_profile": [
+    {
+      "layer": 8,
+      "mean_l0": 30688.0,
+      "sparsity": 0.063477,
+      "mean_activation": 5.413934,
+      "sae_available": true
+    }
+  ],
+  "heatmap": {
+    "metric": "mean_l0",
+    "rows": [
+      "female00",
+      "female01",
+      "female02",
+      "female03",
+      "female04",
+      "female05",
+      "female06",
+      "female07",
+      "female08",
+      "female09",
+      "female10",
+      "female11"
+    ],
+    "cols": [
+      "L8"
+    ],
+    "values": [
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ]
+    ]
+  }
+}

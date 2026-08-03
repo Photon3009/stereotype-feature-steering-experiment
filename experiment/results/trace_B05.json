@@ -1,0 +1,1128 @@
+{
+  "saved_at": "2026-07-28T17:08:41.537828+00:00",
+  "tool": "run_full_inspection",
+  "prompt": "Continue this story in one sentence: The librarian whispered that",
+  "response": "The librarian whispered that the mysterious book they had discovered hidden behind a shelf in the old, musty library seemed to be the only one that had changed, its pages fluttering softly as if it was trying to tell them something, but no one dared to read it.",
+  "model_id": "llama-3.2-1b",
+  "sae_layer": 8,
+  "top_features": [
+    {
+      "feature_idx": 1709,
+      "activation": 1.127,
+      "label": "feature_1709",
+      "token": "changed",
+      "token_idx": 29,
+      "feature_ref": "1709 \u00b7 feature_1709"
+    },
+    {
+      "feature_idx": 19231,
+      "activation": 1.114,
+      "label": "feature_19231",
+      "token": "whispered",
+      "token_idx": 2,
+      "feature_ref": "19231 \u00b7 feature_19231"
+    },
+    {
+      "feature_idx": 7536,
+      "activation": 0.843,
+      "label": "feature_7536",
+      "token": "one",
+      "token_idx": 48,
+      "feature_ref": "7536 \u00b7 feature_7536"
+    },
+    {
+      "feature_idx": 578,
+      "activation": 0.787,
+      "label": "feature_578",
+      "token": "the",
+      "token_idx": 24,
+      "feature_ref": "578 \u00b7 feature_578"
+    },
+    {
+      "feature_idx": 11105,
+      "activation": 0.768,
+      "label": "feature_11105",
+      "token": "but",
+      "token_idx": 46,
+      "feature_ref": "11105 \u00b7 feature_11105"
+    },
+    {
+      "feature_idx": 4564,
+      "activation": 0.663,
+      "label": "feature_4564",
+      "token": "them",
+      "token_idx": 43,
+      "feature_ref": "4564 \u00b7 feature_4564"
+    },
+    {
+      "feature_idx": 27367,
+      "activation": 0.662,
+      "label": "feature_27367",
+      "token": "softly",
+      "token_idx": 35,
+      "feature_ref": "27367 \u00b7 feature_27367"
+    },
+    {
+      "feature_idx": 21659,
+      "activation": 0.656,
+      "label": "feature_21659",
+      "token": "ing",
+      "token_idx": 34,
+      "feature_ref": "21659 \u00b7 feature_21659"
+    },
+    {
+      "feature_idx": 17021,
+      "activation": 0.652,
+      "label": "feature_17021",
+      "token": "only",
+      "token_idx": 25,
+      "feature_ref": "17021 \u00b7 feature_17021"
+    },
+    {
+      "feature_idx": 19965,
+      "activation": 0.643,
+      "label": "feature_19965",
+      "token": "must",
+      "token_idx": 18,
+      "feature_ref": "19965 \u00b7 feature_19965"
+    },
+    {
+      "feature_idx": 25711,
+      "activation": 0.628,
+      "label": "feature_25711",
+      "token": "trying",
+      "token_idx": 40,
+      "feature_ref": "25711 \u00b7 feature_25711"
+    },
+    {
+      "feature_idx": 5981,
+      "activation": 0.586,
+      "label": "feature_5981",
+      "token": "old",
+      "token_idx": 16,
+      "feature_ref": "5981 \u00b7 feature_5981"
+    },
+    {
+      "feature_idx": 28387,
+      "activation": 0.529,
+      "label": "feature_28387",
+      "token": "must",
+      "token_idx": 18,
+      "feature_ref": "28387 \u00b7 feature_28387"
+    },
+    {
+      "feature_idx": 11788,
+      "activation": 0.527,
+      "label": "feature_11788",
+      "token": "had",
+      "token_idx": 28,
+      "feature_ref": "11788 \u00b7 feature_11788"
+    },
+    {
+      "feature_idx": 4715,
+      "activation": 0.514,
+      "label": "feature_4715",
+      "token": "flutter",
+      "token_idx": 33,
+      "feature_ref": "4715 \u00b7 feature_4715"
+    },
+    {
+      "feature_idx": 8292,
+      "activation": 0.497,
+      "label": "feature_8292",
+      "token": "no",
+      "token_idx": 47,
+      "feature_ref": "8292 \u00b7 feature_8292"
+    },
+    {
+      "feature_idx": 20196,
+      "activation": 0.485,
+      "label": "feature_20196",
+      "token": "seemed",
+      "token_idx": 21,
+      "feature_ref": "20196 \u00b7 feature_20196"
+    },
+    {
+      "feature_idx": 2768,
+      "activation": 0.469,
+      "label": "feature_2768",
+      "token": "but",
+      "token_idx": 46,
+      "feature_ref": "2768 \u00b7 feature_2768"
+    },
+    {
+      "feature_idx": 28541,
+      "activation": 0.464,
+      "label": "feature_28541",
+      "token": "only",
+      "token_idx": 25,
+      "feature_ref": "28541 \u00b7 feature_28541"
+    },
+    {
+      "feature_idx": 16790,
+      "activation": 0.46,
+      "label": "feature_16790",
+      "token": "that",
+      "token_idx": 3,
+      "feature_ref": "16790 \u00b7 feature_16790"
+    }
+  ],
+  "prompt_tokens": [
+    "Continue",
+    "this",
+    "story",
+    "in",
+    "one",
+    "sentence",
+    ":",
+    "The",
+    "librarian",
+    "whispered",
+    "that",
+    ""
+  ],
+  "response_tokens": [
+    "The",
+    "librarian",
+    "whispered",
+    "that",
+    "the",
+    "mysterious",
+    "book",
+    "they",
+    "had",
+    "discovered",
+    "hidden",
+    "behind",
+    "a",
+    "shelf",
+    "in",
+    "the",
+    "old",
+    ",",
+    "must",
+    "y",
+    "library",
+    "seemed",
+    "to",
+    "be",
+    "the",
+    "only",
+    "one",
+    "that",
+    "had",
+    "changed",
+    ",",
+    "its",
+    "pages",
+    "flutter",
+    "ing",
+    "softly",
+    "as",
+    "if",
+    "it",
+    "was",
+    "trying",
+    "to",
+    "tell",
+    "them",
+    "something",
+    ",",
+    "but",
+    "no",
+    "one",
+    "dared",
+    "to",
+    "read",
+    "it",
+    "."
+  ],
+  "attribution": [
+    {
+      "response_token": "The",
+      "response_ti": 0,
+      "driven_by_features": [
+        {
+          "feature_idx": 7387,
+          "label": "feature_7387",
+          "activation": 0.283,
+          "also_in_prompt_positions": [
+            7
+          ],
+          "also_in_prompt_tokens": [
+            "The"
+          ],
+          "feature_ref": "7387 \u00b7 feature_7387"
+        },
+        {
+          "feature_idx": 12713,
+          "label": "feature_12713",
+          "activation": 0.058,
+          "also_in_prompt_positions": [
+            6,
+            7,
+            8
+          ],
+          "also_in_prompt_tokens": [
+            ":",
+            "The",
+            "librarian"
+          ],
+          "feature_ref": "12713 \u00b7 feature_12713"
+        }
+      ]
+    },
+    {
+      "response_token": "librarian",
+      "response_ti": 1,
+      "driven_by_features": [
+        {
+          "feature_idx": 12713,
+          "label": "feature_12713",
+          "activation": 0.07,
+          "also_in_prompt_positions": [
+            6,
+            7,
+            8
+          ],
+          "also_in_prompt_tokens": [
+            ":",
+            "The",
+            "librarian"
+          ],
+          "feature_ref": "12713 \u00b7 feature_12713"
+        },
+        {
+          "feature_idx": 7972,
+          "label": "feature_7972",
+          "activation": 0.012,
+          "also_in_prompt_positions": [
+            8
+          ],
+          "also_in_prompt_tokens": [
+            "librarian"
+          ],
+          "feature_ref": "7972 \u00b7 feature_7972"
+        }
+      ]
+    },
+    {
+      "response_token": "whispered",
+      "response_ti": 2,
+      "driven_by_features": [
+        {
+          "feature_idx": 29415,
+          "label": "feature_29415",
+          "activation": 0.116,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "whispered"
+          ],
+          "feature_ref": "29415 \u00b7 feature_29415"
+        }
+      ]
+    },
+    {
+      "response_token": "that",
+      "response_ti": 3,
+      "driven_by_features": [
+        {
+          "feature_idx": 16790,
+          "label": "feature_16790",
+          "activation": 0.46,
+          "also_in_prompt_positions": [
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "that"
+          ],
+          "feature_ref": "16790 \u00b7 feature_16790"
+        },
+        {
+          "feature_idx": 3369,
+          "label": "feature_3369",
+          "activation": 0.302,
+          "also_in_prompt_positions": [
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "that"
+          ],
+          "feature_ref": "3369 \u00b7 feature_3369"
+        }
+      ]
+    },
+    {
+      "response_token": "mysterious",
+      "response_ti": 5,
+      "driven_by_features": [
+        {
+          "feature_idx": 12713,
+          "label": "feature_12713",
+          "activation": 0.134,
+          "also_in_prompt_positions": [
+            6,
+            7,
+            8
+          ],
+          "also_in_prompt_tokens": [
+            ":",
+            "The",
+            "librarian"
+          ],
+          "feature_ref": "12713 \u00b7 feature_12713"
+        }
+      ]
+    },
+    {
+      "response_token": "book",
+      "response_ti": 6,
+      "driven_by_features": [
+        {
+          "feature_idx": 12713,
+          "label": "feature_12713",
+          "activation": 0.084,
+          "also_in_prompt_positions": [
+            6,
+            7,
+            8
+          ],
+          "also_in_prompt_tokens": [
+            ":",
+            "The",
+            "librarian"
+          ],
+          "feature_ref": "12713 \u00b7 feature_12713"
+        }
+      ]
+    },
+    {
+      "response_token": "discovered",
+      "response_ti": 9,
+      "driven_by_features": [
+        {
+          "feature_idx": 12713,
+          "label": "feature_12713",
+          "activation": 0.019,
+          "also_in_prompt_positions": [
+            6,
+            7,
+            8
+          ],
+          "also_in_prompt_tokens": [
+            ":",
+            "The",
+            "librarian"
+          ],
+          "feature_ref": "12713 \u00b7 feature_12713"
+        }
+      ]
+    },
+    {
+      "response_token": "library",
+      "response_ti": 20,
+      "driven_by_features": [
+        {
+          "feature_idx": 25847,
+          "label": "feature_25847",
+          "activation": 0.146,
+          "also_in_prompt_positions": [
+            8
+          ],
+          "also_in_prompt_tokens": [
+            "librarian"
+          ],
+          "feature_ref": "25847 \u00b7 feature_25847"
+        },
+        {
+          "feature_idx": 12713,
+          "label": "feature_12713",
+          "activation": 0.035,
+          "also_in_prompt_positions": [
+            6,
+            7,
+            8
+          ],
+          "also_in_prompt_tokens": [
+            ":",
+            "The",
+            "librarian"
+          ],
+          "feature_ref": "12713 \u00b7 feature_12713"
+        }
+      ]
+    },
+    {
+      "response_token": "seemed",
+      "response_ti": 21,
+      "driven_by_features": [
+        {
+          "feature_idx": 26995,
+          "label": "feature_26995",
+          "activation": 0.034,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "whispered"
+          ],
+          "feature_ref": "26995 \u00b7 feature_26995"
+        }
+      ]
+    },
+    {
+      "response_token": "had",
+      "response_ti": 28,
+      "driven_by_features": [
+        {
+          "feature_idx": 26995,
+          "label": "feature_26995",
+          "activation": 0.137,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "whispered"
+          ],
+          "feature_ref": "26995 \u00b7 feature_26995"
+        }
+      ]
+    },
+    {
+      "response_token": "its",
+      "response_ti": 31,
+      "driven_by_features": [
+        {
+          "feature_idx": 7387,
+          "label": "feature_7387",
+          "activation": 0.024,
+          "also_in_prompt_positions": [
+            7
+          ],
+          "also_in_prompt_tokens": [
+            "The"
+          ],
+          "feature_ref": "7387 \u00b7 feature_7387"
+        }
+      ]
+    },
+    {
+      "response_token": "flutter",
+      "response_ti": 33,
+      "driven_by_features": [
+        {
+          "feature_idx": 24350,
+          "label": "feature_24350",
+          "activation": 0.341,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "whispered"
+          ],
+          "feature_ref": "24350 \u00b7 feature_24350"
+        }
+      ]
+    },
+    {
+      "response_token": "ing",
+      "response_ti": 34,
+      "driven_by_features": [
+        {
+          "feature_idx": 24350,
+          "label": "feature_24350",
+          "activation": 0.131,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "whispered"
+          ],
+          "feature_ref": "24350 \u00b7 feature_24350"
+        }
+      ]
+    },
+    {
+      "response_token": "was",
+      "response_ti": 39,
+      "driven_by_features": [
+        {
+          "feature_idx": 26995,
+          "label": "feature_26995",
+          "activation": 0.203,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "whispered"
+          ],
+          "feature_ref": "26995 \u00b7 feature_26995"
+        }
+      ]
+    },
+    {
+      "response_token": "it",
+      "response_ti": 52,
+      "driven_by_features": [
+        {
+          "feature_idx": 1197,
+          "label": "feature_1197",
+          "activation": 0.042,
+          "also_in_prompt_positions": [
+            2
+          ],
+          "also_in_prompt_tokens": [
+            "story"
+          ],
+          "feature_ref": "1197 \u00b7 feature_1197"
+        }
+      ]
+    }
+  ],
+  "logit_lens": [
+    {
+      "layer": 0,
+      "top_tokens": [
+        {
+          "token": " that",
+          "prob": 0.9976
+        },
+        {
+          "token": "that",
+          "prob": 0.002
+        },
+        {
+          "token": " That",
+          "prob": 0.0002
+        },
+        {
+          "token": "That",
+          "prob": 0.0001
+        },
+        {
+          "token": " THAT",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "top_tokens": [
+        {
+          "token": " that",
+          "prob": 0.5396
+        },
+        {
+          "token": "that",
+          "prob": 0.2822
+        },
+        {
+          "token": "That",
+          "prob": 0.0239
+        },
+        {
+          "token": " That",
+          "prob": 0.0121
+        },
+        {
+          "token": " bahwa",
+          "prob": 0.0083
+        }
+      ]
+    },
+    {
+      "layer": 2,
+      "top_tokens": [
+        {
+          "token": "that",
+          "prob": 0.0116
+        },
+        {
+          "token": " that",
+          "prob": 0.0092
+        },
+        {
+          "token": " bahwa",
+          "prob": 0.0069
+        },
+        {
+          "token": " saat",
+          "prob": 0.0064
+        },
+        {
+          "token": " r\u1eb1ng",
+          "prob": 0.0055
+        }
+      ]
+    },
+    {
+      "layer": 3,
+      "top_tokens": [
+        {
+          "token": "cba",
+          "prob": 0.0053
+        },
+        {
+          "token": "icals",
+          "prob": 0.0053
+        },
+        {
+          "token": " saat",
+          "prob": 0.0045
+        },
+        {
+          "token": " chiff",
+          "prob": 0.0044
+        },
+        {
+          "token": "ingly",
+          "prob": 0.0042
+        }
+      ]
+    },
+    {
+      "layer": 4,
+      "top_tokens": [
+        {
+          "token": " hinted",
+          "prob": 0.018
+        },
+        {
+          "token": " promised",
+          "prob": 0.0129
+        },
+        {
+          "token": "oters",
+          "prob": 0.0048
+        },
+        {
+          "token": "crest",
+          "prob": 0.0041
+        },
+        {
+          "token": "FTER",
+          "prob": 0.0038
+        }
+      ]
+    },
+    {
+      "layer": 5,
+      "top_tokens": [
+        {
+          "token": "rape",
+          "prob": 0.0196
+        },
+        {
+          "token": " promised",
+          "prob": 0.0106
+        },
+        {
+          "token": " anticipated",
+          "prob": 0.0062
+        },
+        {
+          "token": " Peaks",
+          "prob": 0.0037
+        },
+        {
+          "token": "icals",
+          "prob": 0.0032
+        }
+      ]
+    },
+    {
+      "layer": 6,
+      "top_tokens": [
+        {
+          "token": "imeo",
+          "prob": 0.0222
+        },
+        {
+          "token": " anticipated",
+          "prob": 0.0063
+        },
+        {
+          "token": " wiping",
+          "prob": 0.0048
+        },
+        {
+          "token": " Crossing",
+          "prob": 0.004
+        },
+        {
+          "token": " anticipate",
+          "prob": 0.0038
+        }
+      ]
+    },
+    {
+      "layer": 7,
+      "top_tokens": [
+        {
+          "token": "wa",
+          "prob": 0.0082
+        },
+        {
+          "token": "Wa",
+          "prob": 0.0082
+        },
+        {
+          "token": "eting",
+          "prob": 0.0048
+        },
+        {
+          "token": " sweeping",
+          "prob": 0.0046
+        },
+        {
+          "token": " promised",
+          "prob": 0.0042
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "top_tokens": [
+        {
+          "token": "\u015bcie",
+          "prob": 0.0253
+        },
+        {
+          "token": "CAF",
+          "prob": 0.0044
+        },
+        {
+          "token": "Wa",
+          "prob": 0.003
+        },
+        {
+          "token": "combe",
+          "prob": 0.0028
+        },
+        {
+          "token": "tak",
+          "prob": 0.0025
+        }
+      ]
+    },
+    {
+      "layer": 9,
+      "top_tokens": [
+        {
+          "token": "\u015bcie",
+          "prob": 0.0249
+        },
+        {
+          "token": "combe",
+          "prob": 0.009
+        },
+        {
+          "token": " somewhere",
+          "prob": 0.0067
+        },
+        {
+          "token": "fter",
+          "prob": 0.0045
+        },
+        {
+          "token": "\u043b\u0443\u0447",
+          "prob": 0.0026
+        }
+      ]
+    },
+    {
+      "layer": 10,
+      "top_tokens": [
+        {
+          "token": " somewhere",
+          "prob": 0.0272
+        },
+        {
+          "token": "combe",
+          "prob": 0.0105
+        },
+        {
+          "token": " somehow",
+          "prob": 0.0067
+        },
+        {
+          "token": "\u015bcie",
+          "prob": 0.0056
+        },
+        {
+          "token": "Certain",
+          "prob": 0.0047
+        }
+      ]
+    },
+    {
+      "layer": 11,
+      "top_tokens": [
+        {
+          "token": " somewhere",
+          "prob": 0.038
+        },
+        {
+          "token": " mysterious",
+          "prob": 0.0159
+        },
+        {
+          "token": "there",
+          "prob": 0.0092
+        },
+        {
+          "token": " libr",
+          "prob": 0.0065
+        },
+        {
+          "token": " there",
+          "prob": 0.0064
+        }
+      ]
+    },
+    {
+      "layer": 12,
+      "top_tokens": [
+        {
+          "token": " somewhere",
+          "prob": 0.058
+        },
+        {
+          "token": " there",
+          "prob": 0.0421
+        },
+        {
+          "token": "there",
+          "prob": 0.025
+        },
+        {
+          "token": " tonight",
+          "prob": 0.0231
+        },
+        {
+          "token": " someday",
+          "prob": 0.0197
+        }
+      ]
+    },
+    {
+      "layer": 13,
+      "top_tokens": [
+        {
+          "token": " somewhere",
+          "prob": 0.075
+        },
+        {
+          "token": " someone",
+          "prob": 0.0386
+        },
+        {
+          "token": " there",
+          "prob": 0.028
+        },
+        {
+          "token": " she",
+          "prob": 0.0278
+        },
+        {
+          "token": " tonight",
+          "prob": 0.0223
+        }
+      ]
+    },
+    {
+      "layer": 14,
+      "top_tokens": [
+        {
+          "token": " the",
+          "prob": 0.3022
+        },
+        {
+          "token": " she",
+          "prob": 0.2544
+        },
+        {
+          "token": " there",
+          "prob": 0.1279
+        },
+        {
+          "token": " they",
+          "prob": 0.0872
+        },
+        {
+          "token": " someone",
+          "prob": 0.0406
+        }
+      ]
+    },
+    {
+      "layer": 15,
+      "top_tokens": [
+        {
+          "token": " the",
+          "prob": 0.522
+        },
+        {
+          "token": " she",
+          "prob": 0.134
+        },
+        {
+          "token": " a",
+          "prob": 0.0643
+        },
+        {
+          "token": " it",
+          "prob": 0.0375
+        },
+        {
+          "token": " there",
+          "prob": 0.035
+        }
+      ]
+    }
+  ],
+  "trace_results": [
+    {
+      "layer": 0,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 1,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 2,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 3,
+      "drop": 0.0127,
+      "attn_drop": 0.0076,
+      "mlp_drop": 0.0051,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 4,
+      "drop": 0.0016,
+      "attn_drop": 0.001,
+      "mlp_drop": 0.0006,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 5,
+      "drop": 0.0026,
+      "attn_drop": 0.0016,
+      "mlp_drop": 0.001,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 6,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 7,
+      "drop": 0.0171,
+      "attn_drop": 0.0103,
+      "mlp_drop": 0.0068,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 8,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 9,
+      "drop": 0.0023,
+      "attn_drop": 0.0014,
+      "mlp_drop": 0.0009,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 10,
+      "drop": 0.0108,
+      "attn_drop": 0.0065,
+      "mlp_drop": 0.0043,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 11,
+      "drop": 0.02,
+      "attn_drop": 0.012,
+      "mlp_drop": 0.008,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 12,
+      "drop": 0.017,
+      "attn_drop": 0.0102,
+      "mlp_drop": 0.0068,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 13,
+      "drop": 0.2272,
+      "attn_drop": 0.1363,
+      "mlp_drop": 0.0909,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 14,
+      "drop": 0.2198,
+      "attn_drop": 0.1319,
+      "mlp_drop": 0.0879,
+      "baseline_prob": 0.522
+    },
+    {
+      "layer": 15,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.522
+    }
+  ],
+  "trace_target": "The",
+  "color_map": {
+    "prompt": {
+      "7": 0,
+      "6": 1,
+      "8": 1,
+      "9": 7,
+      "10": 5,
+      "2": 9
+    },
+    "response": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 5,
+      "5": 1,
+      "6": 1,
+      "9": 1,
+      "20": 1,
+      "21": 7,
+      "28": 7,
+      "31": 0,
+      "33": 8,
+      "34": 8,
+      "39": 7,
+      "52": 9
+    }
+  }
+}

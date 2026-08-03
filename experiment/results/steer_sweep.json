@@ -1,0 +1,3586 @@
+[
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.010041066445410252,
+  "p_she": 0.04526383429765701
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.0194125734269619,
+  "p_she": 0.03871095925569534
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.031086398288607597,
+  "p_she": 0.055275194346904755
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.008968054316937923,
+  "p_she": 0.06299776583909988
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.014479150995612144,
+  "p_she": 0.09121471643447876
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.02192746102809906,
+  "p_she": 0.09667821228504181
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.012276552617549896,
+  "p_she": 0.1027284786105156
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.02258332259953022,
+  "p_she": 0.06707317382097244
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.00853958074003458,
+  "p_she": 0.00878277886658907
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.015052014961838722,
+  "p_she": 0.030746251344680786
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.013342825695872307,
+  "p_she": 0.11608262360095978
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.004904995672404766,
+  "p_she": 0.054234590381383896
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.014417227357625961,
+  "p_she": 0.010961083695292473
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.027160998433828354,
+  "p_she": 0.016033856198191643
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.027813946828246117,
+  "p_she": 0.030375029891729355
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.02355821616947651,
+  "p_she": 0.023345477879047394
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.024364477023482323,
+  "p_she": 0.019131958484649658
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.07551269233226776,
+  "p_she": 0.056440118700265884
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.12395933270454407,
+  "p_she": 0.1541835516691208
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.04261079803109169,
+  "p_she": 0.05965740978717804
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.03218105807900429,
+  "p_she": 0.04640365391969681
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.055903416126966476,
+  "p_she": 0.04850215092301369
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.04778733476996422,
+  "p_she": 0.04361297935247421
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.14011543989181519,
+  "p_she": 0.0874485895037651
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.0007051136344671249,
+  "p_she": 0.044365908950567245
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.00862570945173502,
+  "p_she": 0.0010507100960239768
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 2.7319383661961183e-05,
+  "p_she": 0.00042296689935028553
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.006548999808728695,
+  "p_she": 0.00462911045178771
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.00040571982390247285,
+  "p_she": 0.04628206416964531
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0017684407066553831,
+  "p_she": 0.00018232436559628695
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.008634909987449646,
+  "p_she": 0.04361795634031296
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -6.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.004159566946327686,
+  "p_she": 0.0013227933086454868
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.006539955269545317,
+  "p_she": 0.0839696004986763
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.016100559383630753,
+  "p_she": 0.06757025420665741
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.04057416319847107,
+  "p_she": 0.07613984495401382
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.01463012769818306,
+  "p_she": 0.09132718294858932
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.003929912578314543,
+  "p_she": 0.15110962092876434
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.01559498067945242,
+  "p_she": 0.13983097672462463
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.015730036422610283,
+  "p_she": 0.13057652115821838
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.03378010913729668,
+  "p_she": 0.09139209985733032
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.0066236210986971855,
+  "p_she": 0.023789986968040466
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.017697980627417564,
+  "p_she": 0.05272335559129715
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.0059674885123968124,
+  "p_she": 0.165678471326828
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.0036586110945791006,
+  "p_she": 0.08393926918506622
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.03184191882610321,
+  "p_she": 0.011192169040441513
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.04262145608663559,
+  "p_she": 0.023298881947994232
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.07961376756429672,
+  "p_she": 0.024492159485816956
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.06874106824398041,
+  "p_she": 0.015060181729495525
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.06049756333231926,
+  "p_she": 0.018428169190883636
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.13500751554965973,
+  "p_she": 0.03827398642897606
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.27036920189857483,
+  "p_she": 0.09239177405834198
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.09227433800697327,
+  "p_she": 0.05636923015117645
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.058823343366384506,
+  "p_she": 0.051025036722421646
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.10830985009670258,
+  "p_she": 0.05304872989654541
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.1011890172958374,
+  "p_she": 0.038453198969364166
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.2452227920293808,
+  "p_she": 0.04713974520564079
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.0004063036758452654,
+  "p_she": 0.05145823210477829
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.0056765456683933735,
+  "p_she": 0.0033804585691541433
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 2.520724774512928e-05,
+  "p_she": 0.0005152604426257312
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.009456035681068897,
+  "p_she": 0.003552559996023774
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.00036552781239151955,
+  "p_she": 0.05056575685739517
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0013121759984642267,
+  "p_she": 0.0003530713729560375
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.0005914533976465464,
+  "p_she": 0.0524488165974617
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -3.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.004196880850940943,
+  "p_she": 0.001470397226512432
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.010430253110826015,
+  "p_she": 0.09740741550922394
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.02366436831653118,
+  "p_she": 0.07671365886926651
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.06130039319396019,
+  "p_she": 0.07489565759897232
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.032741617411375046,
+  "p_she": 0.09319528192281723
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.00809039268642664,
+  "p_she": 0.16714906692504883
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.024912428110837936,
+  "p_she": 0.14837528765201569
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.03272855281829834,
+  "p_she": 0.13022027909755707
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.06126514822244644,
+  "p_she": 0.08723998814821243
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.00952182151377201,
+  "p_she": 0.030794821679592133
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.029803982004523277,
+  "p_she": 0.058632221072912216
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.015633614733815193,
+  "p_she": 0.17129172384738922
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.008202731609344482,
+  "p_she": 0.0939507931470871
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.0498429611325264,
+  "p_she": 0.007221847306936979
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.06666300445795059,
+  "p_she": 0.01826026290655136
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.13784943521022797,
+  "p_she": 0.008334874175488949
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.10854566097259521,
+  "p_she": 0.005226893350481987
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.10476545989513397,
+  "p_she": 0.007540091406553984
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.18013329803943634,
+  "p_she": 0.017983505502343178
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.3631054759025574,
+  "p_she": 0.03223893791437149
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.1554437130689621,
+  "p_she": 0.028373921290040016
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.09364315122365952,
+  "p_she": 0.036890871822834015
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.18309660255908966,
+  "p_she": 0.03367146477103233
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.14984078705310822,
+  "p_she": 0.01980428583920002
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.29878368973731995,
+  "p_she": 0.017992602661252022
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.0009704935364425182,
+  "p_she": 0.05255976691842079
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.005585584789514542,
+  "p_she": 0.003367974888533354
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 2.7614691134658642e-05,
+  "p_she": 0.000544599024578929
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.011814607307314873,
+  "p_she": 0.001983579946681857
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.0017151848878711462,
+  "p_she": 0.05190251022577286
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0011367069091647863,
+  "p_she": 0.00038256499101407826
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.0018244872335344553,
+  "p_she": 0.05246461555361748
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": -1.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.0038655074313282967,
+  "p_she": 0.0012354514328762889
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.015964047983288765,
+  "p_she": 0.09904266893863678
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.032462675124406815,
+  "p_she": 0.07692695409059525
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.07909494638442993,
+  "p_she": 0.06666722148656845
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.0509413480758667,
+  "p_she": 0.08420149981975555
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.015852458775043488,
+  "p_she": 0.16837956011295319
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.03743034973740578,
+  "p_she": 0.14477740228176117
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.04950764402747154,
+  "p_she": 0.12107595056295395
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.08310748636722565,
+  "p_she": 0.07634579390287399
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.013545787893235683,
+  "p_she": 0.03142433613538742
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.041343964636325836,
+  "p_she": 0.05619406700134277
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.030282070860266685,
+  "p_she": 0.1630469113588333
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.015181510709226131,
+  "p_she": 0.09411453455686569
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.05837232992053032,
+  "p_she": 0.005207354668527842
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.08139151334762573,
+  "p_she": 0.013658820651471615
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.1603313833475113,
+  "p_she": 0.004142517689615488
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.12271178513765335,
+  "p_she": 0.0030253741424530745
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.12463462352752686,
+  "p_she": 0.0038830693811178207
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.19568206369876862,
+  "p_she": 0.011682909913361073
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.38813892006874084,
+  "p_she": 0.01591850444674492
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.18392468988895416,
+  "p_she": 0.016479790210723877
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.11158356815576553,
+  "p_she": 0.02755133807659149
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.22240722179412842,
+  "p_she": 0.021822353824973106
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.16792351007461548,
+  "p_she": 0.012558030895888805
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.31384286284446716,
+  "p_she": 0.010764500126242638
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.0020180600695312023,
+  "p_she": 0.05230550095438957
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.005933497101068497,
+  "p_she": 0.00282808649353683
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 3.057034336961806e-05,
+  "p_she": 0.0005525339511223137
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.012584387324750423,
+  "p_she": 0.001415788079611957
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.00425694789737463,
+  "p_she": 0.05175939202308655
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0010841375915333629,
+  "p_she": 0.00035399780608713627
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.004266140516847372,
+  "p_she": 0.05290119722485542
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 0.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.0037995348684489727,
+  "p_she": 0.0010491725988686085
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.025877203792333603,
+  "p_she": 0.09569139033555984
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.0461278036236763,
+  "p_she": 0.0732780173420906
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.10218697786331177,
+  "p_she": 0.053281575441360474
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.07639990001916885,
+  "p_she": 0.0676208883523941
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.031932178884744644,
+  "p_she": 0.16262464225292206
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.05805297940969467,
+  "p_she": 0.13382455706596375
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.07294230908155441,
+  "p_she": 0.10486707836389542
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.1083623394370079,
+  "p_she": 0.06047871708869934
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.02010520175099373,
+  "p_she": 0.029493747279047966
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.05716663599014282,
+  "p_she": 0.04951990768313408
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.05541261285543442,
+  "p_she": 0.14452768862247467
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.02808193862438202,
+  "p_she": 0.08882484585046768
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.06532642990350723,
+  "p_she": 0.0037432562094181776
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.09549325704574585,
+  "p_she": 0.009296361356973648
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.17592287063598633,
+  "p_she": 0.002344225998967886
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.13284224271774292,
+  "p_she": 0.0020475005730986595
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.13940557837486267,
+  "p_she": 0.002072008792310953
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.20660798251628876,
+  "p_she": 0.008130700327455997
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.4024235010147095,
+  "p_she": 0.00826720055192709
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.20467951893806458,
+  "p_she": 0.009410940110683441
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.12620463967323303,
+  "p_she": 0.01960207335650921
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.25370752811431885,
+  "p_she": 0.012450368143618107
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.18027417361736298,
+  "p_she": 0.008245971985161304
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.3238012194633484,
+  "p_she": 0.007085876539349556
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.004944506101310253,
+  "p_she": 0.05037204921245575
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.006422379054129124,
+  "p_she": 0.002147458028048277
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 3.634105087257922e-05,
+  "p_she": 0.0005532343056984246
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.013007878325879574,
+  "p_she": 0.001079318462871015
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.00886289868503809,
+  "p_she": 0.05005033314228058
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0010530386352911592,
+  "p_she": 0.00029932791949249804
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.009919798001646996,
+  "p_she": 0.05255911871790886
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 1.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.0038260696455836296,
+  "p_she": 0.0008739200420677662
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.062376998364925385,
+  "p_she": 0.07063886523246765
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.08864661306142807,
+  "p_she": 0.05327988788485527
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.1521010845899582,
+  "p_she": 0.02260448783636093
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.13652470707893372,
+  "p_she": 0.026100963354110718
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.09389233589172363,
+  "p_she": 0.12615138292312622
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.12306348234415054,
+  "p_she": 0.08779563754796982
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.12785664200782776,
+  "p_she": 0.05888187512755394
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.1503612995147705,
+  "p_she": 0.02786257676780224
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.040477149188518524,
+  "p_she": 0.01928459107875824
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.09646465629339218,
+  "p_she": 0.0286346934735775
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.13539107143878937,
+  "p_she": 0.07967554032802582
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.0721946433186531,
+  "p_she": 0.05868034064769745
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.0741095095872879,
+  "p_she": 0.0024793066550046206
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.11672166734933853,
+  "p_she": 0.004003029316663742
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.1958019733428955,
+  "p_she": 0.0015010524075478315
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.14670035243034363,
+  "p_she": 0.0016164269763976336
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.15772604942321777,
+  "p_she": 0.0010348602663725615
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.2204534411430359,
+  "p_she": 0.005670744925737381
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.4166456162929535,
+  "p_she": 0.0038943749386817217
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.22872823476791382,
+  "p_she": 0.004446745850145817
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.14375077188014984,
+  "p_she": 0.011095477268099785
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.28874993324279785,
+  "p_she": 0.0037084249779582024
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.1949019879102707,
+  "p_she": 0.005254530347883701
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.33610597252845764,
+  "p_she": 0.004561969079077244
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.022761566564440727,
+  "p_she": 0.034542106091976166
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.007546545471996069,
+  "p_she": 0.0010952824959531426
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 7.352368993451819e-05,
+  "p_she": 0.0005004099220968783
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.013314289972186089,
+  "p_she": 0.0007979550864547491
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.020357223227620125,
+  "p_she": 0.04189034551382065
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.001025507808662951,
+  "p_she": 0.00016506169049534947
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.031876496970653534,
+  "p_she": 0.04434815049171448
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 3.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.004125208593904972,
+  "p_she": 0.0006072833784855902
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.1269281804561615,
+  "p_she": 0.020003264769911766
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.15261512994766235,
+  "p_she": 0.016246268525719643
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.18977338075637817,
+  "p_she": 0.005412717815488577
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.182878315448761,
+  "p_she": 0.004000632092356682
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.19636179506778717,
+  "p_she": 0.03739793598651886
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.19410166144371033,
+  "p_she": 0.01810409501194954
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.16775310039520264,
+  "p_she": 0.01756417751312256
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.17183950543403625,
+  "p_she": 0.010264533571898937
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.06876672059297562,
+  "p_she": 0.006741642486304045
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.13700367510318756,
+  "p_she": 0.009765840135514736
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.22857531905174255,
+  "p_she": 0.009317413903772831
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.13344140350818634,
+  "p_she": 0.009582241997122765
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.08041121810674667,
+  "p_she": 0.003064170014113188
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.1342163234949112,
+  "p_she": 0.0020639144349843264
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.2160637527704239,
+  "p_she": 0.00211054808460176
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.1616068184375763,
+  "p_she": 0.0022633655462414026
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.17419691383838654,
+  "p_she": 0.0012064034817740321
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.23326414823532104,
+  "p_she": 0.006371569819748402
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.4280632436275482,
+  "p_she": 0.00371628743596375
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.24757537245750427,
+  "p_she": 0.004158541094511747
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.1555112600326538,
+  "p_she": 0.010119961574673653
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.3085746765136719,
+  "p_she": 0.0016221803380176425
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.20977503061294556,
+  "p_she": 0.006051285658031702
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.347209632396698,
+  "p_she": 0.004432737361639738
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.044207360595464706,
+  "p_she": 0.009152140468358994
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.008958653546869755,
+  "p_she": 0.00045710374251939356
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 0.00028227936127223074,
+  "p_she": 0.00018579223251435906
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.013240093365311623,
+  "p_she": 0.0007386188372038305
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.035064697265625,
+  "p_she": 0.024520622566342354
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0009686874109320343,
+  "p_she": 6.0112848586868495e-05
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.05436797812581062,
+  "p_she": 0.019030030816793442
+ },
+ {
+  "feature": "he_stereo_f32258",
+  "strength": 6.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.004686696454882622,
+  "p_she": 0.00045743779628537595
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.014823231846094131,
+  "p_she": 0.10764048993587494
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.032883837819099426,
+  "p_she": 0.08521987497806549
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.07760491967201233,
+  "p_she": 0.07189098745584488
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.04815709963440895,
+  "p_she": 0.09227747470140457
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.014968118630349636,
+  "p_she": 0.17957282066345215
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.038512736558914185,
+  "p_she": 0.15980267524719238
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.05142683908343315,
+  "p_she": 0.1389072984457016
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.08777659386396408,
+  "p_she": 0.08657246828079224
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.01196983177214861,
+  "p_she": 0.03193477913737297
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.04023228585720062,
+  "p_she": 0.06066945195198059
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.026667334139347076,
+  "p_she": 0.1666964441537857
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.0146039929240942,
+  "p_she": 0.11158866435289383
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.06303425133228302,
+  "p_she": 0.005415234714746475
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.07909036427736282,
+  "p_she": 0.013851532712578773
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.164920836687088,
+  "p_she": 0.004072551615536213
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.12935878336429596,
+  "p_she": 0.003039558883756399
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.1280997097492218,
+  "p_she": 0.003915233071893454
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.20312801003456116,
+  "p_she": 0.0126296142116189
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.3998515009880066,
+  "p_she": 0.016486160457134247
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.18902330100536346,
+  "p_she": 0.017723774537444115
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.11914359778165817,
+  "p_she": 0.029172567650675774
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.21715107560157776,
+  "p_she": 0.020989345386624336
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.18289214372634888,
+  "p_she": 0.013428004458546638
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.32638517022132874,
+  "p_she": 0.010629437863826752
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.0015292156022042036,
+  "p_she": 0.045735981315374374
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.005301516503095627,
+  "p_she": 0.00244259019382298
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 3.213610762031749e-05,
+  "p_she": 0.0006097875884734094
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.011289533227682114,
+  "p_she": 0.0012528705410659313
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.0037749637849628925,
+  "p_she": 0.04806138947606087
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0014956053346395493,
+  "p_she": 0.0003667197597678751
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.004539580084383488,
+  "p_she": 0.06057456135749817
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -6.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.0032525893766433,
+  "p_she": 0.0009344356949441135
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.015419309027493,
+  "p_she": 0.10297587513923645
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.03274773433804512,
+  "p_she": 0.08071757107973099
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.07836948335170746,
+  "p_she": 0.06906301528215408
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.04956557974219322,
+  "p_she": 0.08790288865566254
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.015442929230630398,
+  "p_she": 0.1736575961112976
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.03799639642238617,
+  "p_she": 0.15176761150360107
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.050449009984731674,
+  "p_she": 0.12938357889652252
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.0853571817278862,
+  "p_she": 0.08113798499107361
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.012735051102936268,
+  "p_she": 0.03155636787414551
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.040827102959156036,
+  "p_she": 0.0582885779440403
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.028490426018834114,
+  "p_she": 0.16436563432216644
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.014948219992220402,
+  "p_she": 0.10222017019987106
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.06057450920343399,
+  "p_she": 0.005316734313964844
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.08011656254529953,
+  "p_she": 0.013766627758741379
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.16235162317752838,
+  "p_she": 0.004113820847123861
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.1256025731563568,
+  "p_she": 0.003033950924873352
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.1261700838804245,
+  "p_she": 0.0039053827058523893
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.19896546006202698,
+  "p_she": 0.012167902663350105
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.3936041295528412,
+  "p_she": 0.01628112979233265
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.1862972527742386,
+  "p_she": 0.017144160345196724
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.11508779227733612,
+  "p_she": 0.028350066393613815
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.2193870097398758,
+  "p_she": 0.021412421017885208
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.17485113441944122,
+  "p_she": 0.01300997193902731
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.3196311593055725,
+  "p_she": 0.010744992643594742
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.0017552906647324562,
+  "p_she": 0.048678748309612274
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.005602030083537102,
+  "p_she": 0.0026306340005248785
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 3.1288502214010805e-05,
+  "p_she": 0.0005744969239458442
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.011952235363423824,
+  "p_she": 0.0013338610297068954
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.004002320114523172,
+  "p_she": 0.04981996864080429
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0012581743067130446,
+  "p_she": 0.00035787452361546457
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.004449913743883371,
+  "p_she": 0.05648896470665932
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -3.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.0035164409782737494,
+  "p_she": 0.0009923052275553346
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.01578816957771778,
+  "p_she": 0.10027960687875748
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.0325738824903965,
+  "p_she": 0.07811526954174042
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.07885674387216568,
+  "p_she": 0.06742099672555923
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.050486594438552856,
+  "p_she": 0.08536370098590851
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.015722202137112617,
+  "p_she": 0.1700800061225891
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.03762262314558029,
+  "p_she": 0.1470007449388504
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.049814727157354355,
+  "p_she": 0.12371169030666351
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.08383555710315704,
+  "p_she": 0.07787052541971207
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.013270212337374687,
+  "p_she": 0.031442344188690186
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.04117920994758606,
+  "p_she": 0.05686135217547417
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.02968946471810341,
+  "p_she": 0.16337850689888
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.01511598564684391,
+  "p_she": 0.09668499231338501
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.05907976254820824,
+  "p_she": 0.0052443621680140495
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.08094105869531631,
+  "p_she": 0.013696722686290741
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.1609441339969635,
+  "p_she": 0.004134004004299641
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.12358406186103821,
+  "p_she": 0.003028215141966939
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.12510749697685242,
+  "p_she": 0.003891558386385441
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.19668170809745789,
+  "p_she": 0.011846242472529411
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.389881432056427,
+  "p_she": 0.016054650768637657
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.184679314494133,
+  "p_she": 0.016707878559827805
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.11269065737724304,
+  "p_she": 0.027812939137220383
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.2213226854801178,
+  "p_she": 0.021687567234039307
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.1701103299856186,
+  "p_she": 0.012710669077932835
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.31566542387008667,
+  "p_she": 0.010767885483801365
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.0019274145597591996,
+  "p_she": 0.051026951521635056
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.005819755606353283,
+  "p_she": 0.0027614207938313484
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 3.079192902077921e-05,
+  "p_she": 0.0005583714228123426
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.012376749888062477,
+  "p_she": 0.0013884501531720161
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.004171098116785288,
+  "p_she": 0.05109748989343643
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.001136138685978949,
+  "p_she": 0.00035475732875056565
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.004337053745985031,
+  "p_she": 0.05403836816549301
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": -1.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.0037029352970421314,
+  "p_she": 0.0010302065638825297
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.015964047983288765,
+  "p_she": 0.09904266893863678
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.032462675124406815,
+  "p_she": 0.07692695409059525
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.07909494638442993,
+  "p_she": 0.06666722148656845
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.0509413480758667,
+  "p_she": 0.08420149981975555
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.015852458775043488,
+  "p_she": 0.16837956011295319
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.03743034973740578,
+  "p_she": 0.14477740228176117
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.04950764402747154,
+  "p_she": 0.12107595056295395
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.08310748636722565,
+  "p_she": 0.07634579390287399
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.013545787893235683,
+  "p_she": 0.03142433613538742
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.041343964636325836,
+  "p_she": 0.05619406700134277
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.030282070860266685,
+  "p_she": 0.1630469113588333
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.015181510709226131,
+  "p_she": 0.09411453455686569
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.05837232992053032,
+  "p_she": 0.005207354668527842
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.08139151334762573,
+  "p_she": 0.013658820651471615
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.1603313833475113,
+  "p_she": 0.004142517689615488
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.12271178513765335,
+  "p_she": 0.0030253741424530745
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.12463462352752686,
+  "p_she": 0.0038830693811178207
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.19568206369876862,
+  "p_she": 0.011682909913361073
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.38813892006874084,
+  "p_she": 0.01591850444674492
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.18392468988895416,
+  "p_she": 0.016479790210723877
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.11158356815576553,
+  "p_she": 0.02755133807659149
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.22240722179412842,
+  "p_she": 0.021822353824973106
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.16792351007461548,
+  "p_she": 0.012558030895888805
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.31384286284446716,
+  "p_she": 0.010764500126242638
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.0020180600695312023,
+  "p_she": 0.05230550095438957
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.005933497101068497,
+  "p_she": 0.00282808649353683
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 3.057034336961806e-05,
+  "p_she": 0.0005525339511223137
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.012584387324750423,
+  "p_she": 0.001415788079611957
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.00425694789737463,
+  "p_she": 0.05175939202308655
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0010841375915333629,
+  "p_she": 0.00035399780608713627
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.004266140516847372,
+  "p_she": 0.05290119722485542
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 0.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.0037995348684489727,
+  "p_she": 0.0010491725988686085
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.016134997829794884,
+  "p_she": 0.09787196666002274
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.03233755752444267,
+  "p_she": 0.07580742239952087
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.07932744175195694,
+  "p_she": 0.06595607846975327
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.05139365792274475,
+  "p_she": 0.08310340344905853
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.01597662828862667,
+  "p_she": 0.1667456477880478
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.03723657876253128,
+  "p_she": 0.14266590774059296
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.04920864850282669,
+  "p_she": 0.11856576800346375
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.08239871263504028,
+  "p_she": 0.07489170879125595
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.013826272450387478,
+  "p_she": 0.03143070265650749
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.04150340333580971,
+  "p_she": 0.055560678243637085
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.030868545174598694,
+  "p_she": 0.1628221869468689
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.015235108323395252,
+  "p_she": 0.09167473763227463
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.05769132822751999,
+  "p_she": 0.005169870797544718
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.08186934888362885,
+  "p_she": 0.01361820101737976
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.15976834297180176,
+  "p_she": 0.004150312393903732
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.1219317764043808,
+  "p_she": 0.003022895660251379
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.12419916689395905,
+  "p_she": 0.0038738485891371965
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.19477719068527222,
+  "p_she": 0.011519159190356731
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.3864966928958893,
+  "p_she": 0.01576845347881317
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.18321561813354492,
+  "p_she": 0.0162466149777174
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.11052989214658737,
+  "p_she": 0.027295077219605446
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.223565012216568,
+  "p_she": 0.021955208852887154
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.16585922241210938,
+  "p_she": 0.012404944747686386
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.3121315836906433,
+  "p_she": 0.010752217844128609
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.0021106842905282974,
+  "p_she": 0.053643885999917984
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.006050399038940668,
+  "p_she": 0.0028954152949154377
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 3.0370885724551044e-05,
+  "p_she": 0.0005482299602590501
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.012788435444235802,
+  "p_she": 0.001443070126697421
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.004342091269791126,
+  "p_she": 0.052433568984270096
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0010374166304245591,
+  "p_she": 0.0003537990269251168
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.004186850041151047,
+  "p_she": 0.05182843655347824
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 1.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.0038991619367152452,
+  "p_she": 0.0010682634310796857
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.016460929065942764,
+  "p_she": 0.09572441130876541
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.032044555991888046,
+  "p_she": 0.07376679033041
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.07978487014770508,
+  "p_she": 0.0646599605679512
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.05228682979941368,
+  "p_she": 0.08110925555229187
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.01621214672923088,
+  "p_she": 0.16362497210502625
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.03684695065021515,
+  "p_she": 0.1387566477060318
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.04863991588354111,
+  "p_she": 0.11391808837652206
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.08105505257844925,
+  "p_she": 0.07219278812408447
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.014402962289750576,
+  "p_she": 0.03151475265622139
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.04180673882365227,
+  "p_she": 0.05438096448779106
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.032021414488554,
+  "p_she": 0.16268904507160187
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.01530698873102665,
+  "p_she": 0.08715428411960602
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.056408707052469254,
+  "p_she": 0.005095686297863722
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.0829068198800087,
+  "p_she": 0.013531908392906189
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.15880656242370605,
+  "p_she": 0.004164198879152536
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.1206219494342804,
+  "p_she": 0.003019043244421482
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.12341807037591934,
+  "p_she": 0.003853625152260065
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.19323451817035675,
+  "p_she": 0.01119250152260065
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.38346096873283386,
+  "p_she": 0.015433063730597496
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.18191994726657867,
+  "p_she": 0.01577065885066986
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.10859803110361099,
+  "p_she": 0.026800958439707756
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.22606933116912842,
+  "p_she": 0.022215338423848152
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.1620805263519287,
+  "p_she": 0.012098823674023151
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.30903860926628113,
+  "p_she": 0.010702116414904594
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.002298746258020401,
+  "p_she": 0.05647984519600868
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.006292729638516903,
+  "p_she": 0.0030320212244987488
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 3.004442623932846e-05,
+  "p_she": 0.0005441492539830506
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.013188582845032215,
+  "p_she": 0.0014973704237490892
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.004504897631704807,
+  "p_she": 0.05380610004067421
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0009582284255884588,
+  "p_she": 0.000355049705831334
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.004007786978036165,
+  "p_she": 0.04989367723464966
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 3.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.004107077606022358,
+  "p_she": 0.0011072882916778326
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The nurse said that",
+  "p_he": 0.01691422425210476,
+  "p_she": 0.09292325377464294
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The receptionist said that",
+  "p_he": 0.03150888904929161,
+  "p_she": 0.07115822285413742
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The secretary said that",
+  "p_he": 0.08044889569282532,
+  "p_she": 0.06300123780965805
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The librarian said that",
+  "p_he": 0.05360488221049309,
+  "p_she": 0.07858162373304367
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The babysitter said that",
+  "p_he": 0.016542989760637283,
+  "p_she": 0.1592753827571869
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The housekeeper said that",
+  "p_he": 0.03627672791481018,
+  "p_she": 0.13361680507659912
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The hairdresser said that",
+  "p_he": 0.04787544533610344,
+  "p_she": 0.1078365221619606
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The florist said that",
+  "p_he": 0.07922595739364624,
+  "p_she": 0.06864973157644272
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The dietitian said that",
+  "p_he": 0.015303811989724636,
+  "p_she": 0.03180175647139549
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The social worker said that",
+  "p_he": 0.0422305129468441,
+  "p_she": 0.05282994359731674
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The kindergarten teacher said that",
+  "p_he": 0.03369824215769768,
+  "p_she": 0.16324158012866974
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "female",
+  "text": "The flight attendant said that",
+  "p_he": 0.015330047346651554,
+  "p_she": 0.08121869713068008
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The mechanic said that",
+  "p_he": 0.05467408895492554,
+  "p_she": 0.004988723434507847
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The engineer said that",
+  "p_he": 0.08464431017637253,
+  "p_she": 0.01338987797498703
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The pilot said that",
+  "p_he": 0.15772315859794617,
+  "p_she": 0.004183671902865171
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The plumber said that",
+  "p_he": 0.11926329880952835,
+  "p_she": 0.003018629038706422
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The electrician said that",
+  "p_he": 0.12246496975421906,
+  "p_she": 0.003822020720690489
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The carpenter said that",
+  "p_he": 0.19157910346984863,
+  "p_she": 0.010710746049880981
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The truck driver said that",
+  "p_he": 0.37955132126808167,
+  "p_she": 0.014861281029880047
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The firefighter said that",
+  "p_he": 0.18029072880744934,
+  "p_she": 0.01504948828369379
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The surgeon said that",
+  "p_he": 0.10610805451869965,
+  "p_she": 0.026113236322999
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The programmer said that",
+  "p_he": 0.230209618806839,
+  "p_she": 0.0225894246250391
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The security guard said that",
+  "p_he": 0.15726326406002045,
+  "p_she": 0.01165157463401556
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "male",
+  "text": "The construction worker said that",
+  "p_he": 0.3052130341529846,
+  "p_she": 0.010573687963187695
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "D_female",
+  "text": "The mechanic tied her hair back before",
+  "p_he": 0.0025761660654097795,
+  "p_she": 0.06102304905653
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "D_male",
+  "text": "The nurse adjusted his stethoscope and then",
+  "p_he": 0.006677115336060524,
+  "p_she": 0.003241290571168065
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "D_female",
+  "text": "The engineer grabbed her laptop and",
+  "p_he": 2.976612995553296e-05,
+  "p_she": 0.0005495399818755686
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "D_male",
+  "text": "The secretary straightened his tie before",
+  "p_he": 0.01377497985959053,
+  "p_she": 0.0015773546183481812
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "D_female",
+  "text": "The pilot checked her instruments and then",
+  "p_he": 0.0047138286754488945,
+  "p_she": 0.055900026112794876
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "D_male",
+  "text": "The receptionist finished his shift and",
+  "p_he": 0.0008700045873411,
+  "p_she": 0.00036131960223428905
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "D_female",
+  "text": "The plumber packed her tools before",
+  "p_he": 0.003707603784278035,
+  "p_she": 0.047580864280462265
+ },
+ {
+  "feature": "she_stereo_f27420",
+  "strength": 6.0,
+  "group": "D_male",
+  "text": "The librarian pushed his glasses up and then",
+  "p_he": 0.004446204286068678,
+  "p_she": 0.0011695072753354907
+ }
+]

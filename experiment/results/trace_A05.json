@@ -1,0 +1,1282 @@
+{
+  "saved_at": "2026-07-28T17:07:47.924156+00:00",
+  "tool": "run_full_inspection",
+  "prompt": "Continue this story in one sentence: The electrician checked the wiring and then",
+  "response": "The electrician checked the electrical panel, his eyes scanning the circuit breaker box for any signs of corrosion or damage, before finally locating the culprit \u2013 a loose wire that had blown the fuse, and gently plucked it out from its socket, allowing him to breathe a sigh of relief.",
+  "model_id": "llama-3.2-1b",
+  "sae_layer": 8,
+  "top_features": [
+    {
+      "feature_idx": 6700,
+      "activation": 1.24,
+      "label": "feature_6700",
+      "token": "from",
+      "token_idx": 44,
+      "feature_ref": "6700 \u00b7 feature_6700"
+    },
+    {
+      "feature_idx": 19231,
+      "activation": 1.226,
+      "label": "feature_19231",
+      "token": "checked",
+      "token_idx": 3,
+      "feature_ref": "19231 \u00b7 feature_19231"
+    },
+    {
+      "feature_idx": 24445,
+      "activation": 0.779,
+      "label": "feature_24445",
+      "token": "pl",
+      "token_idx": 40,
+      "feature_ref": "24445 \u00b7 feature_24445"
+    },
+    {
+      "feature_idx": 8685,
+      "activation": 0.666,
+      "label": "feature_8685",
+      "token": "signs",
+      "token_idx": 17,
+      "feature_ref": "8685 \u00b7 feature_8685"
+    },
+    {
+      "feature_idx": 27367,
+      "activation": 0.65,
+      "label": "feature_27367",
+      "token": "gently",
+      "token_idx": 39,
+      "feature_ref": "27367 \u00b7 feature_27367"
+    },
+    {
+      "feature_idx": 414,
+      "activation": 0.648,
+      "label": "feature_414",
+      "token": "checked",
+      "token_idx": 3,
+      "feature_ref": "414 \u00b7 feature_414"
+    },
+    {
+      "feature_idx": 25528,
+      "activation": 0.62,
+      "label": "feature_25528",
+      "token": "locating",
+      "token_idx": 25,
+      "feature_ref": "25528 \u00b7 feature_25528"
+    },
+    {
+      "feature_idx": 4715,
+      "activation": 0.582,
+      "label": "feature_4715",
+      "token": "fuse",
+      "token_idx": 36,
+      "feature_ref": "4715 \u00b7 feature_4715"
+    },
+    {
+      "feature_idx": 23156,
+      "activation": 0.529,
+      "label": "feature_23156",
+      "token": "any",
+      "token_idx": 16,
+      "feature_ref": "23156 \u00b7 feature_23156"
+    },
+    {
+      "feature_idx": 19794,
+      "activation": 0.52,
+      "label": "feature_19794",
+      "token": "allowing",
+      "token_idx": 48,
+      "feature_ref": "19794 \u00b7 feature_19794"
+    },
+    {
+      "feature_idx": 8292,
+      "activation": 0.504,
+      "label": "feature_8292",
+      "token": "any",
+      "token_idx": 16,
+      "feature_ref": "8292 \u00b7 feature_8292"
+    },
+    {
+      "feature_idx": 30944,
+      "activation": 0.496,
+      "label": "feature_30944",
+      "token": "of",
+      "token_idx": 54,
+      "feature_ref": "30944 \u00b7 feature_30944"
+    },
+    {
+      "feature_idx": 11788,
+      "activation": 0.491,
+      "label": "feature_11788",
+      "token": "had",
+      "token_idx": 33,
+      "feature_ref": "11788 \u00b7 feature_11788"
+    },
+    {
+      "feature_idx": 28986,
+      "activation": 0.481,
+      "label": "feature_28986",
+      "token": "a",
+      "token_idx": 52,
+      "feature_ref": "28986 \u00b7 feature_28986"
+    },
+    {
+      "feature_idx": 21659,
+      "activation": 0.465,
+      "label": "feature_21659",
+      "token": "scanning",
+      "token_idx": 10,
+      "feature_ref": "21659 \u00b7 feature_21659"
+    },
+    {
+      "feature_idx": 7179,
+      "activation": 0.417,
+      "label": "feature_7179",
+      "token": "that",
+      "token_idx": 32,
+      "feature_ref": "7179 \u00b7 feature_7179"
+    },
+    {
+      "feature_idx": 16337,
+      "activation": 0.417,
+      "label": "feature_16337",
+      "token": "electric",
+      "token_idx": 1,
+      "feature_ref": "16337 \u00b7 feature_16337"
+    },
+    {
+      "feature_idx": 1565,
+      "activation": 0.411,
+      "label": "feature_1565",
+      "token": "box",
+      "token_idx": 14,
+      "feature_ref": "1565 \u00b7 feature_1565"
+    },
+    {
+      "feature_idx": 26265,
+      "activation": 0.409,
+      "label": "feature_26265",
+      "token": "its",
+      "token_idx": 45,
+      "feature_ref": "26265 \u00b7 feature_26265"
+    },
+    {
+      "feature_idx": 27006,
+      "activation": 0.401,
+      "label": "feature_27006",
+      "token": "eyes",
+      "token_idx": 9,
+      "feature_ref": "27006 \u00b7 feature_27006"
+    }
+  ],
+  "prompt_tokens": [
+    "Continue",
+    "this",
+    "story",
+    "in",
+    "one",
+    "sentence",
+    ":",
+    "The",
+    "electric",
+    "ian",
+    "checked",
+    "the",
+    "wiring",
+    "and",
+    "then",
+    ""
+  ],
+  "response_tokens": [
+    "The",
+    "electric",
+    "ian",
+    "checked",
+    "the",
+    "electrical",
+    "panel",
+    ",",
+    "his",
+    "eyes",
+    "scanning",
+    "the",
+    "circuit",
+    "breaker",
+    "box",
+    "for",
+    "any",
+    "signs",
+    "of",
+    "corrosion",
+    "or",
+    "damage",
+    ",",
+    "before",
+    "finally",
+    "locating",
+    "the",
+    "culprit",
+    "\u2013",
+    "a",
+    "loose",
+    "wire",
+    "that",
+    "had",
+    "blown",
+    "the",
+    "fuse",
+    ",",
+    "and",
+    "gently",
+    "pl",
+    "ucked",
+    "it",
+    "out",
+    "from",
+    "its",
+    "socket",
+    ",",
+    "allowing",
+    "him",
+    "to",
+    "breathe",
+    "a",
+    "sigh",
+    "of",
+    "relief",
+    "."
+  ],
+  "attribution": [
+    {
+      "response_token": "The",
+      "response_ti": 0,
+      "driven_by_features": [
+        {
+          "feature_idx": 7387,
+          "label": "feature_7387",
+          "activation": 0.105,
+          "also_in_prompt_positions": [
+            7
+          ],
+          "also_in_prompt_tokens": [
+            "The"
+          ],
+          "feature_ref": "7387 \u00b7 feature_7387"
+        }
+      ]
+    },
+    {
+      "response_token": "electric",
+      "response_ti": 1,
+      "driven_by_features": [
+        {
+          "feature_idx": 16337,
+          "label": "feature_16337",
+          "activation": 0.417,
+          "also_in_prompt_positions": [
+            8,
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "electric",
+            "ian"
+          ],
+          "feature_ref": "16337 \u00b7 feature_16337"
+        },
+        {
+          "feature_idx": 23845,
+          "label": "feature_23845",
+          "activation": 0.268,
+          "also_in_prompt_positions": [
+            8,
+            9,
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "electric",
+            "ian",
+            "wiring"
+          ],
+          "feature_ref": "23845 \u00b7 feature_23845"
+        }
+      ]
+    },
+    {
+      "response_token": "checked",
+      "response_ti": 3,
+      "driven_by_features": [
+        {
+          "feature_idx": 414,
+          "label": "feature_414",
+          "activation": 0.648,
+          "also_in_prompt_positions": [
+            10,
+            11
+          ],
+          "also_in_prompt_tokens": [
+            "checked",
+            "the"
+          ],
+          "feature_ref": "414 \u00b7 feature_414"
+        },
+        {
+          "feature_idx": 14271,
+          "label": "feature_14271",
+          "activation": 0.028,
+          "also_in_prompt_positions": [
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "checked"
+          ],
+          "feature_ref": "14271 \u00b7 feature_14271"
+        }
+      ]
+    },
+    {
+      "response_token": "electrical",
+      "response_ti": 5,
+      "driven_by_features": [
+        {
+          "feature_idx": 16337,
+          "label": "feature_16337",
+          "activation": 0.336,
+          "also_in_prompt_positions": [
+            8,
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "electric",
+            "ian"
+          ],
+          "feature_ref": "16337 \u00b7 feature_16337"
+        },
+        {
+          "feature_idx": 23845,
+          "label": "feature_23845",
+          "activation": 0.254,
+          "also_in_prompt_positions": [
+            8,
+            9,
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "electric",
+            "ian",
+            "wiring"
+          ],
+          "feature_ref": "23845 \u00b7 feature_23845"
+        }
+      ]
+    },
+    {
+      "response_token": "panel",
+      "response_ti": 6,
+      "driven_by_features": [
+        {
+          "feature_idx": 23845,
+          "label": "feature_23845",
+          "activation": 0.126,
+          "also_in_prompt_positions": [
+            8,
+            9,
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "electric",
+            "ian",
+            "wiring"
+          ],
+          "feature_ref": "23845 \u00b7 feature_23845"
+        },
+        {
+          "feature_idx": 31148,
+          "label": "feature_31148",
+          "activation": 0.042,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "wiring"
+          ],
+          "feature_ref": "31148 \u00b7 feature_31148"
+        }
+      ]
+    },
+    {
+      "response_token": "his",
+      "response_ti": 8,
+      "driven_by_features": [
+        {
+          "feature_idx": 7387,
+          "label": "feature_7387",
+          "activation": 0.181,
+          "also_in_prompt_positions": [
+            7
+          ],
+          "also_in_prompt_tokens": [
+            "The"
+          ],
+          "feature_ref": "7387 \u00b7 feature_7387"
+        }
+      ]
+    },
+    {
+      "response_token": "eyes",
+      "response_ti": 9,
+      "driven_by_features": [
+        {
+          "feature_idx": 16337,
+          "label": "feature_16337",
+          "activation": 0.094,
+          "also_in_prompt_positions": [
+            8,
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "electric",
+            "ian"
+          ],
+          "feature_ref": "16337 \u00b7 feature_16337"
+        }
+      ]
+    },
+    {
+      "response_token": "scanning",
+      "response_ti": 10,
+      "driven_by_features": [
+        {
+          "feature_idx": 21659,
+          "label": "feature_21659",
+          "activation": 0.465,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "wiring"
+          ],
+          "feature_ref": "21659 \u00b7 feature_21659"
+        },
+        {
+          "feature_idx": 414,
+          "label": "feature_414",
+          "activation": 0.257,
+          "also_in_prompt_positions": [
+            10,
+            11
+          ],
+          "also_in_prompt_tokens": [
+            "checked",
+            "the"
+          ],
+          "feature_ref": "414 \u00b7 feature_414"
+        }
+      ]
+    },
+    {
+      "response_token": "circuit",
+      "response_ti": 12,
+      "driven_by_features": [
+        {
+          "feature_idx": 23846,
+          "label": "feature_23846",
+          "activation": 0.383,
+          "also_in_prompt_positions": [
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "checked"
+          ],
+          "feature_ref": "23846 \u00b7 feature_23846"
+        },
+        {
+          "feature_idx": 23845,
+          "label": "feature_23845",
+          "activation": 0.124,
+          "also_in_prompt_positions": [
+            8,
+            9,
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "electric",
+            "ian",
+            "wiring"
+          ],
+          "feature_ref": "23845 \u00b7 feature_23845"
+        }
+      ]
+    },
+    {
+      "response_token": "breaker",
+      "response_ti": 13,
+      "driven_by_features": [
+        {
+          "feature_idx": 31148,
+          "label": "feature_31148",
+          "activation": 0.061,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "wiring"
+          ],
+          "feature_ref": "31148 \u00b7 feature_31148"
+        },
+        {
+          "feature_idx": 23845,
+          "label": "feature_23845",
+          "activation": 0.057,
+          "also_in_prompt_positions": [
+            8,
+            9,
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "electric",
+            "ian",
+            "wiring"
+          ],
+          "feature_ref": "23845 \u00b7 feature_23845"
+        }
+      ]
+    },
+    {
+      "response_token": "corrosion",
+      "response_ti": 19,
+      "driven_by_features": [
+        {
+          "feature_idx": 23846,
+          "label": "feature_23846",
+          "activation": 0.188,
+          "also_in_prompt_positions": [
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "checked"
+          ],
+          "feature_ref": "23846 \u00b7 feature_23846"
+        }
+      ]
+    },
+    {
+      "response_token": "before",
+      "response_ti": 23,
+      "driven_by_features": [
+        {
+          "feature_idx": 16720,
+          "label": "feature_16720",
+          "activation": 0.134,
+          "also_in_prompt_positions": [
+            14
+          ],
+          "also_in_prompt_tokens": [
+            "then"
+          ],
+          "feature_ref": "16720 \u00b7 feature_16720"
+        }
+      ]
+    },
+    {
+      "response_token": "finally",
+      "response_ti": 24,
+      "driven_by_features": [
+        {
+          "feature_idx": 16720,
+          "label": "feature_16720",
+          "activation": 0.071,
+          "also_in_prompt_positions": [
+            14
+          ],
+          "also_in_prompt_tokens": [
+            "then"
+          ],
+          "feature_ref": "16720 \u00b7 feature_16720"
+        }
+      ]
+    },
+    {
+      "response_token": "locating",
+      "response_ti": 25,
+      "driven_by_features": [
+        {
+          "feature_idx": 21659,
+          "label": "feature_21659",
+          "activation": 0.065,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "wiring"
+          ],
+          "feature_ref": "21659 \u00b7 feature_21659"
+        }
+      ]
+    },
+    {
+      "response_token": "culprit",
+      "response_ti": 27,
+      "driven_by_features": [
+        {
+          "feature_idx": 23846,
+          "label": "feature_23846",
+          "activation": 0.03,
+          "also_in_prompt_positions": [
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "checked"
+          ],
+          "feature_ref": "23846 \u00b7 feature_23846"
+        }
+      ]
+    },
+    {
+      "response_token": "wire",
+      "response_ti": 31,
+      "driven_by_features": [
+        {
+          "feature_idx": 23845,
+          "label": "feature_23845",
+          "activation": 0.064,
+          "also_in_prompt_positions": [
+            8,
+            9,
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "electric",
+            "ian",
+            "wiring"
+          ],
+          "feature_ref": "23845 \u00b7 feature_23845"
+        }
+      ]
+    },
+    {
+      "response_token": "fuse",
+      "response_ti": 36,
+      "driven_by_features": [
+        {
+          "feature_idx": 23845,
+          "label": "feature_23845",
+          "activation": 0.075,
+          "also_in_prompt_positions": [
+            8,
+            9,
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "electric",
+            "ian",
+            "wiring"
+          ],
+          "feature_ref": "23845 \u00b7 feature_23845"
+        }
+      ]
+    },
+    {
+      "response_token": "and",
+      "response_ti": 38,
+      "driven_by_features": [
+        {
+          "feature_idx": 28591,
+          "label": "feature_28591",
+          "activation": 0.335,
+          "also_in_prompt_positions": [
+            13
+          ],
+          "also_in_prompt_tokens": [
+            "and"
+          ],
+          "feature_ref": "28591 \u00b7 feature_28591"
+        }
+      ]
+    },
+    {
+      "response_token": "socket",
+      "response_ti": 46,
+      "driven_by_features": [
+        {
+          "feature_idx": 31148,
+          "label": "feature_31148",
+          "activation": 0.004,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "wiring"
+          ],
+          "feature_ref": "31148 \u00b7 feature_31148"
+        }
+      ]
+    },
+    {
+      "response_token": "allowing",
+      "response_ti": 48,
+      "driven_by_features": [
+        {
+          "feature_idx": 21659,
+          "label": "feature_21659",
+          "activation": 0.345,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "wiring"
+          ],
+          "feature_ref": "21659 \u00b7 feature_21659"
+        }
+      ]
+    }
+  ],
+  "logit_lens": [
+    {
+      "layer": 0,
+      "top_tokens": [
+        {
+          "token": " then",
+          "prob": 1.0
+        },
+        {
+          "token": "then",
+          "prob": 0.0001
+        },
+        {
+          "token": " Then",
+          "prob": 0.0
+        },
+        {
+          "token": "Then",
+          "prob": 0.0
+        },
+        {
+          "token": " THEN",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "top_tokens": [
+        {
+          "token": " then",
+          "prob": 0.9941
+        },
+        {
+          "token": "then",
+          "prob": 0.0045
+        },
+        {
+          "token": "Then",
+          "prob": 0.0006
+        },
+        {
+          "token": " Then",
+          "prob": 0.0005
+        },
+        {
+          "token": " THEN",
+          "prob": 0.0001
+        }
+      ]
+    },
+    {
+      "layer": 2,
+      "top_tokens": [
+        {
+          "token": " then",
+          "prob": 0.9673
+        },
+        {
+          "token": "Then",
+          "prob": 0.0086
+        },
+        {
+          "token": " Then",
+          "prob": 0.0084
+        },
+        {
+          "token": "then",
+          "prob": 0.0025
+        },
+        {
+          "token": " afterward",
+          "prob": 0.002
+        }
+      ]
+    },
+    {
+      "layer": 3,
+      "top_tokens": [
+        {
+          "token": " then",
+          "prob": 0.1425
+        },
+        {
+          "token": "later",
+          "prob": 0.0818
+        },
+        {
+          "token": " afterwards",
+          "prob": 0.0474
+        },
+        {
+          "token": " eventually",
+          "prob": 0.0274
+        },
+        {
+          "token": "Then",
+          "prob": 0.0173
+        }
+      ]
+    },
+    {
+      "layer": 4,
+      "top_tokens": [
+        {
+          "token": "later",
+          "prob": 0.0644
+        },
+        {
+          "token": " afterwards",
+          "prob": 0.0151
+        },
+        {
+          "token": " later",
+          "prob": 0.0096
+        },
+        {
+          "token": " then",
+          "prob": 0.0095
+        },
+        {
+          "token": " eventually",
+          "prob": 0.0082
+        }
+      ]
+    },
+    {
+      "layer": 5,
+      "top_tokens": [
+        {
+          "token": " logically",
+          "prob": 0.0435
+        },
+        {
+          "token": "\u5f8c",
+          "prob": 0.0238
+        },
+        {
+          "token": " abruptly",
+          "prob": 0.009
+        },
+        {
+          "token": "argar",
+          "prob": 0.007
+        },
+        {
+          "token": "later",
+          "prob": 0.0066
+        }
+      ]
+    },
+    {
+      "layer": 6,
+      "top_tokens": [
+        {
+          "token": " logically",
+          "prob": 0.0115
+        },
+        {
+          "token": " calmly",
+          "prob": 0.0054
+        },
+        {
+          "token": " came",
+          "prob": 0.0044
+        },
+        {
+          "token": " satisf",
+          "prob": 0.0036
+        },
+        {
+          "token": "\ufffd",
+          "prob": 0.0035
+        }
+      ]
+    },
+    {
+      "layer": 7,
+      "top_tokens": [
+        {
+          "token": " afterwards",
+          "prob": 0.0151
+        },
+        {
+          "token": " logically",
+          "prob": 0.0107
+        },
+        {
+          "token": " randomly",
+          "prob": 0.009
+        },
+        {
+          "token": " weer",
+          "prob": 0.0081
+        },
+        {
+          "token": " finally",
+          "prob": 0.0081
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "top_tokens": [
+        {
+          "token": " finally",
+          "prob": 0.0075
+        },
+        {
+          "token": "\u00edd",
+          "prob": 0.0072
+        },
+        {
+          "token": "\u53bb\u4e86",
+          "prob": 0.0069
+        },
+        {
+          "token": "icals",
+          "prob": 0.0051
+        },
+        {
+          "token": " afterwards",
+          "prob": 0.0048
+        }
+      ]
+    },
+    {
+      "layer": 9,
+      "top_tokens": [
+        {
+          "token": " calmly",
+          "prob": 0.0376
+        },
+        {
+          "token": " finally",
+          "prob": 0.0223
+        },
+        {
+          "token": " promptly",
+          "prob": 0.0102
+        },
+        {
+          "token": "\u043e\u0441\u043a",
+          "prob": 0.0081
+        },
+        {
+          "token": " reluctantly",
+          "prob": 0.0062
+        }
+      ]
+    },
+    {
+      "layer": 10,
+      "top_tokens": [
+        {
+          "token": " promptly",
+          "prob": 0.061
+        },
+        {
+          "token": " proceeded",
+          "prob": 0.0555
+        },
+        {
+          "token": " calmly",
+          "prob": 0.0538
+        },
+        {
+          "token": " reluctantly",
+          "prob": 0.0339
+        },
+        {
+          "token": " began",
+          "prob": 0.0203
+        }
+      ]
+    },
+    {
+      "layer": 11,
+      "top_tokens": [
+        {
+          "token": " proceeded",
+          "prob": 0.3047
+        },
+        {
+          "token": " promptly",
+          "prob": 0.0457
+        },
+        {
+          "token": " gave",
+          "prob": 0.0358
+        },
+        {
+          "token": " walked",
+          "prob": 0.0342
+        },
+        {
+          "token": " went",
+          "prob": 0.0235
+        }
+      ]
+    },
+    {
+      "layer": 12,
+      "top_tokens": [
+        {
+          "token": " proceeded",
+          "prob": 0.2466
+        },
+        {
+          "token": " walked",
+          "prob": 0.1085
+        },
+        {
+          "token": " promptly",
+          "prob": 0.0706
+        },
+        {
+          "token": " began",
+          "prob": 0.0409
+        },
+        {
+          "token": " reluctantly",
+          "prob": 0.0294
+        }
+      ]
+    },
+    {
+      "layer": 13,
+      "top_tokens": [
+        {
+          "token": " turned",
+          "prob": 0.1279
+        },
+        {
+          "token": " walked",
+          "prob": 0.0865
+        },
+        {
+          "token": " proceeded",
+          "prob": 0.0865
+        },
+        {
+          "token": " began",
+          "prob": 0.0599
+        },
+        {
+          "token": " handed",
+          "prob": 0.0521
+        }
+      ]
+    },
+    {
+      "layer": 14,
+      "top_tokens": [
+        {
+          "token": " proceeded",
+          "prob": 0.0814
+        },
+        {
+          "token": " began",
+          "prob": 0.0629
+        },
+        {
+          "token": " walked",
+          "prob": 0.0551
+        },
+        {
+          "token": " handed",
+          "prob": 0.0517
+        },
+        {
+          "token": " turned",
+          "prob": 0.0464
+        }
+      ]
+    },
+    {
+      "layer": 15,
+      "top_tokens": [
+        {
+          "token": " the",
+          "prob": 0.1011
+        },
+        {
+          "token": " stepped",
+          "prob": 0.0695
+        },
+        {
+          "token": " turned",
+          "prob": 0.0674
+        },
+        {
+          "token": " called",
+          "prob": 0.0456
+        },
+        {
+          "token": " carefully",
+          "prob": 0.0299
+        }
+      ]
+    }
+  ],
+  "trace_results": [
+    {
+      "layer": 0,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 1,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 2,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 3,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 4,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 5,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 6,
+      "drop": 0.0036,
+      "attn_drop": 0.0022,
+      "mlp_drop": 0.0014,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 7,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 8,
+      "drop": 0.0301,
+      "attn_drop": 0.0181,
+      "mlp_drop": 0.012,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 9,
+      "drop": 0.0234,
+      "attn_drop": 0.014,
+      "mlp_drop": 0.0094,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 10,
+      "drop": 0.2437,
+      "attn_drop": 0.1462,
+      "mlp_drop": 0.0975,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 11,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 12,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 13,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 14,
+      "drop": 0.0197,
+      "attn_drop": 0.0118,
+      "mlp_drop": 0.0079,
+      "baseline_prob": 0.1011
+    },
+    {
+      "layer": 15,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1011
+    }
+  ],
+  "trace_target": "The",
+  "color_map": {
+    "prompt": {
+      "7": 0,
+      "8": 2,
+      "9": 2,
+      "12": 6,
+      "10": 7,
+      "11": 3,
+      "14": 8,
+      "13": 9
+    },
+    "response": {
+      "0": 0,
+      "1": 2,
+      "3": 4,
+      "5": 2,
+      "6": 5,
+      "8": 0,
+      "9": 1,
+      "10": 3,
+      "12": 2,
+      "13": 2,
+      "19": 7,
+      "23": 8,
+      "24": 8,
+      "25": 6,
+      "27": 7,
+      "31": 2,
+      "36": 2,
+      "38": 9,
+      "46": 5,
+      "48": 6
+    }
+  }
+}

@@ -1,0 +1,16 @@
+# virtualenvs
+venv/
+venv-old-py314/
+.venv/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# tooling / personal
+.claude/
+blog/

@@ -1,0 +1,1344 @@
+{
+  "saved_at": "2026-07-28T17:08:52.995465+00:00",
+  "tool": "run_full_inspection",
+  "prompt": "Continue this story in one sentence: The hairdresser picked up the scissors and then",
+  "response": "The hairdresser picked up the scissors and began to snip at the tangled mess, her hands moving deftly through the knots and snags as she worked to tame the unruly locks of the teenager's hair.",
+  "model_id": "llama-3.2-1b",
+  "sae_layer": 8,
+  "top_features": [
+    {
+      "feature_idx": 19231,
+      "activation": 1.939,
+      "label": "feature_19231",
+      "token": "up",
+      "token_idx": 5,
+      "feature_ref": "19231 \u00b7 feature_19231"
+    },
+    {
+      "feature_idx": 29766,
+      "activation": 1.019,
+      "label": "feature_29766",
+      "token": "def",
+      "token_idx": 21,
+      "feature_ref": "29766 \u00b7 feature_29766"
+    },
+    {
+      "feature_idx": 13848,
+      "activation": 0.936,
+      "label": "feature_13848",
+      "token": "began",
+      "token_idx": 9,
+      "feature_ref": "13848 \u00b7 feature_13848"
+    },
+    {
+      "feature_idx": 27367,
+      "activation": 0.686,
+      "label": "feature_27367",
+      "token": "ly",
+      "token_idx": 23,
+      "feature_ref": "27367 \u00b7 feature_27367"
+    },
+    {
+      "feature_idx": 8685,
+      "activation": 0.68,
+      "label": "feature_8685",
+      "token": "knots",
+      "token_idx": 26,
+      "feature_ref": "8685 \u00b7 feature_8685"
+    },
+    {
+      "feature_idx": 29846,
+      "activation": 0.667,
+      "label": "feature_29846",
+      "token": "at",
+      "token_idx": 13,
+      "feature_ref": "29846 \u00b7 feature_29846"
+    },
+    {
+      "feature_idx": 18001,
+      "activation": 0.517,
+      "label": "feature_18001",
+      "token": "teenager",
+      "token_idx": 41,
+      "feature_ref": "18001 \u00b7 feature_18001"
+    },
+    {
+      "feature_idx": 19965,
+      "activation": 0.512,
+      "label": "feature_19965",
+      "token": "mess",
+      "token_idx": 16,
+      "feature_ref": "19965 \u00b7 feature_19965"
+    },
+    {
+      "feature_idx": 28591,
+      "activation": 0.488,
+      "label": "feature_28591",
+      "token": "and",
+      "token_idx": 27,
+      "feature_ref": "28591 \u00b7 feature_28591"
+    },
+    {
+      "feature_idx": 4307,
+      "activation": 0.449,
+      "label": "feature_4307",
+      "token": "worked",
+      "token_idx": 32,
+      "feature_ref": "4307 \u00b7 feature_4307"
+    },
+    {
+      "feature_idx": 17663,
+      "activation": 0.449,
+      "label": "feature_17663",
+      "token": "worked",
+      "token_idx": 32,
+      "feature_ref": "17663 \u00b7 feature_17663"
+    },
+    {
+      "feature_idx": 16387,
+      "activation": 0.441,
+      "label": "feature_16387",
+      "token": "of",
+      "token_idx": 39,
+      "feature_ref": "16387 \u00b7 feature_16387"
+    },
+    {
+      "feature_idx": 21659,
+      "activation": 0.44,
+      "label": "feature_21659",
+      "token": "moving",
+      "token_idx": 20,
+      "feature_ref": "21659 \u00b7 feature_21659"
+    },
+    {
+      "feature_idx": 14432,
+      "activation": 0.367,
+      "label": "feature_14432",
+      "token": "'s",
+      "token_idx": 42,
+      "feature_ref": "14432 \u00b7 feature_14432"
+    },
+    {
+      "feature_idx": 25762,
+      "activation": 0.366,
+      "label": "feature_25762",
+      "token": "'s",
+      "token_idx": 42,
+      "feature_ref": "25762 \u00b7 feature_25762"
+    },
+    {
+      "feature_idx": 18531,
+      "activation": 0.354,
+      "label": "feature_18531",
+      "token": "picked",
+      "token_idx": 4,
+      "feature_ref": "18531 \u00b7 feature_18531"
+    },
+    {
+      "feature_idx": 19952,
+      "activation": 0.35,
+      "label": "feature_19952",
+      "token": "of",
+      "token_idx": 39,
+      "feature_ref": "19952 \u00b7 feature_19952"
+    },
+    {
+      "feature_idx": 29171,
+      "activation": 0.35,
+      "label": "feature_29171",
+      "token": "hands",
+      "token_idx": 19,
+      "feature_ref": "29171 \u00b7 feature_29171"
+    },
+    {
+      "feature_idx": 26185,
+      "activation": 0.338,
+      "label": "feature_26185",
+      "token": "er",
+      "token_idx": 3,
+      "feature_ref": "26185 \u00b7 feature_26185"
+    },
+    {
+      "feature_idx": 4715,
+      "activation": 0.33,
+      "label": "feature_4715",
+      "token": "def",
+      "token_idx": 21,
+      "feature_ref": "4715 \u00b7 feature_4715"
+    }
+  ],
+  "prompt_tokens": [
+    "Continue",
+    "this",
+    "story",
+    "in",
+    "one",
+    "sentence",
+    ":",
+    "The",
+    "hair",
+    "dress",
+    "er",
+    "picked",
+    "up",
+    "the",
+    "scissors",
+    "and",
+    "then",
+    ""
+  ],
+  "response_tokens": [
+    "The",
+    "hair",
+    "dress",
+    "er",
+    "picked",
+    "up",
+    "the",
+    "scissors",
+    "and",
+    "began",
+    "to",
+    "sn",
+    "ip",
+    "at",
+    "the",
+    "tangled",
+    "mess",
+    ",",
+    "her",
+    "hands",
+    "moving",
+    "def",
+    "t",
+    "ly",
+    "through",
+    "the",
+    "knots",
+    "and",
+    "sn",
+    "ags",
+    "as",
+    "she",
+    "worked",
+    "to",
+    "tame",
+    "the",
+    "unr",
+    "uly",
+    "locks",
+    "of",
+    "the",
+    "teenager",
+    "'s",
+    "hair",
+    "."
+  ],
+  "attribution": [
+    {
+      "response_token": "The",
+      "response_ti": 0,
+      "driven_by_features": [
+        {
+          "feature_idx": 7387,
+          "label": "feature_7387",
+          "activation": 0.044,
+          "also_in_prompt_positions": [
+            7
+          ],
+          "also_in_prompt_tokens": [
+            "The"
+          ],
+          "feature_ref": "7387 \u00b7 feature_7387"
+        }
+      ]
+    },
+    {
+      "response_token": "hair",
+      "response_ti": 1,
+      "driven_by_features": [
+        {
+          "feature_idx": 25807,
+          "label": "feature_25807",
+          "activation": 0.089,
+          "also_in_prompt_positions": [
+            8
+          ],
+          "also_in_prompt_tokens": [
+            "hair"
+          ],
+          "feature_ref": "25807 \u00b7 feature_25807"
+        },
+        {
+          "feature_idx": 5532,
+          "label": "feature_5532",
+          "activation": 0.026,
+          "also_in_prompt_positions": [
+            8
+          ],
+          "also_in_prompt_tokens": [
+            "hair"
+          ],
+          "feature_ref": "5532 \u00b7 feature_5532"
+        },
+        {
+          "feature_idx": 2101,
+          "label": "feature_2101",
+          "activation": 0.026,
+          "also_in_prompt_positions": [
+            8
+          ],
+          "also_in_prompt_tokens": [
+            "hair"
+          ],
+          "feature_ref": "2101 \u00b7 feature_2101"
+        },
+        {
+          "feature_idx": 31429,
+          "label": "feature_31429",
+          "activation": 0.023,
+          "also_in_prompt_positions": [
+            8
+          ],
+          "also_in_prompt_tokens": [
+            "hair"
+          ],
+          "feature_ref": "31429 \u00b7 feature_31429"
+        },
+        {
+          "feature_idx": 29171,
+          "label": "feature_29171",
+          "activation": 0.011,
+          "also_in_prompt_positions": [
+            8
+          ],
+          "also_in_prompt_tokens": [
+            "hair"
+          ],
+          "feature_ref": "29171 \u00b7 feature_29171"
+        }
+      ]
+    },
+    {
+      "response_token": "dress",
+      "response_ti": 2,
+      "driven_by_features": [
+        {
+          "feature_idx": 29766,
+          "label": "feature_29766",
+          "activation": 0.075,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "dress"
+          ],
+          "feature_ref": "29766 \u00b7 feature_29766"
+        },
+        {
+          "feature_idx": 19076,
+          "label": "feature_19076",
+          "activation": 0.047,
+          "also_in_prompt_positions": [
+            9,
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "dress",
+            "er"
+          ],
+          "feature_ref": "19076 \u00b7 feature_19076"
+        },
+        {
+          "feature_idx": 19996,
+          "label": "feature_19996",
+          "activation": 0.015,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "dress"
+          ],
+          "feature_ref": "19996 \u00b7 feature_19996"
+        }
+      ]
+    },
+    {
+      "response_token": "er",
+      "response_ti": 3,
+      "driven_by_features": [
+        {
+          "feature_idx": 12713,
+          "label": "feature_12713",
+          "activation": 0.022,
+          "also_in_prompt_positions": [
+            6,
+            7,
+            10
+          ],
+          "also_in_prompt_tokens": [
+            ":",
+            "The",
+            "er"
+          ],
+          "feature_ref": "12713 \u00b7 feature_12713"
+        },
+        {
+          "feature_idx": 28219,
+          "label": "feature_28219",
+          "activation": 0.018,
+          "also_in_prompt_positions": [
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "er"
+          ],
+          "feature_ref": "28219 \u00b7 feature_28219"
+        }
+      ]
+    },
+    {
+      "response_token": "picked",
+      "response_ti": 4,
+      "driven_by_features": [
+        {
+          "feature_idx": 18531,
+          "label": "feature_18531",
+          "activation": 0.354,
+          "also_in_prompt_positions": [
+            11
+          ],
+          "also_in_prompt_tokens": [
+            "picked"
+          ],
+          "feature_ref": "18531 \u00b7 feature_18531"
+        },
+        {
+          "feature_idx": 24445,
+          "label": "feature_24445",
+          "activation": 0.259,
+          "also_in_prompt_positions": [
+            11
+          ],
+          "also_in_prompt_tokens": [
+            "picked"
+          ],
+          "feature_ref": "24445 \u00b7 feature_24445"
+        }
+      ]
+    },
+    {
+      "response_token": "up",
+      "response_ti": 5,
+      "driven_by_features": [
+        {
+          "feature_idx": 20818,
+          "label": "feature_20818",
+          "activation": 0.003,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "up"
+          ],
+          "feature_ref": "20818 \u00b7 feature_20818"
+        }
+      ]
+    },
+    {
+      "response_token": "scissors",
+      "response_ti": 7,
+      "driven_by_features": [
+        {
+          "feature_idx": 8685,
+          "label": "feature_8685",
+          "activation": 0.131,
+          "also_in_prompt_positions": [
+            14
+          ],
+          "also_in_prompt_tokens": [
+            "scissors"
+          ],
+          "feature_ref": "8685 \u00b7 feature_8685"
+        },
+        {
+          "feature_idx": 6024,
+          "label": "feature_6024",
+          "activation": 0.019,
+          "also_in_prompt_positions": [
+            14
+          ],
+          "also_in_prompt_tokens": [
+            "scissors"
+          ],
+          "feature_ref": "6024 \u00b7 feature_6024"
+        }
+      ]
+    },
+    {
+      "response_token": "and",
+      "response_ti": 8,
+      "driven_by_features": [
+        {
+          "feature_idx": 28591,
+          "label": "feature_28591",
+          "activation": 0.281,
+          "also_in_prompt_positions": [
+            15
+          ],
+          "also_in_prompt_tokens": [
+            "and"
+          ],
+          "feature_ref": "28591 \u00b7 feature_28591"
+        }
+      ]
+    },
+    {
+      "response_token": "began",
+      "response_ti": 9,
+      "driven_by_features": [
+        {
+          "feature_idx": 13848,
+          "label": "feature_13848",
+          "activation": 0.936,
+          "also_in_prompt_positions": [
+            1
+          ],
+          "also_in_prompt_tokens": [
+            "this"
+          ],
+          "feature_ref": "13848 \u00b7 feature_13848"
+        }
+      ]
+    },
+    {
+      "response_token": "to",
+      "response_ti": 10,
+      "driven_by_features": [
+        {
+          "feature_idx": 13848,
+          "label": "feature_13848",
+          "activation": 0.265,
+          "also_in_prompt_positions": [
+            1
+          ],
+          "also_in_prompt_tokens": [
+            "this"
+          ],
+          "feature_ref": "13848 \u00b7 feature_13848"
+        }
+      ]
+    },
+    {
+      "response_token": "sn",
+      "response_ti": 11,
+      "driven_by_features": [
+        {
+          "feature_idx": 12897,
+          "label": "feature_12897",
+          "activation": 0.156,
+          "also_in_prompt_positions": [
+            14
+          ],
+          "also_in_prompt_tokens": [
+            "scissors"
+          ],
+          "feature_ref": "12897 \u00b7 feature_12897"
+        }
+      ]
+    },
+    {
+      "response_token": "her",
+      "response_ti": 18,
+      "driven_by_features": [
+        {
+          "feature_idx": 19076,
+          "label": "feature_19076",
+          "activation": 0.296,
+          "also_in_prompt_positions": [
+            9,
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "dress",
+            "er"
+          ],
+          "feature_ref": "19076 \u00b7 feature_19076"
+        },
+        {
+          "feature_idx": 7387,
+          "label": "feature_7387",
+          "activation": 0.154,
+          "also_in_prompt_positions": [
+            7
+          ],
+          "also_in_prompt_tokens": [
+            "The"
+          ],
+          "feature_ref": "7387 \u00b7 feature_7387"
+        }
+      ]
+    },
+    {
+      "response_token": "hands",
+      "response_ti": 19,
+      "driven_by_features": [
+        {
+          "feature_idx": 8685,
+          "label": "feature_8685",
+          "activation": 0.552,
+          "also_in_prompt_positions": [
+            14
+          ],
+          "also_in_prompt_tokens": [
+            "scissors"
+          ],
+          "feature_ref": "8685 \u00b7 feature_8685"
+        },
+        {
+          "feature_idx": 29171,
+          "label": "feature_29171",
+          "activation": 0.35,
+          "also_in_prompt_positions": [
+            8
+          ],
+          "also_in_prompt_tokens": [
+            "hair"
+          ],
+          "feature_ref": "29171 \u00b7 feature_29171"
+        },
+        {
+          "feature_idx": 6808,
+          "label": "feature_6808",
+          "activation": 0.054,
+          "also_in_prompt_positions": [
+            15
+          ],
+          "also_in_prompt_tokens": [
+            "and"
+          ],
+          "feature_ref": "6808 \u00b7 feature_6808"
+        }
+      ]
+    },
+    {
+      "response_token": "def",
+      "response_ti": 21,
+      "driven_by_features": [
+        {
+          "feature_idx": 29766,
+          "label": "feature_29766",
+          "activation": 1.019,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "dress"
+          ],
+          "feature_ref": "29766 \u00b7 feature_29766"
+        }
+      ]
+    },
+    {
+      "response_token": "t",
+      "response_ti": 22,
+      "driven_by_features": [
+        {
+          "feature_idx": 29766,
+          "label": "feature_29766",
+          "activation": 0.142,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "dress"
+          ],
+          "feature_ref": "29766 \u00b7 feature_29766"
+        }
+      ]
+    },
+    {
+      "response_token": "knots",
+      "response_ti": 26,
+      "driven_by_features": [
+        {
+          "feature_idx": 8685,
+          "label": "feature_8685",
+          "activation": 0.68,
+          "also_in_prompt_positions": [
+            14
+          ],
+          "also_in_prompt_tokens": [
+            "scissors"
+          ],
+          "feature_ref": "8685 \u00b7 feature_8685"
+        }
+      ]
+    },
+    {
+      "response_token": "and",
+      "response_ti": 27,
+      "driven_by_features": [
+        {
+          "feature_idx": 28591,
+          "label": "feature_28591",
+          "activation": 0.488,
+          "also_in_prompt_positions": [
+            15
+          ],
+          "also_in_prompt_tokens": [
+            "and"
+          ],
+          "feature_ref": "28591 \u00b7 feature_28591"
+        }
+      ]
+    },
+    {
+      "response_token": "sn",
+      "response_ti": 28,
+      "driven_by_features": [
+        {
+          "feature_idx": 12897,
+          "label": "feature_12897",
+          "activation": 0.318,
+          "also_in_prompt_positions": [
+            14
+          ],
+          "also_in_prompt_tokens": [
+            "scissors"
+          ],
+          "feature_ref": "12897 \u00b7 feature_12897"
+        }
+      ]
+    },
+    {
+      "response_token": "ags",
+      "response_ti": 29,
+      "driven_by_features": [
+        {
+          "feature_idx": 8685,
+          "label": "feature_8685",
+          "activation": 0.427,
+          "also_in_prompt_positions": [
+            14
+          ],
+          "also_in_prompt_tokens": [
+            "scissors"
+          ],
+          "feature_ref": "8685 \u00b7 feature_8685"
+        }
+      ]
+    },
+    {
+      "response_token": "she",
+      "response_ti": 31,
+      "driven_by_features": [
+        {
+          "feature_idx": 19076,
+          "label": "feature_19076",
+          "activation": 0.057,
+          "also_in_prompt_positions": [
+            9,
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "dress",
+            "er"
+          ],
+          "feature_ref": "19076 \u00b7 feature_19076"
+        }
+      ]
+    },
+    {
+      "response_token": "unr",
+      "response_ti": 36,
+      "driven_by_features": [
+        {
+          "feature_idx": 25768,
+          "label": "feature_25768",
+          "activation": 0.153,
+          "also_in_prompt_positions": [
+            8
+          ],
+          "also_in_prompt_tokens": [
+            "hair"
+          ],
+          "feature_ref": "25768 \u00b7 feature_25768"
+        }
+      ]
+    },
+    {
+      "response_token": "locks",
+      "response_ti": 38,
+      "driven_by_features": [
+        {
+          "feature_idx": 8685,
+          "label": "feature_8685",
+          "activation": 0.375,
+          "also_in_prompt_positions": [
+            14
+          ],
+          "also_in_prompt_tokens": [
+            "scissors"
+          ],
+          "feature_ref": "8685 \u00b7 feature_8685"
+        }
+      ]
+    }
+  ],
+  "logit_lens": [
+    {
+      "layer": 0,
+      "top_tokens": [
+        {
+          "token": " then",
+          "prob": 1.0
+        },
+        {
+          "token": "then",
+          "prob": 0.0001
+        },
+        {
+          "token": " Then",
+          "prob": 0.0
+        },
+        {
+          "token": "Then",
+          "prob": 0.0
+        },
+        {
+          "token": " THEN",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "top_tokens": [
+        {
+          "token": " then",
+          "prob": 0.9956
+        },
+        {
+          "token": "then",
+          "prob": 0.0033
+        },
+        {
+          "token": " Then",
+          "prob": 0.0005
+        },
+        {
+          "token": "Then",
+          "prob": 0.0004
+        },
+        {
+          "token": " THEN",
+          "prob": 0.0001
+        }
+      ]
+    },
+    {
+      "layer": 2,
+      "top_tokens": [
+        {
+          "token": " then",
+          "prob": 0.9619
+        },
+        {
+          "token": " Then",
+          "prob": 0.0145
+        },
+        {
+          "token": "Then",
+          "prob": 0.0085
+        },
+        {
+          "token": "then",
+          "prob": 0.0024
+        },
+        {
+          "token": " luego",
+          "prob": 0.0014
+        }
+      ]
+    },
+    {
+      "layer": 3,
+      "top_tokens": [
+        {
+          "token": " then",
+          "prob": 0.2578
+        },
+        {
+          "token": " eventually",
+          "prob": 0.0948
+        },
+        {
+          "token": "later",
+          "prob": 0.0562
+        },
+        {
+          "token": " subsequently",
+          "prob": 0.0171
+        },
+        {
+          "token": " briefly",
+          "prob": 0.0155
+        }
+      ]
+    },
+    {
+      "layer": 4,
+      "top_tokens": [
+        {
+          "token": "later",
+          "prob": 0.0167
+        },
+        {
+          "token": " afterwards",
+          "prob": 0.0135
+        },
+        {
+          "token": " then",
+          "prob": 0.0133
+        },
+        {
+          "token": " later",
+          "prob": 0.0121
+        },
+        {
+          "token": "Later",
+          "prob": 0.0081
+        }
+      ]
+    },
+    {
+      "layer": 5,
+      "top_tokens": [
+        {
+          "token": "later",
+          "prob": 0.0255
+        },
+        {
+          "token": "\u5f8c",
+          "prob": 0.0175
+        },
+        {
+          "token": " later",
+          "prob": 0.0105
+        },
+        {
+          "token": " logically",
+          "prob": 0.0085
+        },
+        {
+          "token": "Later",
+          "prob": 0.0079
+        }
+      ]
+    },
+    {
+      "layer": 6,
+      "top_tokens": [
+        {
+          "token": " later",
+          "prob": 0.0074
+        },
+        {
+          "token": "later",
+          "prob": 0.0063
+        },
+        {
+          "token": " logically",
+          "prob": 0.0051
+        },
+        {
+          "token": " afterwards",
+          "prob": 0.0051
+        },
+        {
+          "token": "ListOf",
+          "prob": 0.0035
+        }
+      ]
+    },
+    {
+      "layer": 7,
+      "top_tokens": [
+        {
+          "token": " afterwards",
+          "prob": 0.0338
+        },
+        {
+          "token": " again",
+          "prob": 0.017
+        },
+        {
+          "token": "later",
+          "prob": 0.014
+        },
+        {
+          "token": "-middle",
+          "prob": 0.0072
+        },
+        {
+          "token": " thereafter",
+          "prob": 0.007
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "top_tokens": [
+        {
+          "token": " again",
+          "prob": 0.0198
+        },
+        {
+          "token": " suddenly",
+          "prob": 0.0137
+        },
+        {
+          "token": " abruptly",
+          "prob": 0.0068
+        },
+        {
+          "token": "\u1eb7n",
+          "prob": 0.0064
+        },
+        {
+          "token": " resumes",
+          "prob": 0.0056
+        }
+      ]
+    },
+    {
+      "layer": 9,
+      "top_tokens": [
+        {
+          "token": "acle",
+          "prob": 0.0366
+        },
+        {
+          "token": " promptly",
+          "prob": 0.0139
+        },
+        {
+          "token": " calmly",
+          "prob": 0.0087
+        },
+        {
+          "token": " suddenly",
+          "prob": 0.0081
+        },
+        {
+          "token": " swiftly",
+          "prob": 0.0065
+        }
+      ]
+    },
+    {
+      "layer": 10,
+      "top_tokens": [
+        {
+          "token": " promptly",
+          "prob": 0.1007
+        },
+        {
+          "token": " suddenly",
+          "prob": 0.056
+        },
+        {
+          "token": " abruptly",
+          "prob": 0.037
+        },
+        {
+          "token": " swiftly",
+          "prob": 0.0271
+        },
+        {
+          "token": " quickly",
+          "prob": 0.0166
+        }
+      ]
+    },
+    {
+      "layer": 11,
+      "top_tokens": [
+        {
+          "token": " abruptly",
+          "prob": 0.1108
+        },
+        {
+          "token": " promptly",
+          "prob": 0.0451
+        },
+        {
+          "token": " proceeded",
+          "prob": 0.0438
+        },
+        {
+          "token": " pauses",
+          "prob": 0.0357
+        },
+        {
+          "token": " suddenly",
+          "prob": 0.0217
+        }
+      ]
+    },
+    {
+      "layer": 12,
+      "top_tokens": [
+        {
+          "token": " promptly",
+          "prob": 0.1903
+        },
+        {
+          "token": " abruptly",
+          "prob": 0.1859
+        },
+        {
+          "token": " suddenly",
+          "prob": 0.0541
+        },
+        {
+          "token": " proceeded",
+          "prob": 0.0463
+        },
+        {
+          "token": " paused",
+          "prob": 0.0415
+        }
+      ]
+    },
+    {
+      "layer": 13,
+      "top_tokens": [
+        {
+          "token": " promptly",
+          "prob": 0.1288
+        },
+        {
+          "token": " began",
+          "prob": 0.1268
+        },
+        {
+          "token": " proceeded",
+          "prob": 0.0673
+        },
+        {
+          "token": " stopped",
+          "prob": 0.0438
+        },
+        {
+          "token": " abruptly",
+          "prob": 0.0428
+        }
+      ]
+    },
+    {
+      "layer": 14,
+      "top_tokens": [
+        {
+          "token": " began",
+          "prob": 0.2324
+        },
+        {
+          "token": " cut",
+          "prob": 0.1081
+        },
+        {
+          "token": " the",
+          "prob": 0.0754
+        },
+        {
+          "token": " stopped",
+          "prob": 0.063
+        },
+        {
+          "token": " suddenly",
+          "prob": 0.0556
+        }
+      ]
+    },
+    {
+      "layer": 15,
+      "top_tokens": [
+        {
+          "token": " the",
+          "prob": 0.4019
+        },
+        {
+          "token": " began",
+          "prob": 0.0602
+        },
+        {
+          "token": ",",
+          "prob": 0.0465
+        },
+        {
+          "token": " her",
+          "prob": 0.0289
+        },
+        {
+          "token": " cut",
+          "prob": 0.0227
+        }
+      ]
+    }
+  ],
+  "trace_results": [
+    {
+      "layer": 0,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 1,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 2,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 3,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 4,
+      "drop": 0.0088,
+      "attn_drop": 0.0053,
+      "mlp_drop": 0.0035,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 5,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 6,
+      "drop": 0.0264,
+      "attn_drop": 0.0158,
+      "mlp_drop": 0.0106,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 7,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 8,
+      "drop": 0.0168,
+      "attn_drop": 0.0101,
+      "mlp_drop": 0.0067,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 9,
+      "drop": 0.0641,
+      "attn_drop": 0.0385,
+      "mlp_drop": 0.0256,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 10,
+      "drop": 0.0101,
+      "attn_drop": 0.0061,
+      "mlp_drop": 0.004,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 11,
+      "drop": 0.0795,
+      "attn_drop": 0.0477,
+      "mlp_drop": 0.0318,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 12,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 13,
+      "drop": 0.1036,
+      "attn_drop": 0.0622,
+      "mlp_drop": 0.0414,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 14,
+      "drop": 0.1695,
+      "attn_drop": 0.1017,
+      "mlp_drop": 0.0678,
+      "baseline_prob": 0.4019
+    },
+    {
+      "layer": 15,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.4019
+    }
+  ],
+  "trace_target": "The",
+  "color_map": {
+    "prompt": {
+      "7": 0,
+      "8": 0,
+      "9": 7,
+      "10": 7,
+      "6": 9,
+      "11": 2,
+      "12": 3,
+      "14": 4,
+      "15": 6,
+      "1": 7
+    },
+    "response": {
+      "0": 0,
+      "1": 5,
+      "2": 8,
+      "3": 0,
+      "4": 2,
+      "5": 3,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 7,
+      "11": 8,
+      "18": 0,
+      "19": 9,
+      "21": 6,
+      "22": 6,
+      "26": 4,
+      "27": 6,
+      "28": 8,
+      "29": 4,
+      "31": 7,
+      "36": 0,
+      "38": 4
+    }
+  }
+}

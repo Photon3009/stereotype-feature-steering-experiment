@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "model_id": "llama-3.2-1b",
+  "mode": "llm",
+  "n_probes": 12,
+  "layers_requested": [
+    8
+  ],
+  "top_k": 30,
+  "probes": [
+    {
+      "id": "male00",
+      "text": "The mechanic said that"
+    },
+    {
+      "id": "male01",
+      "text": "The engineer said that"
+    },
+    {
+      "id": "male02",
+      "text": "The pilot said that"
+    },
+    {
+      "id": "male03",
+      "text": "The plumber said that"
+    },
+    {
+      "id": "male04",
+      "text": "The electrician said that"
+    },
+    {
+      "id": "male05",
+      "text": "The carpenter said that"
+    },
+    {
+      "id": "male06",
+      "text": "The truck driver said that"
+    },
+    {
+      "id": "male07",
+      "text": "The firefighter said that"
+    },
+    {
+      "id": "male08",
+      "text": "The surgeon said that"
+    },
+    {
+      "id": "male09",
+      "text": "The programmer said that"
+    },
+    {
+      "id": "male10",
+      "text": "The security guard said that"
+    },
+    {
+      "id": "male11",
+      "text": "The construction worker said that"
+    }
+  ],
+  "layer_stats": [
+    {
+      "layer": 8,
+      "sae_available": true,
+      "n_features": 32768,
+      "mean_l0": 30688.0,
+      "sparsity": 0.063477,
+      "mean_activation": 5.823703,
+      "max_activation": 15.794823,
+      "top_features": [
+        {
+          "feature_idx": 3432,
+          "mean_activation": 15.794823
+        },
+        {
+          "feature_idx": 22041,
+          "mean_activation": 15.345078
+        },
+        {
+          "feature_idx": 32291,
+          "mean_activation": 15.164624
+        },
+        {
+          "feature_idx": 5026,
+          "mean_activation": 15.153552
+        },
+        {
+          "feature_idx": 27170,
+          "mean_activation": 15.004905
+        },
+        {
+          "feature_idx": 27816,
+          "mean_activation": 14.957955
+        },
+        {
+          "feature_idx": 8910,
+          "mean_activation": 14.798149
+        },
+        {
+          "feature_idx": 25318,
+          "mean_activation": 14.734035
+        },
+        {
+          "feature_idx": 13800,
+          "mean_activation": 14.733012
+        },
+        {
+          "feature_idx": 28219,
+          "mean_activation": 14.688497
+        },
+        {
+          "feature_idx": 5294,
+          "mean_activation": 14.638566
+        },
+        {
+          "feature_idx": 5641,
+          "mean_activation": 14.599102
+        },
+        {
+          "feature_idx": 6866,
+          "mean_activation": 14.518227
+        },
+        {
+          "feature_idx": 20945,
+          "mean_activation": 14.507321
+        },
+        {
+          "feature_idx": 17012,
+          "mean_activation": 14.497475
+        },
+        {
+          "feature_idx": 18986,
+          "mean_activation": 14.378669
+        },
+        {
+          "feature_idx": 5137,
+          "mean_activation": 14.348819
+        },
+        {
+          "feature_idx": 11240,
+          "mean_activation": 14.288402
+        },
+        {
+          "feature_idx": 30795,
+          "mean_activation": 14.28162
+        },
+        {
+          "feature_idx": 19990,
+          "mean_activation": 14.242217
+        },
+        {
+          "feature_idx": 15210,
+          "mean_activation": 14.205007
+        },
+        {
+          "feature_idx": 20251,
+          "mean_activation": 14.189282
+        },
+        {
+          "feature_idx": 27501,
+          "mean_activation": 14.170227
+        },
+        {
+          "feature_idx": 3442,
+          "mean_activation": 14.152942
+        },
+        {
+          "feature_idx": 3495,
+          "mean_activation": 14.145004
+        },
+        {
+          "feature_idx": 6832,
+          "mean_activation": 14.064731
+        },
+        {
+          "feature_idx": 18872,
+          "mean_activation": 14.051923
+        },
+        {
+          "feature_idx": 15363,
+          "mean_activation": 13.991168
+        },
+        {
+          "feature_idx": 25040,
+          "mean_activation": 13.990128
+        },
+        {
+          "feature_idx": 2026,
+          "mean_activation": 13.935883
+        }
+      ],
+      "per_probe": [
+        {
+          "probe_id": "male00",
+          "id": "male00",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258304
+        },
+        {
+          "probe_id": "male01",
+          "id": "male01",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258307
+        },
+        {
+          "probe_id": "male02",
+          "id": "male02",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258303
+        },
+        {
+          "probe_id": "male03",
+          "id": "male03",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258307
+        },
+        {
+          "probe_id": "male04",
+          "id": "male04",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215261
+        },
+        {
+          "probe_id": "male05",
+          "id": "male05",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215261
+        },
+        {
+          "probe_id": "male06",
+          "id": "male06",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215261
+        },
+        {
+          "probe_id": "male07",
+          "id": "male07",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258309
+        },
+        {
+          "probe_id": "male08",
+          "id": "male08",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258306
+        },
+        {
+          "probe_id": "male09",
+          "id": "male09",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258309
+        },
+        {
+          "probe_id": "male10",
+          "id": "male10",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.215254
+        },
+        {
+          "probe_id": "male11",
+          "id": "male11",
+          "mean_l0": 30688.0,
+          "mean_activation": 5.21526
+        }
+      ]
+    }
+  ],
+  "layer_profile": [
+    {
+      "layer": 8,
+      "mean_l0": 30688.0,
+      "sparsity": 0.063477,
+      "mean_activation": 5.823703,
+      "sae_available": true
+    }
+  ],
+  "heatmap": {
+    "metric": "mean_l0",
+    "rows": [
+      "male00",
+      "male01",
+      "male02",
+      "male03",
+      "male04",
+      "male05",
+      "male06",
+      "male07",
+      "male08",
+      "male09",
+      "male10",
+      "male11"
+    ],
+    "cols": [
+      "L8"
+    ],
+    "values": [
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,1371 @@
+{
+  "saved_at": "2026-07-28T17:08:29.361858+00:00",
+  "tool": "run_full_inspection",
+  "prompt": "Continue this story in one sentence: The receptionist answered the phone and",
+  "response": "The receptionist answered the phone and, after a brief pause as she checked the caller ID screen, her expression changed from neutral to one of surprise and then, finally, to a warm smile as she picked up the phone and said, \"Good morning, Dr. Lee, this is Karen from Smith & Associates. How can I help you?\"",
+  "model_id": "llama-3.2-1b",
+  "sae_layer": 8,
+  "top_features": [
+    {
+      "feature_idx": 20927,
+      "activation": 1.439,
+      "label": "feature_20927",
+      "token": "Good",
+      "token_idx": 48,
+      "feature_ref": "20927 \u00b7 feature_20927"
+    },
+    {
+      "feature_idx": 19231,
+      "activation": 1.319,
+      "label": "feature_19231",
+      "token": "the",
+      "token_idx": 4,
+      "feature_ref": "19231 \u00b7 feature_19231"
+    },
+    {
+      "feature_idx": 27813,
+      "activation": 1.24,
+      "label": "feature_27813",
+      "token": "How",
+      "token_idx": 63,
+      "feature_ref": "27813 \u00b7 feature_27813"
+    },
+    {
+      "feature_idx": 14195,
+      "activation": 1.111,
+      "label": "feature_14195",
+      "token": "after",
+      "token_idx": 8,
+      "feature_ref": "14195 \u00b7 feature_14195"
+    },
+    {
+      "feature_idx": 1709,
+      "activation": 0.844,
+      "label": "feature_1709",
+      "token": "changed",
+      "token_idx": 22,
+      "feature_ref": "1709 \u00b7 feature_1709"
+    },
+    {
+      "feature_idx": 25859,
+      "activation": 0.799,
+      "label": "feature_25859",
+      "token": "can",
+      "token_idx": 64,
+      "feature_ref": "25859 \u00b7 feature_25859"
+    },
+    {
+      "feature_idx": 18531,
+      "activation": 0.781,
+      "label": "feature_18531",
+      "token": "picked",
+      "token_idx": 40,
+      "feature_ref": "18531 \u00b7 feature_18531"
+    },
+    {
+      "feature_idx": 16331,
+      "activation": 0.768,
+      "label": "feature_16331",
+      "token": "\"",
+      "token_idx": 47,
+      "feature_ref": "16331 \u00b7 feature_16331"
+    },
+    {
+      "feature_idx": 16720,
+      "activation": 0.692,
+      "label": "feature_16720",
+      "token": "then",
+      "token_idx": 30,
+      "feature_ref": "16720 \u00b7 feature_16720"
+    },
+    {
+      "feature_idx": 6700,
+      "activation": 0.67,
+      "label": "feature_6700",
+      "token": "from",
+      "token_idx": 23,
+      "feature_ref": "6700 \u00b7 feature_6700"
+    },
+    {
+      "feature_idx": 6571,
+      "activation": 0.655,
+      "label": "feature_6571",
+      "token": "one",
+      "token_idx": 26,
+      "feature_ref": "6571 \u00b7 feature_6571"
+    },
+    {
+      "feature_idx": 29766,
+      "activation": 0.647,
+      "label": "feature_29766",
+      "token": "Dr",
+      "token_idx": 51,
+      "feature_ref": "29766 \u00b7 feature_29766"
+    },
+    {
+      "feature_idx": 26893,
+      "activation": 0.607,
+      "label": "feature_26893",
+      "token": "this",
+      "token_idx": 55,
+      "feature_ref": "26893 \u00b7 feature_26893"
+    },
+    {
+      "feature_idx": 414,
+      "activation": 0.592,
+      "label": "feature_414",
+      "token": "checked",
+      "token_idx": 14,
+      "feature_ref": "414 \u00b7 feature_414"
+    },
+    {
+      "feature_idx": 21258,
+      "activation": 0.516,
+      "label": "feature_21258",
+      "token": ".",
+      "token_idx": 52,
+      "feature_ref": "21258 \u00b7 feature_21258"
+    },
+    {
+      "feature_idx": 29415,
+      "activation": 0.516,
+      "label": "feature_29415",
+      "token": "said",
+      "token_idx": 45,
+      "feature_ref": "29415 \u00b7 feature_29415"
+    },
+    {
+      "feature_idx": 6063,
+      "activation": 0.512,
+      "label": "feature_6063",
+      "token": "surprise",
+      "token_idx": 28,
+      "feature_ref": "6063 \u00b7 feature_6063"
+    },
+    {
+      "feature_idx": 28333,
+      "activation": 0.483,
+      "label": "feature_28333",
+      "token": "brief",
+      "token_idx": 10,
+      "feature_ref": "28333 \u00b7 feature_28333"
+    },
+    {
+      "feature_idx": 8268,
+      "activation": 0.479,
+      "label": "feature_8268",
+      "token": "and",
+      "token_idx": 44,
+      "feature_ref": "8268 \u00b7 feature_8268"
+    },
+    {
+      "feature_idx": 28986,
+      "activation": 0.473,
+      "label": "feature_28986",
+      "token": "a",
+      "token_idx": 35,
+      "feature_ref": "28986 \u00b7 feature_28986"
+    }
+  ],
+  "prompt_tokens": [
+    "Continue",
+    "this",
+    "story",
+    "in",
+    "one",
+    "sentence",
+    ":",
+    "The",
+    "reception",
+    "ist",
+    "answered",
+    "the",
+    "phone",
+    "and",
+    ""
+  ],
+  "response_tokens": [
+    "The",
+    "reception",
+    "ist",
+    "answered",
+    "the",
+    "phone",
+    "and",
+    ",",
+    "after",
+    "a",
+    "brief",
+    "pause",
+    "as",
+    "she",
+    "checked",
+    "the",
+    "caller",
+    "ID",
+    "screen",
+    ",",
+    "her",
+    "expression",
+    "changed",
+    "from",
+    "neutral",
+    "to",
+    "one",
+    "of",
+    "surprise",
+    "and",
+    "then",
+    ",",
+    "finally",
+    ",",
+    "to",
+    "a",
+    "warm",
+    "smile",
+    "as",
+    "she",
+    "picked",
+    "up",
+    "the",
+    "phone",
+    "and",
+    "said",
+    ",",
+    "\"",
+    "Good",
+    "morning",
+    ",",
+    "Dr",
+    ".",
+    "Lee",
+    ",",
+    "this",
+    "is",
+    "Karen",
+    "from",
+    "Smith",
+    "&",
+    "Associates",
+    ".",
+    "How",
+    "can",
+    "I",
+    "help",
+    "you",
+    "?\""
+  ],
+  "attribution": [
+    {
+      "response_token": "The",
+      "response_ti": 0,
+      "driven_by_features": [
+        {
+          "feature_idx": 7543,
+          "label": "feature_7543",
+          "activation": 0.161,
+          "also_in_prompt_positions": [
+            14
+          ],
+          "also_in_prompt_tokens": [
+            ""
+          ],
+          "feature_ref": "7543 \u00b7 feature_7543"
+        }
+      ]
+    },
+    {
+      "response_token": "reception",
+      "response_ti": 1,
+      "driven_by_features": [
+        {
+          "feature_idx": 27447,
+          "label": "feature_27447",
+          "activation": 0.316,
+          "also_in_prompt_positions": [
+            8
+          ],
+          "also_in_prompt_tokens": [
+            "reception"
+          ],
+          "feature_ref": "27447 \u00b7 feature_27447"
+        }
+      ]
+    },
+    {
+      "response_token": "ist",
+      "response_ti": 2,
+      "driven_by_features": [
+        {
+          "feature_idx": 19076,
+          "label": "feature_19076",
+          "activation": 0.062,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "ist"
+          ],
+          "feature_ref": "19076 \u00b7 feature_19076"
+        }
+      ]
+    },
+    {
+      "response_token": "answered",
+      "response_ti": 3,
+      "driven_by_features": [
+        {
+          "feature_idx": 29315,
+          "label": "feature_29315",
+          "activation": 0.06,
+          "also_in_prompt_positions": [
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "answered"
+          ],
+          "feature_ref": "29315 \u00b7 feature_29315"
+        },
+        {
+          "feature_idx": 6217,
+          "label": "feature_6217",
+          "activation": 0.029,
+          "also_in_prompt_positions": [
+            10,
+            11
+          ],
+          "also_in_prompt_tokens": [
+            "answered",
+            "the"
+          ],
+          "feature_ref": "6217 \u00b7 feature_6217"
+        }
+      ]
+    },
+    {
+      "response_token": "phone",
+      "response_ti": 5,
+      "driven_by_features": [
+        {
+          "feature_idx": 15812,
+          "label": "feature_15812",
+          "activation": 0.054,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "phone"
+          ],
+          "feature_ref": "15812 \u00b7 feature_15812"
+        }
+      ]
+    },
+    {
+      "response_token": "and",
+      "response_ti": 6,
+      "driven_by_features": [
+        {
+          "feature_idx": 28591,
+          "label": "feature_28591",
+          "activation": 0.287,
+          "also_in_prompt_positions": [
+            13
+          ],
+          "also_in_prompt_tokens": [
+            "and"
+          ],
+          "feature_ref": "28591 \u00b7 feature_28591"
+        }
+      ]
+    },
+    {
+      "response_token": "pause",
+      "response_ti": 11,
+      "driven_by_features": [
+        {
+          "feature_idx": 24445,
+          "label": "feature_24445",
+          "activation": 0.235,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "phone"
+          ],
+          "feature_ref": "24445 \u00b7 feature_24445"
+        }
+      ]
+    },
+    {
+      "response_token": "she",
+      "response_ti": 13,
+      "driven_by_features": [
+        {
+          "feature_idx": 19076,
+          "label": "feature_19076",
+          "activation": 0.137,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "ist"
+          ],
+          "feature_ref": "19076 \u00b7 feature_19076"
+        }
+      ]
+    },
+    {
+      "response_token": "caller",
+      "response_ti": 16,
+      "driven_by_features": [
+        {
+          "feature_idx": 7972,
+          "label": "feature_7972",
+          "activation": 0.337,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "ist"
+          ],
+          "feature_ref": "7972 \u00b7 feature_7972"
+        },
+        {
+          "feature_idx": 2033,
+          "label": "feature_2033",
+          "activation": 0.098,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "phone"
+          ],
+          "feature_ref": "2033 \u00b7 feature_2033"
+        },
+        {
+          "feature_idx": 20192,
+          "label": "feature_20192",
+          "activation": 0.06,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "phone"
+          ],
+          "feature_ref": "20192 \u00b7 feature_20192"
+        },
+        {
+          "feature_idx": 15812,
+          "label": "feature_15812",
+          "activation": 0.024,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "phone"
+          ],
+          "feature_ref": "15812 \u00b7 feature_15812"
+        }
+      ]
+    },
+    {
+      "response_token": "her",
+      "response_ti": 20,
+      "driven_by_features": [
+        {
+          "feature_idx": 7387,
+          "label": "feature_7387",
+          "activation": 0.074,
+          "also_in_prompt_positions": [
+            7
+          ],
+          "also_in_prompt_tokens": [
+            "The"
+          ],
+          "feature_ref": "7387 \u00b7 feature_7387"
+        },
+        {
+          "feature_idx": 19076,
+          "label": "feature_19076",
+          "activation": 0.046,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "ist"
+          ],
+          "feature_ref": "19076 \u00b7 feature_19076"
+        }
+      ]
+    },
+    {
+      "response_token": "expression",
+      "response_ti": 21,
+      "driven_by_features": [
+        {
+          "feature_idx": 308,
+          "label": "feature_308",
+          "activation": 0.214,
+          "also_in_prompt_positions": [
+            8
+          ],
+          "also_in_prompt_tokens": [
+            "reception"
+          ],
+          "feature_ref": "308 \u00b7 feature_308"
+        }
+      ]
+    },
+    {
+      "response_token": "one",
+      "response_ti": 26,
+      "driven_by_features": [
+        {
+          "feature_idx": 6571,
+          "label": "feature_6571",
+          "activation": 0.655,
+          "also_in_prompt_positions": [
+            4
+          ],
+          "also_in_prompt_tokens": [
+            "one"
+          ],
+          "feature_ref": "6571 \u00b7 feature_6571"
+        },
+        {
+          "feature_idx": 4764,
+          "label": "feature_4764",
+          "activation": 0.215,
+          "also_in_prompt_positions": [
+            4
+          ],
+          "also_in_prompt_tokens": [
+            "one"
+          ],
+          "feature_ref": "4764 \u00b7 feature_4764"
+        }
+      ]
+    },
+    {
+      "response_token": "and",
+      "response_ti": 29,
+      "driven_by_features": [
+        {
+          "feature_idx": 28591,
+          "label": "feature_28591",
+          "activation": 0.396,
+          "also_in_prompt_positions": [
+            13
+          ],
+          "also_in_prompt_tokens": [
+            "and"
+          ],
+          "feature_ref": "28591 \u00b7 feature_28591"
+        }
+      ]
+    },
+    {
+      "response_token": "smile",
+      "response_ti": 37,
+      "driven_by_features": [
+        {
+          "feature_idx": 19076,
+          "label": "feature_19076",
+          "activation": 0.002,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "ist"
+          ],
+          "feature_ref": "19076 \u00b7 feature_19076"
+        }
+      ]
+    },
+    {
+      "response_token": "she",
+      "response_ti": 39,
+      "driven_by_features": [
+        {
+          "feature_idx": 19076,
+          "label": "feature_19076",
+          "activation": 0.104,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "ist"
+          ],
+          "feature_ref": "19076 \u00b7 feature_19076"
+        }
+      ]
+    },
+    {
+      "response_token": "picked",
+      "response_ti": 40,
+      "driven_by_features": [
+        {
+          "feature_idx": 24445,
+          "label": "feature_24445",
+          "activation": 0.231,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "phone"
+          ],
+          "feature_ref": "24445 \u00b7 feature_24445"
+        }
+      ]
+    },
+    {
+      "response_token": "phone",
+      "response_ti": 43,
+      "driven_by_features": [
+        {
+          "feature_idx": 24445,
+          "label": "feature_24445",
+          "activation": 0.009,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "phone"
+          ],
+          "feature_ref": "24445 \u00b7 feature_24445"
+        },
+        {
+          "feature_idx": 15812,
+          "label": "feature_15812",
+          "activation": 0.003,
+          "also_in_prompt_positions": [
+            12
+          ],
+          "also_in_prompt_tokens": [
+            "phone"
+          ],
+          "feature_ref": "15812 \u00b7 feature_15812"
+        }
+      ]
+    },
+    {
+      "response_token": "and",
+      "response_ti": 44,
+      "driven_by_features": [
+        {
+          "feature_idx": 8268,
+          "label": "feature_8268",
+          "activation": 0.479,
+          "also_in_prompt_positions": [
+            13
+          ],
+          "also_in_prompt_tokens": [
+            "and"
+          ],
+          "feature_ref": "8268 \u00b7 feature_8268"
+        },
+        {
+          "feature_idx": 28591,
+          "label": "feature_28591",
+          "activation": 0.235,
+          "also_in_prompt_positions": [
+            13
+          ],
+          "also_in_prompt_tokens": [
+            "and"
+          ],
+          "feature_ref": "28591 \u00b7 feature_28591"
+        },
+        {
+          "feature_idx": 29198,
+          "label": "feature_29198",
+          "activation": 0.227,
+          "also_in_prompt_positions": [
+            13
+          ],
+          "also_in_prompt_tokens": [
+            "and"
+          ],
+          "feature_ref": "29198 \u00b7 feature_29198"
+        }
+      ]
+    },
+    {
+      "response_token": "Dr",
+      "response_ti": 51,
+      "driven_by_features": [
+        {
+          "feature_idx": 12713,
+          "label": "feature_12713",
+          "activation": 0.05,
+          "also_in_prompt_positions": [
+            6,
+            7,
+            9
+          ],
+          "also_in_prompt_tokens": [
+            ":",
+            "The",
+            "ist"
+          ],
+          "feature_ref": "12713 \u00b7 feature_12713"
+        }
+      ]
+    },
+    {
+      "response_token": "Lee",
+      "response_ti": 53,
+      "driven_by_features": [
+        {
+          "feature_idx": 12713,
+          "label": "feature_12713",
+          "activation": 0.06,
+          "also_in_prompt_positions": [
+            6,
+            7,
+            9
+          ],
+          "also_in_prompt_tokens": [
+            ":",
+            "The",
+            "ist"
+          ],
+          "feature_ref": "12713 \u00b7 feature_12713"
+        }
+      ]
+    },
+    {
+      "response_token": "this",
+      "response_ti": 55,
+      "driven_by_features": [
+        {
+          "feature_idx": 26893,
+          "label": "feature_26893",
+          "activation": 0.607,
+          "also_in_prompt_positions": [
+            1,
+            2
+          ],
+          "also_in_prompt_tokens": [
+            "this",
+            "story"
+          ],
+          "feature_ref": "26893 \u00b7 feature_26893"
+        }
+      ]
+    },
+    {
+      "response_token": "Karen",
+      "response_ti": 57,
+      "driven_by_features": [
+        {
+          "feature_idx": 19076,
+          "label": "feature_19076",
+          "activation": 0.104,
+          "also_in_prompt_positions": [
+            9
+          ],
+          "also_in_prompt_tokens": [
+            "ist"
+          ],
+          "feature_ref": "19076 \u00b7 feature_19076"
+        }
+      ]
+    },
+    {
+      "response_token": "&",
+      "response_ti": 60,
+      "driven_by_features": [
+        {
+          "feature_idx": 28591,
+          "label": "feature_28591",
+          "activation": 0.003,
+          "also_in_prompt_positions": [
+            13
+          ],
+          "also_in_prompt_tokens": [
+            "and"
+          ],
+          "feature_ref": "28591 \u00b7 feature_28591"
+        }
+      ]
+    },
+    {
+      "response_token": "Associates",
+      "response_ti": 61,
+      "driven_by_features": [
+        {
+          "feature_idx": 29315,
+          "label": "feature_29315",
+          "activation": 0.313,
+          "also_in_prompt_positions": [
+            10
+          ],
+          "also_in_prompt_tokens": [
+            "answered"
+          ],
+          "feature_ref": "29315 \u00b7 feature_29315"
+        }
+      ]
+    }
+  ],
+  "logit_lens": [
+    {
+      "layer": 0,
+      "top_tokens": [
+        {
+          "token": " and",
+          "prob": 1.0
+        },
+        {
+          "token": "and",
+          "prob": 0.0
+        },
+        {
+          "token": " AND",
+          "prob": 0.0
+        },
+        {
+          "token": " And",
+          "prob": 0.0
+        },
+        {
+          "token": "/or",
+          "prob": 0.0
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "top_tokens": [
+        {
+          "token": "/or",
+          "prob": 0.9668
+        },
+        {
+          "token": "/OR",
+          "prob": 0.0096
+        },
+        {
+          "token": " thus",
+          "prob": 0.0018
+        },
+        {
+          "token": "\u4e14",
+          "prob": 0.0018
+        },
+        {
+          "token": " and",
+          "prob": 0.0012
+        }
+      ]
+    },
+    {
+      "layer": 2,
+      "top_tokens": [
+        {
+          "token": "/or",
+          "prob": 0.9966
+        },
+        {
+          "token": "or",
+          "prob": 0.0005
+        },
+        {
+          "token": " thus",
+          "prob": 0.0004
+        },
+        {
+          "token": "\u4e14",
+          "prob": 0.0003
+        },
+        {
+          "token": "/OR",
+          "prob": 0.0003
+        }
+      ]
+    },
+    {
+      "layer": 3,
+      "top_tokens": [
+        {
+          "token": "/or",
+          "prob": 0.2112
+        },
+        {
+          "token": "/OR",
+          "prob": 0.0275
+        },
+        {
+          "token": " mart",
+          "prob": 0.0102
+        },
+        {
+          "token": " subsequently",
+          "prob": 0.0096
+        },
+        {
+          "token": " thereby",
+          "prob": 0.005
+        }
+      ]
+    },
+    {
+      "layer": 4,
+      "top_tokens": [
+        {
+          "token": "/or",
+          "prob": 0.2852
+        },
+        {
+          "token": "/OR",
+          "prob": 0.0104
+        },
+        {
+          "token": "chine",
+          "prob": 0.0049
+        },
+        {
+          "token": " Duty",
+          "prob": 0.0036
+        },
+        {
+          "token": "Really",
+          "prob": 0.0031
+        }
+      ]
+    },
+    {
+      "layer": 5,
+      "top_tokens": [
+        {
+          "token": "/OR",
+          "prob": 0.0144
+        },
+        {
+          "token": "/or",
+          "prob": 0.0124
+        },
+        {
+          "token": " rings",
+          "prob": 0.0076
+        },
+        {
+          "token": " rang",
+          "prob": 0.0071
+        },
+        {
+          "token": " \u7b2c\u4e8c",
+          "prob": 0.0065
+        }
+      ]
+    },
+    {
+      "layer": 6,
+      "top_tokens": [
+        {
+          "token": "/or",
+          "prob": 0.0161
+        },
+        {
+          "token": "/OR",
+          "prob": 0.0142
+        },
+        {
+          "token": " promptly",
+          "prob": 0.014
+        },
+        {
+          "token": " div",
+          "prob": 0.0061
+        },
+        {
+          "token": " Disc",
+          "prob": 0.0053
+        }
+      ]
+    },
+    {
+      "layer": 7,
+      "top_tokens": [
+        {
+          "token": "/OR",
+          "prob": 0.011
+        },
+        {
+          "token": "chine",
+          "prob": 0.0084
+        },
+        {
+          "token": " promptly",
+          "prob": 0.0056
+        },
+        {
+          "token": "/or",
+          "prob": 0.0054
+        },
+        {
+          "token": " voices",
+          "prob": 0.0046
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "top_tokens": [
+        {
+          "token": "/or",
+          "prob": 0.1166
+        },
+        {
+          "token": "/OR",
+          "prob": 0.037
+        },
+        {
+          "token": " promptly",
+          "prob": 0.0138
+        },
+        {
+          "token": " r\u1ed3i",
+          "prob": 0.0104
+        },
+        {
+          "token": " Immediately",
+          "prob": 0.0039
+        }
+      ]
+    },
+    {
+      "layer": 9,
+      "top_tokens": [
+        {
+          "token": " promptly",
+          "prob": 0.1912
+        },
+        {
+          "token": "/or",
+          "prob": 0.0911
+        },
+        {
+          "token": " immediately",
+          "prob": 0.0159
+        },
+        {
+          "token": "/OR",
+          "prob": 0.0097
+        },
+        {
+          "token": "lum",
+          "prob": 0.0083
+        }
+      ]
+    },
+    {
+      "layer": 10,
+      "top_tokens": [
+        {
+          "token": " promptly",
+          "prob": 0.0884
+        },
+        {
+          "token": " voices",
+          "prob": 0.0818
+        },
+        {
+          "token": " voice",
+          "prob": 0.0711
+        },
+        {
+          "token": " listened",
+          "prob": 0.0296
+        },
+        {
+          "token": " immediately",
+          "prob": 0.0234
+        }
+      ]
+    },
+    {
+      "layer": 11,
+      "top_tokens": [
+        {
+          "token": " listened",
+          "prob": 0.1246
+        },
+        {
+          "token": " heard",
+          "prob": 0.0994
+        },
+        {
+          "token": " voices",
+          "prob": 0.0657
+        },
+        {
+          "token": " voice",
+          "prob": 0.0617
+        },
+        {
+          "token": " promptly",
+          "prob": 0.0308
+        }
+      ]
+    },
+    {
+      "layer": 12,
+      "top_tokens": [
+        {
+          "token": " listened",
+          "prob": 0.3975
+        },
+        {
+          "token": " heard",
+          "prob": 0.3853
+        },
+        {
+          "token": " promptly",
+          "prob": 0.0453
+        },
+        {
+          "token": "heard",
+          "prob": 0.0217
+        },
+        {
+          "token": " told",
+          "prob": 0.0182
+        }
+      ]
+    },
+    {
+      "layer": 13,
+      "top_tokens": [
+        {
+          "token": " listened",
+          "prob": 0.4783
+        },
+        {
+          "token": " heard",
+          "prob": 0.3965
+        },
+        {
+          "token": "heard",
+          "prob": 0.0207
+        },
+        {
+          "token": " promptly",
+          "prob": 0.0187
+        },
+        {
+          "token": " answered",
+          "prob": 0.0116
+        }
+      ]
+    },
+    {
+      "layer": 14,
+      "top_tokens": [
+        {
+          "token": " heard",
+          "prob": 0.7891
+        },
+        {
+          "token": " listened",
+          "prob": 0.0734
+        },
+        {
+          "token": " answered",
+          "prob": 0.017
+        },
+        {
+          "token": " found",
+          "prob": 0.0107
+        },
+        {
+          "token": " asked",
+          "prob": 0.0087
+        }
+      ]
+    },
+    {
+      "layer": 15,
+      "top_tokens": [
+        {
+          "token": " was",
+          "prob": 0.1407
+        },
+        {
+          "token": " listened",
+          "prob": 0.1096
+        },
+        {
+          "token": " heard",
+          "prob": 0.0665
+        },
+        {
+          "token": " her",
+          "prob": 0.0332
+        },
+        {
+          "token": " let",
+          "prob": 0.0273
+        }
+      ]
+    }
+  ],
+  "trace_results": [
+    {
+      "layer": 0,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 1,
+      "drop": 0.0298,
+      "attn_drop": 0.0179,
+      "mlp_drop": 0.0119,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 2,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 3,
+      "drop": 0.074,
+      "attn_drop": 0.0444,
+      "mlp_drop": 0.0296,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 4,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 5,
+      "drop": 0.0017,
+      "attn_drop": 0.001,
+      "mlp_drop": 0.0007,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 6,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 7,
+      "drop": 0.1056,
+      "attn_drop": 0.0634,
+      "mlp_drop": 0.0422,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 8,
+      "drop": 0.0746,
+      "attn_drop": 0.0448,
+      "mlp_drop": 0.0298,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 9,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 10,
+      "drop": 0.0362,
+      "attn_drop": 0.0217,
+      "mlp_drop": 0.0145,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 11,
+      "drop": 0.2729,
+      "attn_drop": 0.1637,
+      "mlp_drop": 0.1092,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 12,
+      "drop": 0.0808,
+      "attn_drop": 0.0485,
+      "mlp_drop": 0.0323,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 13,
+      "drop": 0.3108,
+      "attn_drop": 0.1865,
+      "mlp_drop": 0.1243,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 14,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1407
+    },
+    {
+      "layer": 15,
+      "drop": 0.0,
+      "attn_drop": 0.0,
+      "mlp_drop": 0.0,
+      "baseline_prob": 0.1407
+    }
+  ],
+  "trace_target": "The",
+  "color_map": {
+    "prompt": {
+      "14": 0,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 4,
+      "12": 5,
+      "13": 6,
+      "7": 7,
+      "4": 4,
+      "6": 7,
+      "1": 8,
+      "2": 8
+    },
+    "response": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 4,
+      "5": 5,
+      "6": 6,
+      "11": 7,
+      "13": 2,
+      "16": 5,
+      "20": 2,
+      "21": 2,
+      "26": 4,
+      "29": 6,
+      "37": 2,
+      "39": 2,
+      "40": 7,
+      "43": 5,
+      "44": 6,
+      "51": 7,
+      "53": 7,
+      "55": 8,
+      "57": 2,
+      "60": 6,
+      "61": 3
+    }
+  }
+}

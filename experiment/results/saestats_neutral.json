@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "model_id": "llama-3.2-1b",
+  "mode": "llm",
+  "n_probes": 12,
+  "layers_requested": [
+    8
+  ],
+  "top_k": 30,
+  "probes": [
+    {
+      "id": "neutral00",
+      "text": "The person said that"
+    },
+    {
+      "id": "neutral01",
+      "text": "The employee said that"
+    },
+    {
+      "id": "neutral02",
+      "text": "The neighbor said that"
+    },
+    {
+      "id": "neutral03",
+      "text": "The customer said that"
+    },
+    {
+      "id": "neutral04",
+      "text": "The student said that"
+    },
+    {
+      "id": "neutral05",
+      "text": "The colleague said that"
+    },
+    {
+      "id": "neutral06",
+      "text": "The stranger said that"
+    },
+    {
+      "id": "neutral07",
+      "text": "The visitor said that"
+    },
+    {
+      "id": "neutral08",
+      "text": "The worker said that"
+    },
+    {
+      "id": "neutral09",
+      "text": "The adult said that"
+    },
+    {
+      "id": "neutral10",
+      "text": "The individual said that"
+    },
+    {
+      "id": "neutral11",
+      "text": "The citizen said that"
+    }
+  ],
+  "layer_stats": [
+    {
+      "layer": 8,
+      "sae_available": true,
+      "n_features": 32768,
+      "mean_l0": 30688.0,
+      "sparsity": 0.063477,
+      "mean_activation": 6.258307,
+      "max_activation": 16.973541,
+      "top_features": [
+        {
+          "feature_idx": 3432,
+          "mean_activation": 16.973541
+        },
+        {
+          "feature_idx": 22041,
+          "mean_activation": 16.490232
+        },
+        {
+          "feature_idx": 32291,
+          "mean_activation": 16.296312
+        },
+        {
+          "feature_idx": 5026,
+          "mean_activation": 16.284418
+        },
+        {
+          "feature_idx": 27170,
+          "mean_activation": 16.124676
+        },
+        {
+          "feature_idx": 27816,
+          "mean_activation": 16.074221
+        },
+        {
+          "feature_idx": 8910,
+          "mean_activation": 15.902492
+        },
+        {
+          "feature_idx": 25318,
+          "mean_activation": 15.833589
+        },
+        {
+          "feature_idx": 13800,
+          "mean_activation": 15.83249
+        },
+        {
+          "feature_idx": 28219,
+          "mean_activation": 15.784653
+        },
+        {
+          "feature_idx": 5294,
+          "mean_activation": 15.730998
+        },
+        {
+          "feature_idx": 5641,
+          "mean_activation": 15.688588
+        },
+        {
+          "feature_idx": 6866,
+          "mean_activation": 15.601674
+        },
+        {
+          "feature_idx": 20945,
+          "mean_activation": 15.589955
+        },
+        {
+          "feature_idx": 17012,
+          "mean_activation": 15.579375
+        },
+        {
+          "feature_idx": 18986,
+          "mean_activation": 15.451705
+        },
+        {
+          "feature_idx": 5137,
+          "mean_activation": 15.419628
+        },
+        {
+          "feature_idx": 11240,
+          "mean_activation": 15.354701
+        },
+        {
+          "feature_idx": 30795,
+          "mean_activation": 15.347413
+        },
+        {
+          "feature_idx": 19990,
+          "mean_activation": 15.305068
+        },
+        {
+          "feature_idx": 15210,
+          "mean_activation": 15.26508
+        },
+        {
+          "feature_idx": 20251,
+          "mean_activation": 15.248185
+        },
+        {
+          "feature_idx": 27501,
+          "mean_activation": 15.227706
+        },
+        {
+          "feature_idx": 3442,
+          "mean_activation": 15.209132
+        },
+        {
+          "feature_idx": 3495,
+          "mean_activation": 15.200603
+        },
+        {
+          "feature_idx": 6832,
+          "mean_activation": 15.114338
+        },
+        {
+          "feature_idx": 18872,
+          "mean_activation": 15.100572
+        },
+        {
+          "feature_idx": 15363,
+          "mean_activation": 15.035283
+        },
+        {
+          "feature_idx": 25040,
+          "mean_activation": 15.034165
+        },
+        {
+          "feature_idx": 2026,
+          "mean_activation": 14.975875
+        }
+      ],
+      "per_probe": [
+        {
+          "probe_id": "neutral00",
+          "id": "neutral00",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258307
+        },
+        {
+          "probe_id": "neutral01",
+          "id": "neutral01",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258307
+        },
+        {
+          "probe_id": "neutral02",
+          "id": "neutral02",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258309
+        },
+        {
+          "probe_id": "neutral03",
+          "id": "neutral03",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258305
+        },
+        {
+          "probe_id": "neutral04",
+          "id": "neutral04",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258308
+        },
+        {
+          "probe_id": "neutral05",
+          "id": "neutral05",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258309
+        },
+        {
+          "probe_id": "neutral06",
+          "id": "neutral06",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258306
+        },
+        {
+          "probe_id": "neutral07",
+          "id": "neutral07",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258306
+        },
+        {
+          "probe_id": "neutral08",
+          "id": "neutral08",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258307
+        },
+        {
+          "probe_id": "neutral09",
+          "id": "neutral09",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258307
+        },
+        {
+          "probe_id": "neutral10",
+          "id": "neutral10",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258304
+        },
+        {
+          "probe_id": "neutral11",
+          "id": "neutral11",
+          "mean_l0": 30688.0,
+          "mean_activation": 6.258302
+        }
+      ]
+    }
+  ],
+  "layer_profile": [
+    {
+      "layer": 8,
+      "mean_l0": 30688.0,
+      "sparsity": 0.063477,
+      "mean_activation": 6.258307,
+      "sae_available": true
+    }
+  ],
+  "heatmap": {
+    "metric": "mean_l0",
+    "rows": [
+      "neutral00",
+      "neutral01",
+      "neutral02",
+      "neutral03",
+      "neutral04",
+      "neutral05",
+      "neutral06",
+      "neutral07",
+      "neutral08",
+      "neutral09",
+      "neutral10",
+      "neutral11"
+    ],
+    "cols": [
+      "L8"
+    ],
+    "values": [
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ],
+      [
+        30688.0
+      ]
+    ]
+  }
+}
