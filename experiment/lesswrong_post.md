@@ -33,7 +33,7 @@ Skip if you know mech interp basics.
 *   **Logit lens** — take any layer's residual vector, multiply by the unembedding matrix, and read off what the model "currently predicts." Lets you watch a prediction form layer by layer. ([Original post](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens).)
 *   **Steering** — every SAE feature corresponds to a direction in the residual stream. Steering adds `strength × direction` during the forward pass. If behavior changes smoothly and monotonically with strength — a dose-response curve — the feature isn't just correlated with the behavior, it's causally upstream of it.
 
-**Setup.** Llama-3.2-1B-Instruct (16 layers) with a 32,768-feature SAE trained on the layer-8 residual stream — layer 8 being the midpoint, where earlier logit-lens work suggests semantic/priors information is consolidating but the output isn't yet decided. Comparison model: LFM2.5-230M with layer-9 and layer-5 SAEs. All artifacts come from the **Aquin toolkit's catalog**; analysis via TransformerLens (Llama) and plain HuggingFace hooks (LFM, whose architecture TransformerLens doesn't support), on CPU. I had planned GPT-2-small as the comparison, but the catalog had no SAEs for it.
+**Setup.** Llama-3.2-1B-Instruct (16 layers) with a 32,768-feature SAE trained on the layer-8 residual stream — layer 8 being the midpoint, where earlier logit-lens work suggests semantic/priors information is consolidating but the output isn't yet decided. Comparison model: LFM2.5-230M with layer-9 and layer-5 SAEs. All artifacts come from the **[Aquin](https://aquin.app) toolkit's catalog**; analysis via TransformerLens (Llama) and plain HuggingFace hooks (LFM, whose architecture TransformerLens doesn't support), on CPU. I had planned GPT-2-small as the comparison, but the catalog had no SAEs for it.
 
 ```
 aquin load model llama-3.2-1b     # ~2.5 GB
@@ -257,7 +257,7 @@ Roughly in order of how much we want to do each:
 Appendix: bugs filed against the toolkit
 ----------------------------------------
 
-For reproducibility, the issues we hit in Aquin v3.0.5: (1) the llama-3.2-1b layer-8 norm stats are invalid in catalog storage — root cause of our dead-SAE phase; (2) `feature locate --save` crashes with `name 'Path' is not defined`; (3) `feature locate` averages activations over all token positions — a `--position last` option would have saved us a week; (4) TransformerLens warns MPS may be silently incorrect on torch 2.7.1, so all analyses ran on CPU.
+For reproducibility, the issues we hit in [Aquin](https://aquin.app) v3.0.5: (1) the llama-3.2-1b layer-8 norm stats are invalid in catalog storage — root cause of our dead-SAE phase; (2) `feature locate --save` crashes with `name 'Path' is not defined`; (3) `feature locate` averages activations over all token positions — a `--position last` option would have saved us a week; (4) TransformerLens warns MPS may be silently incorrect on torch 2.7.1, so all analyses ran on CPU.
 
 Reproducibility
 ---------------
