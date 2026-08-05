@@ -144,7 +144,10 @@ Every table in the write-up maps to a raw JSON in `experiment/results/`:
   end-to-end regardless.
 - Aquin 3.0.5 bugs we worked around: invalid llama-l8 norm in catalog;
   `feature locate --save` crash (`name 'Path' is not defined`); `feature locate`
-  token-mean pooling dilutes final-position signals.
+  token-mean pooling dilutes final-position signals; `aquin trace`/`prompt`
+  apply the chat template to bare completion prompts, so the instruct model
+  answers conversationally instead of continuing the text (phrase probes as
+  instructions, or read probabilities via direct model calls).
 - Two small models, binary pronouns only, next-token metrics — see the post's
   Limitations section before quoting numbers.
 

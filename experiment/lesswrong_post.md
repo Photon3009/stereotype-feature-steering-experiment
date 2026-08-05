@@ -254,10 +254,16 @@ Roughly in order of how much we want to do each:
 6.  **Long-horizon behavior.** All our steering metrics are next-token probabilities plus short completions. Generate full stories at −6 and evaluate them with a judge model for coherence, pronoun consistency, and whether the debiasing survives 200 tokens of context accumulation.
 7.  **Proper norm statistics.** Recompute the norm file from the SAE's actual training corpus (if the toolkit publishes it) and check how much our wikitext approximation inflated L0 — and whether discovery results shift at all (we predict not, since the causal results validated end-to-end).
 
-Appendix: bugs filed against the toolkit
-----------------------------------------
+Appendix: a pre-flight checklist for SAE experiments
+----------------------------------------------------
 
-For reproducibility, the issues we hit in [Aquin](https://aquin.app) v3.0.5: (1) the llama-3.2-1b layer-8 norm stats are invalid in catalog storage — root cause of our dead-SAE phase; (2) `feature locate --save` crashes with `name 'Path' is not defined`; (3) `feature locate` averages activations over all token positions — a `--position last` option would have saved us a week; (4) TransformerLens warns MPS may be silently incorrect on torch 2.7.1, so all analyses ran on CPU.
+Each of these is a generalized version of something that actually bit me during this project — none of it is specific to one toolkit. (The narrative lessons are in §7; these are the *infrastructure* checks that come before them.)
+
+1.  **Check L0 on *your* inputs before trusting any SAE output.** Encode a few of your actual probes and count active features. Hundreds = healthy; single digits or near-total saturation = the SAE is seeing a different input distribution than it was trained on, and every downstream number is noise. One line of code — it would have saved me half the project.
+2.  **Verify the preprocessing chain end to end.** SAEs are trained on transformed activations (standardized, unit-normed, mean-centered — recipes differ). Confirm the transform parameters exist, load, and produce sane values. Treat any warning during artifact download as a stop-the-line event, not a footnote.
+3.  **Know what device and template you're actually on.** Two silent behavior-changers at the infrastructure level: numerically unreliable backends (MPS on some torch versions — I ran all analysis on CPU), and chat templates silently wrapping completion-style prompts so your instruct model *answers* instead of *continuing* — which changes what the logit lens measures.
+
+Version-specific issues I hit, with workarounds, are documented in the [repo README](https://github.com/Photon3009/stereotype-feature-steering-experiment) — pinned to the exact toolkit version so they stay accurate as tools improve.
 
 Reproducibility
 ---------------
