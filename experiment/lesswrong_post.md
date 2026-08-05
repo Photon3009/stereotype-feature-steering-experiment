@@ -35,6 +35,10 @@ Skip if you know mech interp basics.
 
 **Setup.** Llama-3.2-1B-Instruct (16 layers) with a 32,768-feature SAE trained on the layer-8 residual stream — layer 8 being the midpoint, where earlier logit-lens work suggests semantic/priors information is consolidating but the output isn't yet decided. Comparison model: LFM2.5-230M with layer-9 and layer-5 SAEs. All artifacts come from the **[Aquin](https://aquin.app) toolkit's catalog**; analysis via TransformerLens (Llama) and plain HuggingFace hooks (LFM, whose architecture TransformerLens doesn't support), on CPU. I had planned GPT-2-small as the comparison, but the catalog had no SAEs for it.
 
+![Layer-grid view of one prediction forming across llama-3.2-1b's 16 layers: nodes colored by logit-lens confidence, red rings sized by causal ablation drop, with the SAE read point marked at layer 8.](results/fig_layer_grid.png)
+
+*Why layer 8: one prediction forming across the 16 layers (the hairdresser probe from Figure 1). Each node shows the logit-lens top token at that layer — the early layers just copy the prompt's last word ("then"), the middle layers are undecided noise, and the answer only crystallizes in L12–15. Red rings mark layers whose ablation actually hurts the prediction — the causal work happens in L9–14. The SAE (dashed, L8) reads the residual stream right before that decision cascade: late enough that semantic context has accumulated, early enough that intervening there can still change the outcome.*
+
 ```
 aquin load model llama-3.2-1b     # ~2.5 GB
 aquin load sae llama-3.2-1b-l8    # 537 MB — printed a warning I ignored. Hold that thought.
