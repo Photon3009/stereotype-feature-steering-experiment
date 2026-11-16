@@ -1,0 +1,98 @@
+[
+ {
+  "method": "baseline",
+  "strength": 0.0,
+  "wikitext_loss": 3.2701314608256022,
+  "qa": 10
+ },
+ {
+  "method": "sae_f32258",
+  "strength": -8.0,
+  "wikitext_loss": 3.4036706924438476,
+  "qa": null
+ },
+ {
+  "method": "sae_f32258",
+  "strength": -6.0,
+  "wikitext_loss": 3.3455838521321613,
+  "qa": 9
+ },
+ {
+  "method": "sae_f32258",
+  "strength": -4.0,
+  "wikitext_loss": 3.3068060715993246,
+  "qa": null
+ },
+ {
+  "method": "sae_f32258",
+  "strength": -2.0,
+  "wikitext_loss": 3.2844153881072997,
+  "qa": null
+ },
+ {
+  "method": "diff_in_means",
+  "strength": -8.0,
+  "wikitext_loss": 3.327899185816447,
+  "qa": 9
+ },
+ {
+  "method": "diff_in_means",
+  "strength": -6.0,
+  "wikitext_loss": 3.3050915877024334,
+  "qa": null
+ },
+ {
+  "method": "diff_in_means",
+  "strength": -4.0,
+  "wikitext_loss": 3.2881380716959634,
+  "qa": null
+ },
+ {
+  "method": "diff_in_means",
+  "strength": -2.0,
+  "wikitext_loss": 3.2765592416127522,
+  "qa": null
+ },
+ {
+  "method": "unembed_he_she",
+  "strength": -8.0,
+  "wikitext_loss": 3.3167818705240886,
+  "qa": null
+ },
+ {
+  "method": "unembed_he_she",
+  "strength": -6.0,
+  "wikitext_loss": 3.298184553782145,
+  "qa": 10
+ },
+ {
+  "method": "unembed_he_she",
+  "strength": -4.0,
+  "wikitext_loss": 3.284742323557536,
+  "qa": null
+ },
+ {
+  "method": "unembed_he_she",
+  "strength": -2.0,
+  "wikitext_loss": 3.2756324291229246,
+  "qa": null
+ },
+ {
+  "method": "random_s0",
+  "strength": -6.0,
+  "wikitext_loss": 3.2763558546702067,
+  "qa": null
+ },
+ {
+  "method": "projout_sae_f32258",
+  "strength": 0.0,
+  "wikitext_loss": 3.3547688643137614,
+  "qa": 9
+ },
+ {
+  "method": "projout_diff_in_means",
+  "strength": 0.0,
+  "wikitext_loss": 3.278620211283366,
+  "qa": null
+ }
+]

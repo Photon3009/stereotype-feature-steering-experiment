@@ -1,0 +1,102 @@
+% ===========================================================================
+%  LOCAL PREVIEW SHIM -- NOT the official NeurIPS style file.
+%
+%  Purpose: let `main.tex` compile on a machine that does not have the workshop
+%  template, so you can read the PDF and get a page count that is close to the
+%  real one. It reproduces the NeurIPS page geometry (5.5in x 9in text block,
+%  10pt Times) and loads natbib, which is what actually drives page count.
+%
+%  BEFORE SUBMITTING: delete this file and use the official neurips_2026.sty
+%  from the workshop's Overleaf template. Heading sizes, title block and
+%  footnote handling here are approximations, so the real file may shift the
+%  page count by a few tenths of a page in either direction.
+% ===========================================================================
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{neurips_2026}[2026/08/20 local preview shim]
+
+\newif\if@neuripsfinal\@neuripsfinalfalse
+\DeclareOption{final}{\@neuripsfinaltrue}
+\DeclareOption{preprint}{\@neuripsfinaltrue}
+\DeclareOption*{\PackageWarning{neurips_2026}{Unknown option \CurrentOption}}
+\ProcessOptions\relax
+
+% --- page geometry: matches the official style's text block -----------------
+\RequirePackage[letterpaper,text={5.5in,9in},centering]{geometry}
+
+% --- fonts: Times, as the official style uses -------------------------------
+\RequirePackage{mathptmx}
+\renewcommand{\rmdefault}{ptm}
+
+% --- citations --------------------------------------------------------------
+\RequirePackage{natbib}
+\setcitestyle{authoryear,round,citesep={;},aysep={,},yysep={,}}
+
+\RequirePackage{caption}
+\captionsetup{font=small,labelfont=bf,skip=6pt}
+
+% --- spacing ----------------------------------------------------------------
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{\z@}
+\setlength{\topsep}{4pt plus 1pt minus 2pt}
+\setlength{\partopsep}{1pt plus 0.5pt minus 0.5pt}
+\setlength{\itemsep}{2pt plus 1pt minus 0.5pt}
+\setlength{\parsep}{2pt plus 1pt minus 0.5pt}
+\setlength{\floatsep}{12pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{14pt plus 2pt minus 4pt}
+
+% paragraphs are separated by a blank line, as in the official style
+\newlength{\@nipsparskip}
+\setlength{\@nipsparskip}{5.5pt plus 1pt}
+\AtBeginDocument{\setlength{\parskip}{\@nipsparskip}}
+
+% --- headings ---------------------------------------------------------------
+\renewcommand{\section}{\@startsection{section}{1}{\z@}%
+  {-2.0ex \@plus -0.5ex \@minus -0.2ex}{1.2ex \@plus 0.3ex \@minus 0.2ex}%
+  {\large\bf\raggedright}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}%
+  {-1.8ex \@plus -0.5ex \@minus -0.2ex}{0.8ex \@plus 0.2ex}%
+  {\normalsize\bf\raggedright}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{\z@}%
+  {-1.5ex \@plus -0.5ex \@minus -0.2ex}{0.5ex \@plus 0.2ex}%
+  {\normalsize\bf\raggedright}}
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\z@}%
+  {1.2ex \@plus 0.5ex \@minus 0.2ex}{-1em}{\normalsize\bf}}
+
+% --- title block ------------------------------------------------------------
+\renewcommand{\maketitle}{%
+  \vbox{\hsize\textwidth
+    \linewidth\hsize
+    \centering
+    {\LARGE\bf \@title\par}
+    \vskip 0.55in
+    % Anonymous mode drops the author block entirely, as the official style does.
+    % Only [final] prints it. This is what keeps a real name out of a blind submission.
+    \if@neuripsfinal
+      {\normalsize \@author\par}
+    \else
+      {\normalsize Anonymous Author(s)\\ Affiliation\\ \texttt{email}\par}
+    \fi
+    \vskip 0.2in
+  }
+  \vskip 0.15in
+  \thispagestyle{empty}
+  \@thanks
+  \global\let\@thanks\@empty
+}
+
+% --- abstract ---------------------------------------------------------------
+\renewenvironment{abstract}{%
+  \centerline{\large\bf Abstract}%
+  \vspace{0.4ex}%
+  \begin{quote}\small
+}{%
+  \end{quote}\vspace{1ex}
+}
+
+\if@neuripsfinal\else
+  \AtBeginDocument{\PackageWarningNoLine{neurips_2026}{%
+    LOCAL PREVIEW SHIM in use -- this is NOT the official NeurIPS style.^^J%
+    Replace it with the workshop template before submitting}}
+\fi
+
+\endinput

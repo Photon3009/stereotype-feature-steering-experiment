@@ -1,0 +1,8 @@
+{
+ "sae_dir_l2": 0.12377192080020905,
+ "dim_l2_raw": 1.0976723432540894,
+ "mean_resid_l2_at_L8": 6.1999688148498535,
+ "cos_sae_vs_diff_in_means": 0.15550793707370758,
+ "cos_sae_vs_unembed": 0.06296102702617645,
+ "perturbation_fraction_of_resid_norm_per_unit_strength": 0.019963313445021977
+}
