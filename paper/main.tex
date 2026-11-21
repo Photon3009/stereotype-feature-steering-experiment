@@ -173,10 +173,11 @@ a given $s$ is an equally sized perturbation for every method.
 
 \paragraph{Statistics.}
 Primary inference is on effect sizes with CIs; we also report two-sided Wilcoxon
-signed-rank tests paired by occupation. Holm correction is applied to a pre-specified
+signed-rank tests paired by occupation. Holm correction is applied to a named
 family of \PrimaryN{} tests, the ones the text draws a conclusion from (steering at
 $s=-6$ on the discovery, varied-predicate and held-out sets; steering at $s=+6$ on the
-female-stereotyped set; projection on both sets; context override; the negative control).
+female-stereotyped set; projection on both sets; context override; the negative control; and the expanded-probe
+and two generation tests of \S\ref{sec:beyond}).
 All \PrimaryN{} survive (largest adjusted $p={}\PrimaryMaxHolm$), the negative control
 included. Sweep-table $p$-values are uncorrected. Two cautions. With $n=12$ pairs the smallest attainable two-sided $p$ is
 $4.9\times10^{-4}$, so a test at that value is at the floor, and the floor is not
@@ -330,8 +331,8 @@ two unseen template families (Table~\ref{tab:heldout}).
 \centering
 \includegraphics[width=\textwidth]{figures/fig_frontier.pdf}
 \caption{Two frontiers at matched $L_2$ norm; each point is one steering strength, and
-lower-left is better. (a) Bias on male-stereotyped occupations, the metric of the submitted
-version: the unembedding direction wins. (b) The occupation gap $b_{\text{male}} -
+lower-left is better. (a) Bias on male-stereotyped occupations, the metric we first
+reported: the unembedding direction wins. (b) The occupation gap $b_{\text{male}} -
 b_{\text{female}}$, which is the stereotype itself: only the SAE feature closes it.
 Baseline strengths beyond $-8$ were added for this version (Table~\ref{tab:gap}).}
 \label{fig:frontier}
@@ -554,7 +555,7 @@ quantity. Non-binary pronouns deserve to be a first-class axis, and grammatical 
 other languages is untouched. The expanded probes (20 occupations per group, labelled from
 labour statistics) and the generation evaluation of \S\ref{sec:beyond} cover the unsteered
 model and the two baselines, but not the SAE feature, whose checkpoint was unavailable to
-us at camera-ready time. For \ff{32258} itself the evidence therefore remains 12
+us. For \ff{32258} itself the evidence therefore remains 12
 occupations per group plus the 24 held-out ones, read at the next token. Generations are
 short (40--60 tokens) and scored by their first pronoun, so consistency over a long
 narrative is untested. The main results query an instruction-tuned model in raw completion
@@ -571,7 +572,7 @@ one, because the measurement would no longer reveal the problem.
 
 \section{Conclusion}
 
-A single SAE feature in Llama-3.2-1B-Instruct is a working, necessary handle on
+A single SAE feature in Llama-3.2-1B-Instruct is a working, nearly necessary handle on
 occupation$\rightarrow$pronoun stereotyping, and verification changed three things we
 would otherwise have published: which baseline wins depended on scoring one group's parity
 or the occupation gap, a top-ranked discovery candidate was inert, and a cross-model claim
@@ -808,7 +809,7 @@ debiasing strengths (Table~\ref{tab:baselines}) and across every measured streng
 dose--response sweep (Table~\ref{tab:dosefull}), transfer to unseen occupations
 (Table~\ref{tab:heldout}), the context-override sweep (Table~\ref{tab:override}), and the
 two-sided feature search in both models at every layer we could reach
-(Table~\ref{tab:searchfull}), and the camera-ready additions: generation
+(Table~\ref{tab:searchfull}), and the later additions: generation
 (Table~\ref{tab:generation}), expanded probes (Table~\ref{tab:expanded}) and the
 occupation gap (Table~\ref{tab:gap}).
 
@@ -966,7 +967,7 @@ condition & $b$ male-stereo & $\Delta b$ & $b$ female-stereo & $\Delta b$ \\
 \centering
 \caption{Occupation gap $b_{\text{male}}-b_{\text{female}}$ on the discovery templates, at
 matched intervention norm, with WikiText cost. CI: independent bootstrap of the two group
-means. Strengths beyond $-8$ for the baselines are from the camera-ready extension.}
+means. Strengths beyond $-8$ for the baselines were added after the original runs.}
 \label{tab:gap}
 \small
 \begin{tabular}{llrrlr}
