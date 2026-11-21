@@ -44,13 +44,14 @@ def bias(rows):
     return np.array([math.log(r["p_he"]) - math.log(r["p_she"]) for r in rows])
 
 
-def mean_ci(x, n=5000):
+def mean_ci(x):
+    """Same seeded bootstrap as the tables (paperstats.ci), so figure and table agree."""
+    from paperstats import ci
     x = np.asarray(x)
     if len(x) < 2:
         return float(x.mean()), float(x.mean()), float(x.mean())
-    idx = RNG.integers(0, len(x), size=(n, len(x)))
-    d = x[idx].mean(axis=1)
-    return float(x.mean()), float(np.quantile(d, 0.025)), float(np.quantile(d, 0.975))
+    lo, hi = ci(x)
+    return float(x.mean()), lo, hi
 
 
 def curve(rows, group, key="strength", value=bias):
@@ -120,54 +121,56 @@ else:
     print("skip fig_dose_ci: baseline_sweep.json missing")
 
 # ===================================================== Fig 2: capability frontier
+# (a) male-group bias against WikiText cost -- the metric the submitted version used.
+# (b) the occupation gap b(male) - b(female) against cost: the stereotype itself. A
+#     direction that shifts every occupation toward ' she' wins (a) without moving (b).
 cap = load("capability_baselines.json")
+gf = load("gap_frontier.json")
 if sw and cap:
     base_loss = [c for c in cap if c["method"] == "baseline"][0]["wikitext_loss"]
+    pts_rows = list(sw) + (gf["rows"] if gf else [])
+    pts_cap = list(cap) + ([c for c in gf["capability"] if c["method"] != "baseline"] if gf else [])
     fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.5))
-
     labels = {"sae_f32258": ("SAE feature f32258", C["sae"]),
               "diff_in_means": ("difference-in-means", C["dim"]),
               "unembed_he_she": ("unembedding he$-$she", C["unembed"]),
               "random_s0": ("random direction", C["random"])}
 
-    ax = axes[0]
-    for meth, (lab, col) in labels.items():
-        pts = []
-        for c in cap:
-            if c["method"] != meth:
-                continue
-            sel = [r for r in sw if r["method"] == meth and r["strength"] == c["strength"]
-                   and r["group"] == "male"]
-            if not sel:
-                continue
-            b = bias(sel).mean()
-            pts.append((100 * (c["wikitext_loss"] - base_loss) / base_loss, b, c["strength"]))
-        if not pts:
-            continue
-        pts.sort()
-        x, y, s = zip(*pts)
-        ax.plot(x, y, "-o", color=col, label=lab)
-        for xi, yi, si in pts:
-            ax.annotate(f"{si:+.0f}", (xi, yi), textcoords="offset points",
-                        xytext=(3, 3), fontsize=5.5, color=col)
-    b0 = bias([r for r in sw if r["method"] == "baseline" and r["group"] == "male"]).mean()
-    ax.axhline(b0, color="k", lw=0.8, ls=":", label="unsteered")
-    ax.axhline(0, color="k", lw=0.8, ls="--")
-    ax.set_xlabel("WikiText loss increase (%)")
-    ax.set_ylabel(r"bias $b$, male-stereotyped")
-    ax.set_title("(a) bias–capability frontier (lower-left is better)")
-    ax.legend(frameon=False, fontsize=6)
+    def grp(meth, s, g):
+        return [r for r in pts_rows if r["method"] == meth and r["strength"] == s
+                and r["group"] == g and r.get("set", "tpl") == "tpl"]
 
-    ax = axes[1]
-    for meth, (lab, col) in labels.items():
-        c = curve([r for r in sw if r["method"] in (meth, "baseline")], "male")
-        if c:
-            band(ax, c, col, lab)
-    ax.axhline(0, color="k", lw=0.8, ls="--")
-    ax.set_xlabel("steering strength $s$ (matched $L_2$ norm)")
-    ax.set_ylabel(r"bias $b$, male-stereotyped")
-    ax.set_title("(b) dose–response by method")
-    ax.legend(frameon=False, fontsize=6)
+    def frontier(ax, value, ylabel, title, ref):
+        for meth, (lab, col) in labels.items():
+            pts = []
+            for c in pts_cap:
+                if c["method"] != meth:
+                    continue
+                m, f = grp(meth, c["strength"], "male"), grp(meth, c["strength"], "female")
+                if not m or not f:
+                    continue
+                pts.append((100 * (c["wikitext_loss"] - base_loss) / base_loss,
+                            value(bias(m), bias(f)), c["strength"]))
+            if not pts:
+                continue
+            pts.sort()
+            x, y, st = zip(*pts)
+            ax.plot(x, y, "-o", color=col, label=lab)
+            for xi, yi, si in pts:
+                ax.annotate(f"{si:+.0f}", (xi, yi), textcoords="offset points",
+                            xytext=(3, 3), fontsize=5.5, color=col)
+        m0, f0 = bias(grp("baseline", 0.0, "male")), bias(grp("baseline", 0.0, "female"))
+        ax.axhline(value(m0, f0), color="k", lw=0.8, ls=":", label="unsteered")
+        ax.axhline(0, color="k", lw=0.8, ls="--")
+        ax.set_xlabel("WikiText loss increase (%)")
+        ax.set_ylabel(ylabel)
+        ax.set_title(title)
+
+    frontier(axes[0], lambda m, f: m.mean(), r"bias $b$, male-stereotyped",
+             "(a) male-group bias vs. capability", None)
+    axes[0].legend(frameon=False, fontsize=6)
+    frontier(axes[1], lambda m, f: m.mean() - f.mean(), r"gap $b_{male} - b_{female}$",
+             "(b) occupation gap vs. capability", None)
     fig.savefig(FIG / "fig_frontier.pdf")
     plt.close(fig)
     print("wrote fig_frontier.pdf")

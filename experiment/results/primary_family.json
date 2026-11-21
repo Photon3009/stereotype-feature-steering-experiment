@@ -1,0 +1,68 @@
+[
+ {
+  "test": "steer s=-6, male, discovery",
+  "n": 12,
+  "p": 0.00048828125,
+  "p_holm": 0.0029296875
+ },
+ {
+  "test": "steer s=+6, female, discovery",
+  "n": 12,
+  "p": 0.00048828125,
+  "p_holm": 0.0029296875
+ },
+ {
+  "test": "steer s=-6, male, varied predicate",
+  "n": 12,
+  "p": 0.00048828125,
+  "p_holm": 0.0029296875
+ },
+ {
+  "test": "steer s=-6, male, held-out",
+  "n": 24,
+  "p": 1.1920928955078125e-07,
+  "p_holm": 1.3113021850585938e-06
+ },
+ {
+  "test": "project out, male, tpl",
+  "n": 12,
+  "p": 0.00048828125,
+  "p_holm": 0.0029296875
+ },
+ {
+  "test": "project out, male, heldout",
+  "n": 24,
+  "p": 1.1920928955078125e-07,
+  "p_holm": 1.3113021850585938e-06
+ },
+ {
+  "test": "override s=+6, explicit her",
+  "n": 12,
+  "p": 0.00048828125,
+  "p_holm": 0.0029296875
+ },
+ {
+  "test": "negative control f27420 s=-6, female",
+  "n": 12,
+  "p": 0.00048828125,
+  "p_holm": 0.0029296875
+ },
+ {
+  "test": "unembed_he_she s=-6, male, expanded (per occupation)",
+  "n": 20,
+  "p": 1.9073486328125e-06,
+  "p_holm": 1.52587890625e-05
+ },
+ {
+  "test": "generation he-share unembed_he_she s=-8, male, raw",
+  "n": 31,
+  "p": 1.6572975297530064e-06,
+  "p_holm": 1.4915677767777058e-05
+ },
+ {
+  "test": "generation he-share unembed_he_she s=-8, male, chat",
+  "n": 31,
+  "p": 1.125760305197472e-05,
+  "p_holm": 7.880322136382303e-05
+ }
+]

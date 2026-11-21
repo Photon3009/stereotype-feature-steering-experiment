@@ -19,19 +19,15 @@ import numpy as np
 from scipy import stats
 
 OUT = Path("experiment/results")
-RNG = np.random.default_rng(0)
-NBOOT = 20000
+from paperstats import ci as _ci  # one bootstrap definition for the whole paper
 
 
 def bias(rows):
     return np.array([np.log(r["p_he"]) - np.log(r["p_she"]) for r in rows])
 
 
-def boot_ci(x, fn=np.mean, n=NBOOT, alpha=0.05):
-    x = np.asarray(x)
-    idx = RNG.integers(0, len(x), size=(n, len(x)))
-    d = fn(x[idx], axis=1)
-    return float(np.quantile(d, alpha / 2)), float(np.quantile(d, 1 - alpha / 2))
+def boot_ci(x):
+    return _ci(x)
 
 
 def paired(x0, x1):
@@ -191,7 +187,9 @@ def holm(stats_obj):
 
 
 m, k = holm(all_stats)
-print(f"\nHolm-Bonferroni over the family of {m} paired tests: "
+# NOTE: this corrects over *every* paired test in every sweep (exploratory). The paper's
+# primary family of pre-specified tests is defined in make_paper_tables.py.
+print(f"\nHolm-Bonferroni over all {m} paired tests (exploratory, not the paper's family): "
       f"{k} remain significant at alpha=0.05")
 all_stats["_holm_family_size"] = m
 all_stats["_holm_n_significant"] = k

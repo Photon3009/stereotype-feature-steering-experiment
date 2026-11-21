@@ -25,7 +25,7 @@ LAYER = 8
 HOOK = f"blocks.{LAYER}.hook_resid_post"
 SAE_DIR = Path.home() / ".aquin/sae/llama-3.2-1b"
 OUT = Path("experiment/results")
-TOPK = 5
+TOPK = 8   # was 5; matched to the LFM search depth for the camera-ready
 STRENGTHS = [-6.0, 6.0]
 
 t0 = time.time()

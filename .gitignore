@@ -14,3 +14,13 @@ __pycache__/
 # tooling / personal
 .claude/
 blog/
+
+# private working files (kept locally, not published)
+paper/REVIEW_RISKS.md
+paper/SUBMISSION_FIELDS.md
+paper/openreview_abstract.txt
+paper/overleaf_upload.zip
+paper/main.log
+paper/main.blg
+paper/main.aux
+experiment/results/*.log

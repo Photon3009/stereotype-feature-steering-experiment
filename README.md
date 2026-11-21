@@ -5,6 +5,13 @@ we locate a single feature in **Llama-3.2-1B-Instruct** (layer-8 residual stream
 **f32258**) that causally implements occupation→gender stereotyping — and its mirror image
 (**f9619**, a *female*-context feature) in **LFM2.5-230M**.
 
+> **Paper:** this work was accepted to the NewInML workshop at NeurIPS 2026 — see
+> [`paper/main.pdf`](paper/main.pdf). The paper **corrects** two claims in the original
+> write-up below: LFM2.5-230M does have a steerable he-side feature (rank 2, missed by
+> testing rank 1 only), so the "opposite mechanics / mirror image" claim does not hold;
+> and the 15:1 → 1:1 ratios are replaced by log-odds with confidence intervals. The paper
+> is the authoritative version.
+
 **Headline results:**
 
 - Subtracting f32258 during the forward pass takes the he:she bias on male-stereotyped

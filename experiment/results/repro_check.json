@@ -1,0 +1,17 @@
+[
+ {
+  "method": "baseline",
+  "strength": 0.0,
+  "max_rel_err_p_he": 1.052710207004935e-05
+ },
+ {
+  "method": "unembed_he_she",
+  "strength": -8.0,
+  "max_rel_err_p_he": 1.447990078758111e-05
+ },
+ {
+  "method": "diff_in_means",
+  "strength": -8.0,
+  "max_rel_err_p_he": 1.11957261607196e-05
+ }
+]

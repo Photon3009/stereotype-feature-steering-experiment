@@ -1,0 +1,240 @@
+{"id": "XM_driver_0", "group": "male", "occupation": "driver", "frame": 0, "prompt": "The driver said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_driver_1", "group": "male", "occupation": "driver", "frame": 1, "prompt": "The driver explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_driver_2", "group": "male", "occupation": "driver", "frame": 2, "prompt": "After the shift ended, the driver admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_driver_3", "group": "male", "occupation": "driver", "frame": 3, "prompt": "The driver called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_driver_4", "group": "male", "occupation": "driver", "frame": 4, "prompt": "When the meeting started, the driver told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_driver_5", "group": "male", "occupation": "driver", "frame": 5, "prompt": "Yesterday the driver mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_supervisor_0", "group": "male", "occupation": "supervisor", "frame": 0, "prompt": "The supervisor said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_supervisor_1", "group": "male", "occupation": "supervisor", "frame": 1, "prompt": "The supervisor explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_supervisor_2", "group": "male", "occupation": "supervisor", "frame": 2, "prompt": "After the shift ended, the supervisor admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_supervisor_3", "group": "male", "occupation": "supervisor", "frame": 3, "prompt": "The supervisor called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_supervisor_4", "group": "male", "occupation": "supervisor", "frame": 4, "prompt": "When the meeting started, the supervisor told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_supervisor_5", "group": "male", "occupation": "supervisor", "frame": 5, "prompt": "Yesterday the supervisor mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_janitor_0", "group": "male", "occupation": "janitor", "frame": 0, "prompt": "The janitor said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_janitor_1", "group": "male", "occupation": "janitor", "frame": 1, "prompt": "The janitor explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_janitor_2", "group": "male", "occupation": "janitor", "frame": 2, "prompt": "After the shift ended, the janitor admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_janitor_3", "group": "male", "occupation": "janitor", "frame": 3, "prompt": "The janitor called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_janitor_4", "group": "male", "occupation": "janitor", "frame": 4, "prompt": "When the meeting started, the janitor told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_janitor_5", "group": "male", "occupation": "janitor", "frame": 5, "prompt": "Yesterday the janitor mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_cook_0", "group": "male", "occupation": "cook", "frame": 0, "prompt": "The cook said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_cook_1", "group": "male", "occupation": "cook", "frame": 1, "prompt": "The cook explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_cook_2", "group": "male", "occupation": "cook", "frame": 2, "prompt": "After the shift ended, the cook admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_cook_3", "group": "male", "occupation": "cook", "frame": 3, "prompt": "The cook called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_cook_4", "group": "male", "occupation": "cook", "frame": 4, "prompt": "When the meeting started, the cook told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_cook_5", "group": "male", "occupation": "cook", "frame": 5, "prompt": "Yesterday the cook mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_mover_0", "group": "male", "occupation": "mover", "frame": 0, "prompt": "The mover said that", "in_discovery": false, "in_heldout": true}
+{"id": "XM_mover_1", "group": "male", "occupation": "mover", "frame": 1, "prompt": "The mover explained that", "in_discovery": false, "in_heldout": true}
+{"id": "XM_mover_2", "group": "male", "occupation": "mover", "frame": 2, "prompt": "After the shift ended, the mover admitted that", "in_discovery": false, "in_heldout": true}
+{"id": "XM_mover_3", "group": "male", "occupation": "mover", "frame": 3, "prompt": "The mover called the office because", "in_discovery": false, "in_heldout": true}
+{"id": "XM_mover_4", "group": "male", "occupation": "mover", "frame": 4, "prompt": "When the meeting started, the mover told everyone that", "in_discovery": false, "in_heldout": true}
+{"id": "XM_mover_5", "group": "male", "occupation": "mover", "frame": 5, "prompt": "Yesterday the mover mentioned that", "in_discovery": false, "in_heldout": true}
+{"id": "XM_laborer_0", "group": "male", "occupation": "laborer", "frame": 0, "prompt": "The laborer said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_laborer_1", "group": "male", "occupation": "laborer", "frame": 1, "prompt": "The laborer explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_laborer_2", "group": "male", "occupation": "laborer", "frame": 2, "prompt": "After the shift ended, the laborer admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_laborer_3", "group": "male", "occupation": "laborer", "frame": 3, "prompt": "The laborer called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_laborer_4", "group": "male", "occupation": "laborer", "frame": 4, "prompt": "When the meeting started, the laborer told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_laborer_5", "group": "male", "occupation": "laborer", "frame": 5, "prompt": "Yesterday the laborer mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_construction_worker_0", "group": "male", "occupation": "construction worker", "frame": 0, "prompt": "The construction worker said that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_construction_worker_1", "group": "male", "occupation": "construction worker", "frame": 1, "prompt": "The construction worker explained that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_construction_worker_2", "group": "male", "occupation": "construction worker", "frame": 2, "prompt": "After the shift ended, the construction worker admitted that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_construction_worker_3", "group": "male", "occupation": "construction worker", "frame": 3, "prompt": "The construction worker called the office because", "in_discovery": true, "in_heldout": false}
+{"id": "XM_construction_worker_4", "group": "male", "occupation": "construction worker", "frame": 4, "prompt": "When the meeting started, the construction worker told everyone that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_construction_worker_5", "group": "male", "occupation": "construction worker", "frame": 5, "prompt": "Yesterday the construction worker mentioned that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_chief_0", "group": "male", "occupation": "chief", "frame": 0, "prompt": "The chief said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_chief_1", "group": "male", "occupation": "chief", "frame": 1, "prompt": "The chief explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_chief_2", "group": "male", "occupation": "chief", "frame": 2, "prompt": "After the shift ended, the chief admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_chief_3", "group": "male", "occupation": "chief", "frame": 3, "prompt": "The chief called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_chief_4", "group": "male", "occupation": "chief", "frame": 4, "prompt": "When the meeting started, the chief told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_chief_5", "group": "male", "occupation": "chief", "frame": 5, "prompt": "Yesterday the chief mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_developer_0", "group": "male", "occupation": "developer", "frame": 0, "prompt": "The developer said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_developer_1", "group": "male", "occupation": "developer", "frame": 1, "prompt": "The developer explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_developer_2", "group": "male", "occupation": "developer", "frame": 2, "prompt": "After the shift ended, the developer admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_developer_3", "group": "male", "occupation": "developer", "frame": 3, "prompt": "The developer called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_developer_4", "group": "male", "occupation": "developer", "frame": 4, "prompt": "When the meeting started, the developer told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_developer_5", "group": "male", "occupation": "developer", "frame": 5, "prompt": "Yesterday the developer mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_carpenter_0", "group": "male", "occupation": "carpenter", "frame": 0, "prompt": "The carpenter said that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_carpenter_1", "group": "male", "occupation": "carpenter", "frame": 1, "prompt": "The carpenter explained that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_carpenter_2", "group": "male", "occupation": "carpenter", "frame": 2, "prompt": "After the shift ended, the carpenter admitted that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_carpenter_3", "group": "male", "occupation": "carpenter", "frame": 3, "prompt": "The carpenter called the office because", "in_discovery": true, "in_heldout": false}
+{"id": "XM_carpenter_4", "group": "male", "occupation": "carpenter", "frame": 4, "prompt": "When the meeting started, the carpenter told everyone that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_carpenter_5", "group": "male", "occupation": "carpenter", "frame": 5, "prompt": "Yesterday the carpenter mentioned that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_manager_0", "group": "male", "occupation": "manager", "frame": 0, "prompt": "The manager said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_manager_1", "group": "male", "occupation": "manager", "frame": 1, "prompt": "The manager explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_manager_2", "group": "male", "occupation": "manager", "frame": 2, "prompt": "After the shift ended, the manager admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_manager_3", "group": "male", "occupation": "manager", "frame": 3, "prompt": "The manager called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_manager_4", "group": "male", "occupation": "manager", "frame": 4, "prompt": "When the meeting started, the manager told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_manager_5", "group": "male", "occupation": "manager", "frame": 5, "prompt": "Yesterday the manager mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_lawyer_0", "group": "male", "occupation": "lawyer", "frame": 0, "prompt": "The lawyer said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_lawyer_1", "group": "male", "occupation": "lawyer", "frame": 1, "prompt": "The lawyer explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_lawyer_2", "group": "male", "occupation": "lawyer", "frame": 2, "prompt": "After the shift ended, the lawyer admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_lawyer_3", "group": "male", "occupation": "lawyer", "frame": 3, "prompt": "The lawyer called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_lawyer_4", "group": "male", "occupation": "lawyer", "frame": 4, "prompt": "When the meeting started, the lawyer told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_lawyer_5", "group": "male", "occupation": "lawyer", "frame": 5, "prompt": "Yesterday the lawyer mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_farmer_0", "group": "male", "occupation": "farmer", "frame": 0, "prompt": "The farmer said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_farmer_1", "group": "male", "occupation": "farmer", "frame": 1, "prompt": "The farmer explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_farmer_2", "group": "male", "occupation": "farmer", "frame": 2, "prompt": "After the shift ended, the farmer admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_farmer_3", "group": "male", "occupation": "farmer", "frame": 3, "prompt": "The farmer called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_farmer_4", "group": "male", "occupation": "farmer", "frame": 4, "prompt": "When the meeting started, the farmer told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_farmer_5", "group": "male", "occupation": "farmer", "frame": 5, "prompt": "Yesterday the farmer mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_salesperson_0", "group": "male", "occupation": "salesperson", "frame": 0, "prompt": "The salesperson said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_salesperson_1", "group": "male", "occupation": "salesperson", "frame": 1, "prompt": "The salesperson explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_salesperson_2", "group": "male", "occupation": "salesperson", "frame": 2, "prompt": "After the shift ended, the salesperson admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_salesperson_3", "group": "male", "occupation": "salesperson", "frame": 3, "prompt": "The salesperson called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_salesperson_4", "group": "male", "occupation": "salesperson", "frame": 4, "prompt": "When the meeting started, the salesperson told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_salesperson_5", "group": "male", "occupation": "salesperson", "frame": 5, "prompt": "Yesterday the salesperson mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_physician_0", "group": "male", "occupation": "physician", "frame": 0, "prompt": "The physician said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_physician_1", "group": "male", "occupation": "physician", "frame": 1, "prompt": "The physician explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_physician_2", "group": "male", "occupation": "physician", "frame": 2, "prompt": "After the shift ended, the physician admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_physician_3", "group": "male", "occupation": "physician", "frame": 3, "prompt": "The physician called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_physician_4", "group": "male", "occupation": "physician", "frame": 4, "prompt": "When the meeting started, the physician told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_physician_5", "group": "male", "occupation": "physician", "frame": 5, "prompt": "Yesterday the physician mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_guard_0", "group": "male", "occupation": "guard", "frame": 0, "prompt": "The guard said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_guard_1", "group": "male", "occupation": "guard", "frame": 1, "prompt": "The guard explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_guard_2", "group": "male", "occupation": "guard", "frame": 2, "prompt": "After the shift ended, the guard admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_guard_3", "group": "male", "occupation": "guard", "frame": 3, "prompt": "The guard called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_guard_4", "group": "male", "occupation": "guard", "frame": 4, "prompt": "When the meeting started, the guard told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_guard_5", "group": "male", "occupation": "guard", "frame": 5, "prompt": "Yesterday the guard mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_analyst_0", "group": "male", "occupation": "analyst", "frame": 0, "prompt": "The analyst said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_analyst_1", "group": "male", "occupation": "analyst", "frame": 1, "prompt": "The analyst explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_analyst_2", "group": "male", "occupation": "analyst", "frame": 2, "prompt": "After the shift ended, the analyst admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_analyst_3", "group": "male", "occupation": "analyst", "frame": 3, "prompt": "The analyst called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_analyst_4", "group": "male", "occupation": "analyst", "frame": 4, "prompt": "When the meeting started, the analyst told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_analyst_5", "group": "male", "occupation": "analyst", "frame": 5, "prompt": "Yesterday the analyst mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_mechanic_0", "group": "male", "occupation": "mechanic", "frame": 0, "prompt": "The mechanic said that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_mechanic_1", "group": "male", "occupation": "mechanic", "frame": 1, "prompt": "The mechanic explained that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_mechanic_2", "group": "male", "occupation": "mechanic", "frame": 2, "prompt": "After the shift ended, the mechanic admitted that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_mechanic_3", "group": "male", "occupation": "mechanic", "frame": 3, "prompt": "The mechanic called the office because", "in_discovery": true, "in_heldout": false}
+{"id": "XM_mechanic_4", "group": "male", "occupation": "mechanic", "frame": 4, "prompt": "When the meeting started, the mechanic told everyone that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_mechanic_5", "group": "male", "occupation": "mechanic", "frame": 5, "prompt": "Yesterday the mechanic mentioned that", "in_discovery": true, "in_heldout": false}
+{"id": "XM_sheriff_0", "group": "male", "occupation": "sheriff", "frame": 0, "prompt": "The sheriff said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_sheriff_1", "group": "male", "occupation": "sheriff", "frame": 1, "prompt": "The sheriff explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_sheriff_2", "group": "male", "occupation": "sheriff", "frame": 2, "prompt": "After the shift ended, the sheriff admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_sheriff_3", "group": "male", "occupation": "sheriff", "frame": 3, "prompt": "The sheriff called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_sheriff_4", "group": "male", "occupation": "sheriff", "frame": 4, "prompt": "When the meeting started, the sheriff told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_sheriff_5", "group": "male", "occupation": "sheriff", "frame": 5, "prompt": "Yesterday the sheriff mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_CEO_0", "group": "male", "occupation": "CEO", "frame": 0, "prompt": "The CEO said that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_CEO_1", "group": "male", "occupation": "CEO", "frame": 1, "prompt": "The CEO explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_CEO_2", "group": "male", "occupation": "CEO", "frame": 2, "prompt": "After the shift ended, the CEO admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_CEO_3", "group": "male", "occupation": "CEO", "frame": 3, "prompt": "The CEO called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XM_CEO_4", "group": "male", "occupation": "CEO", "frame": 4, "prompt": "When the meeting started, the CEO told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XM_CEO_5", "group": "male", "occupation": "CEO", "frame": 5, "prompt": "Yesterday the CEO mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_attendant_0", "group": "female", "occupation": "attendant", "frame": 0, "prompt": "The attendant said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_attendant_1", "group": "female", "occupation": "attendant", "frame": 1, "prompt": "The attendant explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_attendant_2", "group": "female", "occupation": "attendant", "frame": 2, "prompt": "After the shift ended, the attendant admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_attendant_3", "group": "female", "occupation": "attendant", "frame": 3, "prompt": "The attendant called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_attendant_4", "group": "female", "occupation": "attendant", "frame": 4, "prompt": "When the meeting started, the attendant told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_attendant_5", "group": "female", "occupation": "attendant", "frame": 5, "prompt": "Yesterday the attendant mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cashier_0", "group": "female", "occupation": "cashier", "frame": 0, "prompt": "The cashier said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cashier_1", "group": "female", "occupation": "cashier", "frame": 1, "prompt": "The cashier explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cashier_2", "group": "female", "occupation": "cashier", "frame": 2, "prompt": "After the shift ended, the cashier admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cashier_3", "group": "female", "occupation": "cashier", "frame": 3, "prompt": "The cashier called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cashier_4", "group": "female", "occupation": "cashier", "frame": 4, "prompt": "When the meeting started, the cashier told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cashier_5", "group": "female", "occupation": "cashier", "frame": 5, "prompt": "Yesterday the cashier mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_teacher_0", "group": "female", "occupation": "teacher", "frame": 0, "prompt": "The teacher said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_teacher_1", "group": "female", "occupation": "teacher", "frame": 1, "prompt": "The teacher explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_teacher_2", "group": "female", "occupation": "teacher", "frame": 2, "prompt": "After the shift ended, the teacher admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_teacher_3", "group": "female", "occupation": "teacher", "frame": 3, "prompt": "The teacher called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_teacher_4", "group": "female", "occupation": "teacher", "frame": 4, "prompt": "When the meeting started, the teacher told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_teacher_5", "group": "female", "occupation": "teacher", "frame": 5, "prompt": "Yesterday the teacher mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_nurse_0", "group": "female", "occupation": "nurse", "frame": 0, "prompt": "The nurse said that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_nurse_1", "group": "female", "occupation": "nurse", "frame": 1, "prompt": "The nurse explained that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_nurse_2", "group": "female", "occupation": "nurse", "frame": 2, "prompt": "After the shift ended, the nurse admitted that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_nurse_3", "group": "female", "occupation": "nurse", "frame": 3, "prompt": "The nurse called the office because", "in_discovery": true, "in_heldout": false}
+{"id": "XF_nurse_4", "group": "female", "occupation": "nurse", "frame": 4, "prompt": "When the meeting started, the nurse told everyone that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_nurse_5", "group": "female", "occupation": "nurse", "frame": 5, "prompt": "Yesterday the nurse mentioned that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_assistant_0", "group": "female", "occupation": "assistant", "frame": 0, "prompt": "The assistant said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_assistant_1", "group": "female", "occupation": "assistant", "frame": 1, "prompt": "The assistant explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_assistant_2", "group": "female", "occupation": "assistant", "frame": 2, "prompt": "After the shift ended, the assistant admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_assistant_3", "group": "female", "occupation": "assistant", "frame": 3, "prompt": "The assistant called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_assistant_4", "group": "female", "occupation": "assistant", "frame": 4, "prompt": "When the meeting started, the assistant told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_assistant_5", "group": "female", "occupation": "assistant", "frame": 5, "prompt": "Yesterday the assistant mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_secretary_0", "group": "female", "occupation": "secretary", "frame": 0, "prompt": "The secretary said that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_secretary_1", "group": "female", "occupation": "secretary", "frame": 1, "prompt": "The secretary explained that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_secretary_2", "group": "female", "occupation": "secretary", "frame": 2, "prompt": "After the shift ended, the secretary admitted that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_secretary_3", "group": "female", "occupation": "secretary", "frame": 3, "prompt": "The secretary called the office because", "in_discovery": true, "in_heldout": false}
+{"id": "XF_secretary_4", "group": "female", "occupation": "secretary", "frame": 4, "prompt": "When the meeting started, the secretary told everyone that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_secretary_5", "group": "female", "occupation": "secretary", "frame": 5, "prompt": "Yesterday the secretary mentioned that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_auditor_0", "group": "female", "occupation": "auditor", "frame": 0, "prompt": "The auditor said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_auditor_1", "group": "female", "occupation": "auditor", "frame": 1, "prompt": "The auditor explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_auditor_2", "group": "female", "occupation": "auditor", "frame": 2, "prompt": "After the shift ended, the auditor admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_auditor_3", "group": "female", "occupation": "auditor", "frame": 3, "prompt": "The auditor called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_auditor_4", "group": "female", "occupation": "auditor", "frame": 4, "prompt": "When the meeting started, the auditor told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_auditor_5", "group": "female", "occupation": "auditor", "frame": 5, "prompt": "Yesterday the auditor mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cleaner_0", "group": "female", "occupation": "cleaner", "frame": 0, "prompt": "The cleaner said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cleaner_1", "group": "female", "occupation": "cleaner", "frame": 1, "prompt": "The cleaner explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cleaner_2", "group": "female", "occupation": "cleaner", "frame": 2, "prompt": "After the shift ended, the cleaner admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cleaner_3", "group": "female", "occupation": "cleaner", "frame": 3, "prompt": "The cleaner called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cleaner_4", "group": "female", "occupation": "cleaner", "frame": 4, "prompt": "When the meeting started, the cleaner told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_cleaner_5", "group": "female", "occupation": "cleaner", "frame": 5, "prompt": "Yesterday the cleaner mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_receptionist_0", "group": "female", "occupation": "receptionist", "frame": 0, "prompt": "The receptionist said that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_receptionist_1", "group": "female", "occupation": "receptionist", "frame": 1, "prompt": "The receptionist explained that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_receptionist_2", "group": "female", "occupation": "receptionist", "frame": 2, "prompt": "After the shift ended, the receptionist admitted that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_receptionist_3", "group": "female", "occupation": "receptionist", "frame": 3, "prompt": "The receptionist called the office because", "in_discovery": true, "in_heldout": false}
+{"id": "XF_receptionist_4", "group": "female", "occupation": "receptionist", "frame": 4, "prompt": "When the meeting started, the receptionist told everyone that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_receptionist_5", "group": "female", "occupation": "receptionist", "frame": 5, "prompt": "Yesterday the receptionist mentioned that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_clerk_0", "group": "female", "occupation": "clerk", "frame": 0, "prompt": "The clerk said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_clerk_1", "group": "female", "occupation": "clerk", "frame": 1, "prompt": "The clerk explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_clerk_2", "group": "female", "occupation": "clerk", "frame": 2, "prompt": "After the shift ended, the clerk admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_clerk_3", "group": "female", "occupation": "clerk", "frame": 3, "prompt": "The clerk called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_clerk_4", "group": "female", "occupation": "clerk", "frame": 4, "prompt": "When the meeting started, the clerk told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_clerk_5", "group": "female", "occupation": "clerk", "frame": 5, "prompt": "Yesterday the clerk mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_counselor_0", "group": "female", "occupation": "counselor", "frame": 0, "prompt": "The counselor said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_counselor_1", "group": "female", "occupation": "counselor", "frame": 1, "prompt": "The counselor explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_counselor_2", "group": "female", "occupation": "counselor", "frame": 2, "prompt": "After the shift ended, the counselor admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_counselor_3", "group": "female", "occupation": "counselor", "frame": 3, "prompt": "The counselor called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_counselor_4", "group": "female", "occupation": "counselor", "frame": 4, "prompt": "When the meeting started, the counselor told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_counselor_5", "group": "female", "occupation": "counselor", "frame": 5, "prompt": "Yesterday the counselor mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_designer_0", "group": "female", "occupation": "designer", "frame": 0, "prompt": "The designer said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_designer_1", "group": "female", "occupation": "designer", "frame": 1, "prompt": "The designer explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_designer_2", "group": "female", "occupation": "designer", "frame": 2, "prompt": "After the shift ended, the designer admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_designer_3", "group": "female", "occupation": "designer", "frame": 3, "prompt": "The designer called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_designer_4", "group": "female", "occupation": "designer", "frame": 4, "prompt": "When the meeting started, the designer told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_designer_5", "group": "female", "occupation": "designer", "frame": 5, "prompt": "Yesterday the designer mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_hairdresser_0", "group": "female", "occupation": "hairdresser", "frame": 0, "prompt": "The hairdresser said that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_hairdresser_1", "group": "female", "occupation": "hairdresser", "frame": 1, "prompt": "The hairdresser explained that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_hairdresser_2", "group": "female", "occupation": "hairdresser", "frame": 2, "prompt": "After the shift ended, the hairdresser admitted that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_hairdresser_3", "group": "female", "occupation": "hairdresser", "frame": 3, "prompt": "The hairdresser called the office because", "in_discovery": true, "in_heldout": false}
+{"id": "XF_hairdresser_4", "group": "female", "occupation": "hairdresser", "frame": 4, "prompt": "When the meeting started, the hairdresser told everyone that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_hairdresser_5", "group": "female", "occupation": "hairdresser", "frame": 5, "prompt": "Yesterday the hairdresser mentioned that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_writer_0", "group": "female", "occupation": "writer", "frame": 0, "prompt": "The writer said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_writer_1", "group": "female", "occupation": "writer", "frame": 1, "prompt": "The writer explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_writer_2", "group": "female", "occupation": "writer", "frame": 2, "prompt": "After the shift ended, the writer admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_writer_3", "group": "female", "occupation": "writer", "frame": 3, "prompt": "The writer called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_writer_4", "group": "female", "occupation": "writer", "frame": 4, "prompt": "When the meeting started, the writer told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_writer_5", "group": "female", "occupation": "writer", "frame": 5, "prompt": "Yesterday the writer mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_housekeeper_0", "group": "female", "occupation": "housekeeper", "frame": 0, "prompt": "The housekeeper said that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_housekeeper_1", "group": "female", "occupation": "housekeeper", "frame": 1, "prompt": "The housekeeper explained that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_housekeeper_2", "group": "female", "occupation": "housekeeper", "frame": 2, "prompt": "After the shift ended, the housekeeper admitted that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_housekeeper_3", "group": "female", "occupation": "housekeeper", "frame": 3, "prompt": "The housekeeper called the office because", "in_discovery": true, "in_heldout": false}
+{"id": "XF_housekeeper_4", "group": "female", "occupation": "housekeeper", "frame": 4, "prompt": "When the meeting started, the housekeeper told everyone that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_housekeeper_5", "group": "female", "occupation": "housekeeper", "frame": 5, "prompt": "Yesterday the housekeeper mentioned that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_baker_0", "group": "female", "occupation": "baker", "frame": 0, "prompt": "The baker said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_baker_1", "group": "female", "occupation": "baker", "frame": 1, "prompt": "The baker explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_baker_2", "group": "female", "occupation": "baker", "frame": 2, "prompt": "After the shift ended, the baker admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_baker_3", "group": "female", "occupation": "baker", "frame": 3, "prompt": "The baker called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_baker_4", "group": "female", "occupation": "baker", "frame": 4, "prompt": "When the meeting started, the baker told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_baker_5", "group": "female", "occupation": "baker", "frame": 5, "prompt": "Yesterday the baker mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_accountant_0", "group": "female", "occupation": "accountant", "frame": 0, "prompt": "The accountant said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_accountant_1", "group": "female", "occupation": "accountant", "frame": 1, "prompt": "The accountant explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_accountant_2", "group": "female", "occupation": "accountant", "frame": 2, "prompt": "After the shift ended, the accountant admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_accountant_3", "group": "female", "occupation": "accountant", "frame": 3, "prompt": "The accountant called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_accountant_4", "group": "female", "occupation": "accountant", "frame": 4, "prompt": "When the meeting started, the accountant told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_accountant_5", "group": "female", "occupation": "accountant", "frame": 5, "prompt": "Yesterday the accountant mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_editor_0", "group": "female", "occupation": "editor", "frame": 0, "prompt": "The editor said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_editor_1", "group": "female", "occupation": "editor", "frame": 1, "prompt": "The editor explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_editor_2", "group": "female", "occupation": "editor", "frame": 2, "prompt": "After the shift ended, the editor admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_editor_3", "group": "female", "occupation": "editor", "frame": 3, "prompt": "The editor called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_editor_4", "group": "female", "occupation": "editor", "frame": 4, "prompt": "When the meeting started, the editor told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_editor_5", "group": "female", "occupation": "editor", "frame": 5, "prompt": "Yesterday the editor mentioned that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_librarian_0", "group": "female", "occupation": "librarian", "frame": 0, "prompt": "The librarian said that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_librarian_1", "group": "female", "occupation": "librarian", "frame": 1, "prompt": "The librarian explained that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_librarian_2", "group": "female", "occupation": "librarian", "frame": 2, "prompt": "After the shift ended, the librarian admitted that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_librarian_3", "group": "female", "occupation": "librarian", "frame": 3, "prompt": "The librarian called the office because", "in_discovery": true, "in_heldout": false}
+{"id": "XF_librarian_4", "group": "female", "occupation": "librarian", "frame": 4, "prompt": "When the meeting started, the librarian told everyone that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_librarian_5", "group": "female", "occupation": "librarian", "frame": 5, "prompt": "Yesterday the librarian mentioned that", "in_discovery": true, "in_heldout": false}
+{"id": "XF_tailor_0", "group": "female", "occupation": "tailor", "frame": 0, "prompt": "The tailor said that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_tailor_1", "group": "female", "occupation": "tailor", "frame": 1, "prompt": "The tailor explained that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_tailor_2", "group": "female", "occupation": "tailor", "frame": 2, "prompt": "After the shift ended, the tailor admitted that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_tailor_3", "group": "female", "occupation": "tailor", "frame": 3, "prompt": "The tailor called the office because", "in_discovery": false, "in_heldout": false}
+{"id": "XF_tailor_4", "group": "female", "occupation": "tailor", "frame": 4, "prompt": "When the meeting started, the tailor told everyone that", "in_discovery": false, "in_heldout": false}
+{"id": "XF_tailor_5", "group": "female", "occupation": "tailor", "frame": 5, "prompt": "Yesterday the tailor mentioned that", "in_discovery": false, "in_heldout": false}
